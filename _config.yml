@@ -24,7 +24,7 @@ author:
   avatar           : "headshot.png"
   name             : "Joshua Davis"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I study statistical machine learning."
   location         : "Houston, Texas"
   employer         : "Rice University"
   uri              : # URL
@@ -58,7 +58,7 @@ author:
   # keybase          : # Username
   # instagram        : # Username
   # lastfm           : # Username
-  # linkedin         : # Username
+  linkedin           : "Joshua Davis"
   # mastodon         : # URL
   # medium           : # URL
   # pinterest        : # Username
