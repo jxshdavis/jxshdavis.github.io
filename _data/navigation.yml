@@ -9,19 +9,29 @@ main:
   #   url: /publications/
 
   # - title: "Talks"
-  #   url: /talks/    
+  #   url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   - title: "Blog Posts"
     url: /year-archive/
-    
+
   - title: "CV"
     url: /cv/
-    
+
   - title: "Guide"
     url: /markdown/
+
+  - title: "Statistical ML Almanac"
+    url: /machine-learning-almanac/
+
+sidebar-almanac:
+  - title: "Statistical Machine Learning Concepts"
+    # url: /machine-learning-glossary/concepts/
+    children:
+      - title: "Princical Component Analysis (PCA)"
+        url: /machine-learning-almanac/concepts/pca
