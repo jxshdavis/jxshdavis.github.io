@@ -12,9 +12,9 @@ redirect_from:
 # Education
 
 - B.S. in Mathematics and Statistics, Rice University, 2024
-<!-- 
-# Work experience
 
+# Work experience
+<!-- 
 - Spring 2024: Academic Pages Collaborator
 
   - Github University
