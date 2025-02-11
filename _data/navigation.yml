@@ -20,7 +20,6 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
 
-
   # - title: "CV"
   #   url: /cv/
 
@@ -29,6 +28,9 @@ main:
 
   - title: "Statistical ML Almanac"
     url: /machine-learning-almanac/
+
+  - title: "Tutoring"
+    url: /tutoring/
 
 sidebar-almanac:
   - title: "Statistical Machine Learning Concepts"

@@ -8,6 +8,8 @@ date: 2023-01-01
 location: "Houston, TX"
 ---
 
-Provided free tutoring for peers in residential college on a weekly basis. Coordinated, prepared, and executed review sessions for midterms and finals.
+Provided free mathematics tutoring for peers in residential college on a weekly basis.
+
+Coordinated, prepared, and executed review sessions for midterms and finals.
 
 
