@@ -158,8 +158,11 @@ redirect_from:
     */
     @media (max-width: 800px) {
       .container {
-        flex-direction: column;
-      }
+        display: flex;
+        justify-content: space-between;
+        /* Add or ensure this is set: */
+        align-items: flex-start;
+        }
       .middle-column {
         margin-right: 0;
         margin-bottom: 20px;  /* spacing between the middle & right columns */
@@ -180,7 +183,6 @@ redirect_from:
   <div class="container">
     <!-- Middle Column (Name, About, Education) -->
     <div class="middle-column">
-      <h1>Tutoring</h1>
       <h2>A Bit About Me</h2>
       <p>
         I’ve been independently tutoring mathematics and statistics for the past
