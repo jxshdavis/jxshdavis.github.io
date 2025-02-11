@@ -111,19 +111,13 @@ redirect_from:
       padding: 20px;
       box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.05);
       position: relative;
-      /* Removed margin-bottom so grid's gap is used instead */
+      /* margin-bottom removed so grid's gap is used instead */
     }
 
-    /* Short text: visible by default */
-    .testimonial-short {
-      margin: 0 0 10px;
+    /* Single paragraph for testimonial text */
+    .testimonial-text {
       line-height: 1.4;
-    }
-    /* Full text: hidden by default */
-    .testimonial-full {
-      display: none;
       margin: 0 0 10px;
-      line-height: 1.4;
     }
 
     /* Attribution or final line in the testimonial */
@@ -162,7 +156,8 @@ redirect_from:
         justify-content: space-between;
         /* Add or ensure this is set: */
         align-items: flex-start;
-        }
+        flex-direction: column;
+      }
       .middle-column {
         margin-right: 0;
         margin-bottom: 20px;  /* spacing between the middle & right columns */
@@ -180,6 +175,7 @@ redirect_from:
 </head>
 <body>
 
+  <!-- Main container for two-column layout -->
   <div class="container">
     <!-- Middle Column (Name, About, Education) -->
     <div class="middle-column">
@@ -230,6 +226,7 @@ redirect_from:
     </div>
 
   </div>
+  <!-- End .container -->
 
   <!-- TESTIMONIALS SECTION -->
   <div class="testimonials-section">
@@ -239,54 +236,39 @@ redirect_from:
     <div class="testimonials-grid">
 
       <!-- Testimonial #1 -->
-      <div class="testimonial">
-        <p class="testimonial-short">
+      <div
+        class="testimonial"
+        data-short="“Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and...”"
+        data-full="“Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and Physics. She says Josh explains complicated topics in a really clear way, making them easy for her to understand. He patiently goes through problems, shows why the solution works, and helps her achieve a deeper understanding of the material. It’s clear Josh really loves math and science. Beyond greater understanding, my daughter has gained a great deal of confidence through her work with Josh. She feels prepared to take Calculus next year and will work with Josh again. My daughter has found Josh to be very easy to work with on Zoom while he’s away at college. He’s been flexible with scheduling extra meetings when a test is coming up. In addition to being brilliant, Josh is just plain nice. We feel very lucky to work with him!”"
+      >
+        <p class="testimonial-text">
           “Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and...”
-        </p>
-        <p class="testimonial-full">
-          “Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and
-          Physics. She says Josh explains complicated topics in a really clear way, making them easy
-          for her to understand. He patiently goes through problems, shows why the solution works,
-          and helps her achieve a deeper understanding of the material. It’s clear Josh really loves
-          math and science. Beyond greater understanding, my daughter has gained a great deal of
-          confidence through her work with Josh. She feels prepared to take Calculus next year and
-          will work with Josh again. My daughter has found Josh to be very easy to work with on
-          Zoom while he’s away at college. He’s been flexible with scheduling extra meetings when
-          a test is coming up, even when he’s in the middle of his own exams, or rescheduling when
-          she’s had a conflict. Josh also provides very clear communication about how the sessions
-          are going. In addition to being brilliant, Josh is just plain nice. We feel very lucky to
-          work with him!”
         </p>
         <p>— Jill H, Parent</p>
         <button class="read-more-btn" onclick="toggleTestimonial(this)">Read More</button>
       </div>
 
       <!-- Testimonial #2 -->
-      <div class="testimonial">
-        <p class="testimonial-short">
+      <div
+        class="testimonial"
+        data-short="“Josh is an incredibly patient and passionate math tutor! Not only is he so...”"
+        data-full="“Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get to talk about a subject that is meaningful to him, he paid close attention to questions I had and ensured a deep, conceptual understanding of calculus, all in a short amount of time. I couldn’t recommend working with Josh enough if you want to really grasp math from a deeper level!”"
+      >
+        <p class="testimonial-text">
           “Josh is an incredibly patient and passionate math tutor! Not only is he so...”
-        </p>
-        <p class="testimonial-full">
-          “Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get
-          to talk about a subject that is meaningful to him, he paid close attention to questions I
-          had and ensured a deep, conceptual understanding of calculus, all in a short amount of
-          time. I couldn’t recommend working with Josh enough if you want to really grasp math from
-          a deeper level!”
         </p>
         <p>— Sarah F, Student</p>
         <button class="read-more-btn" onclick="toggleTestimonial(this)">Read More</button>
       </div>
 
       <!-- Testimonial #3 -->
-      <div class="testimonial">
-        <p class="testimonial-short">
+      <div
+        class="testimonial"
+        data-short="“Josh is a very patient tutor. He explains my calculus problems super well so that I really...”"
+        data-full="“Josh is a very patient tutor. He explains my calculus problems super well so that I really understand the concept instead of just memorizing stuff. I feel like he really gets what I’m saying when I ask questions and he always makes sure I understand everything before moving on. I always get a lot done every session with Josh and would definitely recommend him.”"
+      >
+        <p class="testimonial-text">
           “Josh is a very patient tutor. He explains my calculus problems super well so that I really...”
-        </p>
-        <p class="testimonial-full">
-          “Josh is a very patient tutor. He explains my calculus problems super well so that I really
-          understand the concept instead of just memorizing stuff. I feel like he really gets what
-          I’m saying when I ask questions and he always makes sure I understand everything before
-          moving on. I always get a lot done every session with Josh and would definitely recommend him.”
         </p>
         <p>— Luca D, Student</p>
         <button class="read-more-btn" onclick="toggleTestimonial(this)">Read More</button>
@@ -301,25 +283,25 @@ redirect_from:
 
   <script>
     /**
-     * Toggles between showing the short excerpt and the full testimonial text.
+     * Toggles between short & full text by replacing the paragraph content
      */
     function toggleTestimonial(button) {
       // The parent .testimonial container
-      const testimonialContainer = button.parentElement;
-      // The partial text paragraph
-      const shortText = testimonialContainer.querySelector('.testimonial-short');
-      // The full text paragraph
-      const fullText = testimonialContainer.querySelector('.testimonial-full');
+      const container = button.closest('.testimonial');
+      // The text paragraph
+      const textElem = container.querySelector('.testimonial-text');
+      
+      // data-* attributes (short and full)
+      const shortText = container.getAttribute('data-short');
+      const fullText = container.getAttribute('data-full');
 
-      // If the full text is hidden, show it and hide the short text
-      if (fullText.style.display === 'none' || fullText.style.display === '') {
-        shortText.style.display = 'none';
-        fullText.style.display = 'block';
-        button.textContent = 'Show Less';
+      // If button says 'Read More', display full text
+      if (button.textContent === 'Read More') {
+        textElem.textContent = fullText;
+        button.textContent = 'Read Less';
       } else {
-        // Otherwise, hide the full text and show only the short text
-        shortText.style.display = 'block';
-        fullText.style.display = 'none';
+        // Otherwise revert to short snippet
+        textElem.textContent = shortText;
         button.textContent = 'Read More';
       }
     }
