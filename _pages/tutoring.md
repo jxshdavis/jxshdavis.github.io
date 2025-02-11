@@ -100,7 +100,7 @@ redirect_from:
     /* Grid container for testimonials: 3 columns, 20px gap */
     .testimonials-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       gap: 20px;
     }
 
@@ -111,13 +111,6 @@ redirect_from:
       padding: 20px;
       box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.05);
       position: relative;
-      /* margin-bottom removed so grid's gap is used instead */
-    }
-
-    /* Single paragraph for testimonial text */
-    .testimonial-text {
-      line-height: 1.4;
-      margin: 0 0 10px;
     }
 
     /* Attribution or final line in the testimonial */
@@ -126,21 +119,6 @@ redirect_from:
       text-align: right;
       font-style: italic;
       color: #666;
-    }
-
-    /* Read More button styling */
-    .read-more-btn {
-      /* background-color: #007BFF;  <-- Uncomment or choose a different color */
-      color: #fff;
-      border: none;
-      padding: 8px 12px;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 0.9rem;
-      margin-top: 10px;
-    }
-    .read-more-btn:hover {
-      background-color: #0056b3;
     }
 
     /*
@@ -154,7 +132,6 @@ redirect_from:
       .container {
         display: flex;
         justify-content: space-between;
-        /* Add or ensure this is set: */
         align-items: flex-start;
         flex-direction: column;
       }
@@ -175,7 +152,6 @@ redirect_from:
 </head>
 <body>
 
-  <!-- Main container for two-column layout -->
   <div class="container">
     <!-- Middle Column (Name, About, Education) -->
     <div class="middle-column">
@@ -226,7 +202,6 @@ redirect_from:
     </div>
 
   </div>
-  <!-- End .container -->
 
   <!-- TESTIMONIALS SECTION -->
   <div class="testimonials-section">
@@ -234,44 +209,46 @@ redirect_from:
 
     <!-- Grid container: 3 columns -->
     <div class="testimonials-grid">
-
       <!-- Testimonial #1 -->
-      <div
-        class="testimonial"
-        data-short="“Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and...”"
-        data-full="“Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and Physics. She says Josh explains complicated topics in a really clear way, making them easy for her to understand. He patiently goes through problems, shows why the solution works, and helps her achieve a deeper understanding of the material. It’s clear Josh really loves math and science. Beyond greater understanding, my daughter has gained a great deal of confidence through her work with Josh. She feels prepared to take Calculus next year and will work with Josh again. My daughter has found Josh to be very easy to work with on Zoom while he’s away at college. He’s been flexible with scheduling extra meetings when a test is coming up. In addition to being brilliant, Josh is just plain nice. We feel very lucky to work with him!”"
-      >
-        <p class="testimonial-text">
-          “Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and...”
+      <div class="testimonial">
+        <p>
+          “Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and
+          Physics. She says Josh explains complicated topics in a really clear way, making them easy
+          for her to understand. He patiently goes through problems, shows why the solution works,
+          and helps her achieve a deeper understanding of the material. It’s clear Josh really loves
+          math and science. Beyond greater understanding, my daughter has gained a great deal of
+          confidence through her work with Josh. She feels prepared to take Calculus next year and
+          will work with Josh again. My daughter has found Josh to be very easy to work with on
+          Zoom while he’s away at college. He’s been flexible with scheduling extra meetings when
+          a test is coming up, even when he’s in the middle of his own exams, or rescheduling when
+          she’s had a conflict. Josh also provides very clear communication about how the sessions
+          are going. In addition to being brilliant, Josh is just plain nice. We feel very lucky to
+          work with him!”
         </p>
         <p>— Jill H, Parent</p>
-        <button class="read-more-btn" onclick="toggleTestimonial(this)">Read More</button>
       </div>
 
       <!-- Testimonial #2 -->
-      <div
-        class="testimonial"
-        data-short="“Josh is an incredibly patient and passionate math tutor! Not only is he so...”"
-        data-full="“Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get to talk about a subject that is meaningful to him, he paid close attention to questions I had and ensured a deep, conceptual understanding of calculus, all in a short amount of time. I couldn’t recommend working with Josh enough if you want to really grasp math from a deeper level!”"
-      >
-        <p class="testimonial-text">
-          “Josh is an incredibly patient and passionate math tutor! Not only is he so...”
+      <div class="testimonial">
+        <p>
+          “Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get
+          to talk about a subject that is meaningful to him, he paid close attention to questions I
+          had and ensured a deep, conceptual understanding of calculus, all in a short amount of
+          time. I couldn’t recommend working with Josh enough if you want to really grasp math from
+          a deeper level!”
         </p>
         <p>— Sarah F, Student</p>
-        <button class="read-more-btn" onclick="toggleTestimonial(this)">Read More</button>
       </div>
 
       <!-- Testimonial #3 -->
-      <div
-        class="testimonial"
-        data-short="“Josh is a very patient tutor. He explains my calculus problems super well so that I really...”"
-        data-full="“Josh is a very patient tutor. He explains my calculus problems super well so that I really understand the concept instead of just memorizing stuff. I feel like he really gets what I’m saying when I ask questions and he always makes sure I understand everything before moving on. I always get a lot done every session with Josh and would definitely recommend him.”"
-      >
-        <p class="testimonial-text">
-          “Josh is a very patient tutor. He explains my calculus problems super well so that I really...”
+      <div class="testimonial">
+        <p>
+          “Josh is a very patient tutor. He explains my calculus problems super well so that I really
+          understand the concept instead of just memorizing stuff. I feel like he really gets what
+          I’m saying when I ask questions and he always makes sure I understand everything before
+          moving on. I always get a lot done every session with Josh and would definitely recommend him.”
         </p>
         <p>— Luca D, Student</p>
-        <button class="read-more-btn" onclick="toggleTestimonial(this)">Read More</button>
       </div>
 
       <!-- Add more testimonials as needed, each within a .testimonial div -->
@@ -280,32 +257,6 @@ redirect_from:
 
   </div>
   <!-- END TESTIMONIALS SECTION -->
-
-  <script>
-    /**
-     * Toggles between short & full text by replacing the paragraph content
-     */
-    function toggleTestimonial(button) {
-      // The parent .testimonial container
-      const container = button.closest('.testimonial');
-      // The text paragraph
-      const textElem = container.querySelector('.testimonial-text');
-      
-      // data-* attributes (short and full)
-      const shortText = container.getAttribute('data-short');
-      const fullText = container.getAttribute('data-full');
-
-      // If button says 'Read More', display full text
-      if (button.textContent === 'Read More') {
-        textElem.textContent = fullText;
-        button.textContent = 'Read Less';
-      } else {
-        // Otherwise revert to short snippet
-        textElem.textContent = shortText;
-        button.textContent = 'Read More';
-      }
-    }
-  </script>
 
 </body>
 </html>
