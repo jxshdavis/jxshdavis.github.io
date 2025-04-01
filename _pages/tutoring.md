@@ -18,19 +18,25 @@ redirect_from:
       align-items: flex-start;
       max-width: 1200px;
       margin: 40px auto;
-      padding: 0 20px;
+      padding: 20px;
       font-family: sans-serif;
     }
 
-    /* Middle column (Name, About, Education) */
+    /* Middle column (About Me + Education) */
     .middle-column {
       flex: 1;
-      margin-right: 40px; /* Spacing between columns */
+      margin-right: 60px; /* Spacing between columns */
     }
 
     /* Right column (What I Tutor) */
     .right-column {
       flex: 0 0 300px;
+    }
+
+    .column-title {
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+      margin: 0 0 20px 0;
     }
 
     /* Simple card style for the “What I Tutor” boxes */
@@ -60,10 +66,9 @@ redirect_from:
 
     /* EDUCATION SECTION STYLING */
     .education-section {
-      /* background: #f9f9f9; */ /* subtle background color (commented out) */
-      border-radius: 8px;       /* smooth corners */
-      padding: 20px;            /* space around content */
-      margin: 20px 0;           /* spacing from other elements */
+      border-radius: 0px;
+      padding: 20px;
+      margin: 0px 0;
     }
     .education-section h2 {
       margin-top: 0;
@@ -97,7 +102,7 @@ redirect_from:
       text-align: center;
     }
 
-    /* Grid container for testimonials: 3 columns, 20px gap */
+    /* Grid container for testimonials */
     .testimonials-grid {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -113,7 +118,7 @@ redirect_from:
       position: relative;
     }
 
-    /* Attribution or final line in the testimonial */
+    /* Attribution in the testimonial */
     .testimonial p:last-child {
       margin: 0;
       text-align: right;
@@ -125,56 +130,50 @@ redirect_from:
       ====================
       Responsive Behavior
       ====================
-      When the screen width is 800px or less, we'll stack
-      the columns vertically and adjust the testimonials grid.
+      When the screen width is 800px or less, we'll stack the columns vertically.
     */
     @media (max-width: 800px) {
       .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
         flex-direction: column;
       }
       .middle-column {
         margin-right: 0;
-        margin-bottom: 20px;  /* spacing between the middle & right columns */
+        margin-bottom: 20px;  /* Spacing between the middle & right columns */
       }
       .right-column {
-        flex: none;
         width: 100%;
       }
       .testimonials-grid {
-        grid-template-columns: 1fr; /* stack testimonials in one column */
+        grid-template-columns: 1fr;
       }
     }
 
   </style>
 </head>
 <body>
-
   <div class="container">
-    <!-- Middle Column (Name, About, Education) -->
+    <!-- Middle Column (About Me + Education) -->
     <div class="middle-column">
-      <h2>A Bit About Me</h2>
+      <h2 class="column-title">A Bit About Me</h2>
       <p>
         I’ve been independently tutoring mathematics and statistics for the past
         <b>six years</b>. I believe that tackling new problems and asking questions
         are the best ways to learn. My goal is to teach all my students how to
         think creatively and analytically.
       </p>
-
-      <!-- EDUCATION SECTION -->
+    <!-- EDUCATION SECTION -->
       <div class="education-section">
         <h2>Education</h2>
         <p class="current-status">Incoming Statistics PhD Student</p>
         <p>Mathematics and Statistics BS at Rice University</p>
       </div>
       <!-- END EDUCATION SECTION -->
+      
     </div>
 
     <!-- Right Column (What I Tutor) -->
     <div class="right-column">
-      <h2>What I Tutor</h2>
+      <h2 class="column-title">What I Tutor</h2>
       <div class="card">
         <h3>Mathematics</h3>
         <ul>
@@ -190,12 +189,10 @@ redirect_from:
           <li>SAT &amp; ACT</li>
         </ul>
       </div>
-
       <div class="card">
         <h3>Statistics</h3>
         <ul>
-          <li>Probability</li>
-          <li>Statistical Inference</li>
+          <li>Probability and Statistics</li>
           <li>Machine Learning</li>
         </ul>
       </div>
@@ -206,10 +203,7 @@ redirect_from:
   <!-- TESTIMONIALS SECTION -->
   <div class="testimonials-section">
     <h2>Testimonials</h2>
-
-    <!-- Grid container: 3 columns -->
     <div class="testimonials-grid">
-      <!-- Testimonial #1 -->
       <div class="testimonial">
         <p>
           “Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and
@@ -227,8 +221,6 @@ redirect_from:
         </p>
         <p>— Jill H, Parent</p>
       </div>
-
-      <!-- Testimonial #2 -->
       <div class="testimonial">
         <p>
           “Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get
@@ -239,8 +231,6 @@ redirect_from:
         </p>
         <p>— Sarah F, Student</p>
       </div>
-
-      <!-- Testimonial #3 -->
       <div class="testimonial">
         <p>
           “Josh is a very patient tutor. He explains my calculus problems super well so that I really
@@ -250,13 +240,7 @@ redirect_from:
         </p>
         <p>— Luca D, Student</p>
       </div>
-
-      <!-- Add more testimonials as needed, each within a .testimonial div -->
     </div>
-    <!-- End .testimonials-grid -->
-
   </div>
-  <!-- END TESTIMONIALS SECTION -->
-
 </body>
 </html>

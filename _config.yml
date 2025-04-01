@@ -21,14 +21,14 @@ repository: "jxshdavis/jxshdavis.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "headshot.png"
+  avatar: "squaremathheadshot.png"
   name: "Joshua Davis"
   pronouns: "he/him"
   bio: "I study statistical machine learning."
-  location: "Houston, Texas"
-  employer: "Rice University"
+  location: "Berkeley, California"
+  employer: "UC Berkeley"
   uri: # URL
-  email: "josh.a.davis456@gmail.com"
+  email: "joshdavis@berkeley.edu"
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
