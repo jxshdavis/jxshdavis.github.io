@@ -1,18 +1,16 @@
 # Authors
 
 Name Name:
-  name        : "Joshua Davis"
-  uri         : "http://name.com"
-  email       : "josh.a.davis456@gmail.com"
-  bio         : "Hi, I'm Josh. I do statistical machine learning."
-  avatar      : "headshot.png"
-  twitter     : "name"
-  google_plus : "Name"
+  name: "Joshua Davis"
+  uri: "http://jxshdavis.github.io"
+  email: "joshdavis@berkeley.edu"
+  bio: "Hi, I'm Josh. I do statistical machine learning."
+  avatar: "2025_headshot.JPG"
 
 Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  name: "Name2 Name2"
+  email: "name2@name2.com"
+  bio: "I ordered what?"
+  avatar: "bio-photo.jpg"
+  twitter: "name2"
+  google_plus: "Name"

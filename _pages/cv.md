@@ -11,7 +11,8 @@ redirect_from:
 
 # Education
 
-- B.S. in Mathematics and Statistics, Rice University, 2024
+- PhD, Statistics, Rice University, 2030
+- BS, Mathematics and Statistics, Rice University, 2024
 
 # Work experience
 
