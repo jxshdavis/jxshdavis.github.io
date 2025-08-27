@@ -5,7 +5,7 @@ Name Name:
   uri: "http://jxshdavis.github.io"
   email: "joshdavis@berkeley.edu"
   bio: "Hi, I'm Josh. I do statistical machine learning."
-  avatar: "2025_headshot.JPG"
+  avatar: "2025_square_headshot.JPG"
 
 Name2 Name2:
   name: "Name2 Name2"
@@ -14,3 +14,4 @@ Name2 Name2:
   avatar: "bio-photo.jpg"
   twitter: "name2"
   google_plus: "Name"
+

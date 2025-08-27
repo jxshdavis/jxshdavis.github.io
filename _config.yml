@@ -21,7 +21,7 @@ repository: "jxshdavis/jxshdavis.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "2025_headshot.JPG"
+  avatar: "2025_square_headshot.jpg"
   name: "Joshua Davis"
   pronouns: "he/him"
   bio: "I study statistical machine learning."
