@@ -1,0 +1,26 @@
+// UC Berkeley Blue overrides
+
+// Masthead bottom border
+// Nav link hover underline bar (the ::before pseudo-element that slides in)
+.greedy-nav .visible-links a::before {
+  background: #003d7a;
+}
+
+// Body text links only: no underline by default, underline on hover
+.page__content p a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Archive item title hover underline.
+// The theme puts text-decoration on the title element (grey), not the <a>.
+// We remove it from the title and reapply it to the <a> so the underline
+// color automatically matches the Berkeley Blue link color.
+.archive__item:hover .archive__item-title {
+  text-decoration: none;
+}
+.archive__item:hover .archive__item-title a {
+  text-decoration: underline;
+}

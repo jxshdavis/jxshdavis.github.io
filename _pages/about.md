@@ -1,14 +1,22 @@
 ---
 permalink: /
-title: "Joshua Davis!"
+title: "About"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am currently a PhD student in statistics. I am intereted in developing new methods and theory in machine learning. I enjoy using mathematics to uncover deeper insights into complex problems.
+I am a first-year PhD student in the [Department of Statistics](https://statistics.berkeley.edu) at UC Berkeley. I am broadly interested in developing new methods and theory in machine learning, with a focus on using mathematics to build deeper understanding of complex problems.
 
-I graduated from Rice University in 2024 with a Bachelor of Science in mathematics and statistics. My statistics senior thesis was advised by [Meng Li](https://meng.rice.edu) and focused on a closed form estimator for the logistic regression problem.
+Before Berkeley, I completed a BS in Mathematics and Statistics at Rice University in 2024. My senior thesis, advised by [Meng Li](https://meng.rice.edu), focused on closed-form estimators for logistic regression.
 
-Please check out my blog posts to see the type of things I enjoy learning about (more to come).
+## Research Interests
+
+- Statistical machine learning theory
+- High-dimensional statistics
+- Estimation and inference
+
+## Writing
+
+I write about topics in statistical machine learning on my [ML Almanac](/machine-learning-almanac/). Recent posts include an exploration of [PCA through the lens of linear algebra](/machine-learning-almanac/concepts/pca).

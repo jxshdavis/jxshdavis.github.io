@@ -6,241 +6,189 @@ redirect_from:
   - /tutoring.html
 ---
 
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Two-Column Tutor Layout</title>
-  <style>
-    /* Container uses Flexbox for two side-by-side columns */
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-      font-family: sans-serif;
-    }
+<style>
+  .tutor-section {
+    margin-bottom: 48px;
+  }
 
-    /* Middle column (About Me + Education) */
-    .middle-column {
-      flex: 1;
-      margin-right: 60px; /* Spacing between columns */
-    }
+  .tutor-section h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+  }
 
-    /* Right column (What I Tutor) */
-    .right-column {
-      flex: 0 0 300px;
-    }
+  .tutor-intro p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
 
-    .column-title {
-      font-size: 1.4rem;
-      letter-spacing: 1px;
-      margin: 0 0 20px 0;
-    }
+  .edu-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 8px;
+  }
 
-    /* Simple card style for the “What I Tutor” boxes */
-    .card {
-      border-radius: 26px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 1px 3px 19px 0px #D8E6F890;
-    }
+  .edu-badge {
+    background: #f4f6f9;
+    border-radius: 8px;
+    padding: 12px 18px;
+    flex: 1 1 200px;
+  }
 
-    /* Basic typography tweaks */
-    h1, h2, h3 {
-      margin: 0 0 10px 0;
-    }
-    .middle-column h1 {
-      font-size: 2rem;
-    }
-    .middle-column h2 {
-      font-size: 1.2rem;
-      letter-spacing: 1px;
-      margin-top: 20px;
-    }
-    p {
-      line-height: 1.5;
-      margin: 0 0 10px 0;
-    }
+  .edu-badge .degree {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #222;
+  }
 
-    /* EDUCATION SECTION STYLING */
-    .education-section {
-      border-radius: 0px;
-      padding: 20px;
-      margin: 0px 0;
-    }
-    .education-section h2 {
-      margin-top: 0;
-      font-size: 1.2rem;
-      color: #333;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-    }
-    .education-section h2::before {
-      content: "🎓 ";
-      font-size: 1.2rem;
-      vertical-align: left;
-      margin-right: 5px;
-    }
-    .current-status {
-      font-weight: bold;
-      color: #444;
-    }
+  .edu-badge .school {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 3px;
+  }
 
-    /* Testimonials section */
-    .testimonials-section {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-      font-family: sans-serif;
-    }
-    .testimonials-section h2 {
-      margin: 0 0 20px 0;
-      font-size: 1.4rem;
-      letter-spacing: 1px;
-      text-align: center;
-    }
+  .subject-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 
-    /* Grid container for testimonials */
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 20px;
-    }
+  .subject-card {
+    flex: 1 1 200px;
+    border: 1px solid #e8ecf0;
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
 
-    /* Individual testimonial container */
-    .testimonial {
-      background: #f7f7f7;
-      border-radius: 8px;
-      padding: 20px;
-      box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.05);
-      position: relative;
-    }
+  .subject-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #222;
+  }
 
-    /* Attribution in the testimonial */
-    .testimonial p:last-child {
-      margin: 0;
-      text-align: right;
-      font-style: italic;
-      color: #666;
-    }
+  .subject-card ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #444;
+    font-size: 0.93rem;
+    line-height: 1.8;
+  }
 
-    /*
-      ====================
-      Responsive Behavior
-      ====================
-      When the screen width is 800px or less, we'll stack the columns vertically.
-    */
-    @media (max-width: 800px) {
-      .container {
-        flex-direction: column;
-      }
-      .middle-column {
-        margin-right: 0;
-        margin-bottom: 20px;  /* Spacing between the middle & right columns */
-      }
-      .right-column {
-        width: 100%;
-      }
-      .testimonials-grid {
-        grid-template-columns: 1fr;
-      }
-    }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
 
-  </style>
-</head>
-<body>
-  <div class="container">
-    <!-- Middle Column (About Me + Education) -->
-    <div class="middle-column">
-      <h2 class="column-title">A Bit About Me</h2>
-      <p>
-        I’ve been independently tutoring mathematics and statistics for the past
-        <b>six years</b>. I believe that tackling new problems and asking questions
-        are the best ways to learn. My goal is to teach all my students how to
-        think creatively and analytically.
-      </p>
-    <!-- EDUCATION SECTION -->
-      <div class="education-section">
-        <h2>Education</h2>
-        <p class="current-status">Incoming Statistics PhD Student</p>
-        <p>Mathematics and Statistics BS at Rice University</p>
-      </div>
-      <!-- END EDUCATION SECTION -->
-      
+  .testimonial {
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 20px 22px;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #444;
+  }
+
+  .testimonial .quote {
+    margin-bottom: 14px;
+  }
+
+  .testimonial .attribution {
+    font-style: italic;
+    color: #888;
+    font-size: 0.85rem;
+  }
+</style>
+
+<div class="tutor-section tutor-intro">
+  <p>
+    I've been independently tutoring mathematics and statistics for the past <strong>six years</strong>.
+    I believe that tackling new problems and asking questions are the best ways to learn.
+    My goal is to teach students how to think creatively and analytically — not just get through the homework.
+  </p>
+</div>
+
+<div class="tutor-section">
+  <h2>Education</h2>
+  <div class="edu-badges">
+    <div class="edu-badge">
+      <div class="degree">First Year Statistics PhD Student</div>
+      <div class="school">UC Berkeley</div>
     </div>
-
-    <!-- Right Column (What I Tutor) -->
-    <div class="right-column">
-      <h2 class="column-title">What I Tutor</h2>
-      <div class="card">
-        <h3>Mathematics</h3>
-        <ul>
-          <li>Algebra I &amp; II</li>
-          <li>Trigonometry</li>
-          <li>Geometry</li>
-          <li>Precalculus</li>
-          <li>Calculus I &amp; II</li>
-          <li>Multivariable Calculus</li>
-          <li>Linear Algebra</li>
-          <li>Differential Equations</li>
-          <li>Real Analysis</li>
-          <li>SAT &amp; ACT</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Statistics</h3>
-        <ul>
-          <li>Probability and Statistics</li>
-          <li>Machine Learning</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- TESTIMONIALS SECTION -->
-  <div class="testimonials-section">
-    <h2>Testimonials</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial">
-        <p>
-          “Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and
-          Physics. She says Josh explains complicated topics in a really clear way, making them easy
-          for her to understand. He patiently goes through problems, shows why the solution works,
-          and helps her achieve a deeper understanding of the material. It’s clear Josh really loves
-          math and science. Beyond greater understanding, my daughter has gained a great deal of
-          confidence through her work with Josh. She feels prepared to take Calculus next year and
-          will work with Josh again. My daughter has found Josh to be very easy to work with on
-          Zoom while he’s away at college. He’s been flexible with scheduling extra meetings when
-          a test is coming up, even when he’s in the middle of his own exams, or rescheduling when
-          she’s had a conflict. Josh also provides very clear communication about how the sessions
-          are going. In addition to being brilliant, Josh is just plain nice. We feel very lucky to
-          work with him!”
-        </p>
-        <p>— Jill H, Parent</p>
-      </div>
-      <div class="testimonial">
-        <p>
-          “Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get
-          to talk about a subject that is meaningful to him, he paid close attention to questions I
-          had and ensured a deep, conceptual understanding of calculus, all in a short amount of
-          time. I couldn’t recommend working with Josh enough if you want to really grasp math from
-          a deeper level!”
-        </p>
-        <p>— Sarah F, Student</p>
-      </div>
-      <div class="testimonial">
-        <p>
-          “Josh is a very patient tutor. He explains my calculus problems super well so that I really
-          understand the concept instead of just memorizing stuff. I feel like he really gets what
-          I’m saying when I ask questions and he always makes sure I understand everything before
-          moving on. I always get a lot done every session with Josh and would definitely recommend him.”
-        </p>
-        <p>— Luca D, Student</p>
-      </div>
+    <div class="edu-badge">
+      <div class="degree">BS in Mathematics &amp; Statistics</div>
+      <div class="school">Rice University, 2024</div>
     </div>
   </div>
-</body>
-</html>
+</div>
+
+<div class="tutor-section">
+  <h2>What I Tutor</h2>
+  <div class="subject-cards">
+    <div class="subject-card">
+      <h3>Mathematics</h3>
+      <ul>
+        <li>Algebra I &amp; II</li>
+        <li>Geometry</li>
+        <li>Trigonometry</li>
+        <li>Precalculus</li>
+        <li>Calculus I &amp; II</li>
+        <li>Multivariable Calculus</li>
+        <li>Linear Algebra</li>
+        <li>Differential Equations</li>
+        <li>Real Analysis</li>
+        <li>SAT &amp; ACT Math</li>
+      </ul>
+    </div>
+    <div class="subject-card">
+      <h3>Statistics &amp; ML</h3>
+      <ul>
+        <li>Probability &amp; Statistics</li>
+        <li>Machine Learning</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="tutor-section">
+  <h2>Testimonials</h2>
+  <div class="testimonials-grid">
+    <div class="testimonial">
+      <div class="quote">
+        "Josh Davis is an exceptional teacher! He has tutored my daughter in both Precalculus and
+        Physics. She says Josh explains complicated topics in a really clear way, making them easy
+        for her to understand. He patiently goes through problems, shows why the solution works,
+        and helps her achieve a deeper understanding of the material. It's clear Josh really loves
+        math and science. Beyond greater understanding, my daughter has gained a great deal of
+        confidence through her work with Josh."
+      </div>
+      <div class="attribution">— Jill H., Parent</div>
+    </div>
+    <div class="testimonial">
+      <div class="quote">
+        "Josh is an incredibly patient and passionate math tutor! Not only is he so excited to get
+        to talk about a subject that is meaningful to him, he paid close attention to questions I
+        had and ensured a deep, conceptual understanding of calculus, all in a short amount of
+        time. I couldn't recommend working with Josh enough if you want to really grasp math from
+        a deeper level!"
+      </div>
+      <div class="attribution">— Sarah F., Student</div>
+    </div>
+    <div class="testimonial">
+      <div class="quote">
+        "Josh is a very patient tutor. He explains my calculus problems super well so that I really
+        understand the concept instead of just memorizing stuff. I feel like he really gets what
+        I'm saying when I ask questions and he always makes sure I understand everything before
+        moving on. I always get a lot done every session with Josh and would definitely recommend him."
+      </div>
+      <div class="attribution">— Luca D., Student</div>
+    </div>
+  </div>
+</div>

@@ -36,5 +36,5 @@ sidebar-almanac:
   - title: "Statistical Machine Learning Concepts"
     # url: /machine-learning-glossary/concepts/
     children:
-      - title: "Princical Component Analysis (PCA)"
+      - title: "Principal Component Analysis (PCA)"
         url: /machine-learning-almanac/concepts/pca

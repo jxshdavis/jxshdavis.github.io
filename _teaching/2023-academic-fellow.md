@@ -11,5 +11,3 @@ location: "Houston, TX"
 Provided free mathematics tutoring for peers in residential college on a weekly basis.
 
 Coordinated, prepared, and executed review sessions for midterms and finals.
-
-
