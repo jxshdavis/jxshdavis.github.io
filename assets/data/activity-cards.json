@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generated": "2026-03-23T20:19:04Z",
+  "generated": "2026-03-23T20:47:50Z",
   "activities": [
     {
       "id": 17821805735,
@@ -10,6 +10,23 @@
       "distance": 10651.2,
       "moving_time": 3684,
       "elevation": 102.7,
+      "avg_hr": null,
+      "max_hr": null,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 10651.2,
+          "moving_time": 3798,
+          "average_speed": 2.8,
+          "average_heartrate": null,
+          "max_heartrate": null,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 102.7
+        }
+      ],
       "card_dark": "/assets/activity-cards/17821805735_dark.gif",
       "card_light": "/assets/activity-cards/17821805735_light.gif"
     },
@@ -21,6 +38,23 @@
       "distance": 7864.5,
       "moving_time": 2800,
       "elevation": 58.1,
+      "avg_hr": null,
+      "max_hr": null,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 7864.46,
+          "moving_time": 2902,
+          "average_speed": 2.71,
+          "average_heartrate": null,
+          "max_heartrate": null,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 58.1
+        }
+      ],
       "card_dark": "/assets/activity-cards/17795675527_dark.gif",
       "card_light": "/assets/activity-cards/17795675527_light.gif"
     },
@@ -32,6 +66,23 @@
       "distance": 7047.5,
       "moving_time": 2213,
       "elevation": 40.2,
+      "avg_hr": null,
+      "max_hr": null,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 7047.48,
+          "moving_time": 2215,
+          "average_speed": 3.18,
+          "average_heartrate": null,
+          "max_heartrate": null,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 40.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17784968434_dark.gif",
       "card_light": "/assets/activity-cards/17784968434_light.gif"
     },
@@ -43,6 +94,45 @@
       "distance": 18723.7,
       "moving_time": 2817,
       "elevation": 145.0,
+      "avg_hr": 126.8,
+      "max_hr": 158.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1091,
+          "average_speed": 7.38,
+          "average_heartrate": 134.0,
+          "max_heartrate": 158.0,
+          "average_cadence": 77.0,
+          "average_watts": 186.1,
+          "total_elevation_gain": 59.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1136,
+          "average_speed": 7.08,
+          "average_heartrate": 124.6,
+          "max_heartrate": 146.0,
+          "average_cadence": 79.3,
+          "average_watts": 151.1,
+          "total_elevation_gain": 24.6
+        },
+        {
+          "lap_index": 3,
+          "distance": 2630.27,
+          "moving_time": 579,
+          "average_speed": 4.54,
+          "average_heartrate": 117.3,
+          "max_heartrate": 130.0,
+          "average_cadence": 76.1,
+          "average_watts": 132.9,
+          "total_elevation_gain": 59.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17762037412_dark.gif",
       "card_light": "/assets/activity-cards/17762037412_light.gif"
     },
@@ -54,6 +144,23 @@
       "distance": 6645.5,
       "moving_time": 1262,
       "elevation": 120.0,
+      "avg_hr": 109.6,
+      "max_hr": 130.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 6645.52,
+          "moving_time": 1818,
+          "average_speed": 3.66,
+          "average_heartrate": 109.6,
+          "max_heartrate": 130.0,
+          "average_cadence": null,
+          "average_watts": 96.4,
+          "total_elevation_gain": 120.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17748482252_dark.gif",
       "card_light": "/assets/activity-cards/17748482252_light.gif"
     },
@@ -65,6 +172,56 @@
       "distance": 6208.5,
       "moving_time": 2076,
       "elevation": 93.4,
+      "avg_hr": 140.5,
+      "max_hr": 166.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 501,
+          "average_speed": 3.21,
+          "average_heartrate": 135.5,
+          "max_heartrate": 150.0,
+          "average_cadence": 78.2,
+          "average_watts": 239.4,
+          "total_elevation_gain": 12.2
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 537,
+          "average_speed": 3.0,
+          "average_heartrate": 139.0,
+          "max_heartrate": 155.0,
+          "average_cadence": 77.2,
+          "average_watts": 213.6,
+          "total_elevation_gain": 14.4
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 564,
+          "average_speed": 2.85,
+          "average_heartrate": 139.4,
+          "max_heartrate": 153.0,
+          "average_cadence": 76.6,
+          "average_watts": 227.4,
+          "total_elevation_gain": 26.1
+        },
+        {
+          "lap_index": 4,
+          "distance": 1380.44,
+          "moving_time": 478,
+          "average_speed": 2.89,
+          "average_heartrate": 149.4,
+          "max_heartrate": 166.0,
+          "average_cadence": 76.3,
+          "average_watts": 254.1,
+          "total_elevation_gain": 40.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17738046182_dark.gif",
       "card_light": "/assets/activity-cards/17738046182_light.gif"
     },
@@ -76,6 +233,56 @@
       "distance": 32146.3,
       "moving_time": 4491,
       "elevation": 172.0,
+      "avg_hr": 124.4,
+      "max_hr": 146.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1065,
+          "average_speed": 7.56,
+          "average_heartrate": 119.9,
+          "max_heartrate": 137.0,
+          "average_cadence": 77.6,
+          "average_watts": 159.6,
+          "total_elevation_gain": 19.8
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1053,
+          "average_speed": 7.64,
+          "average_heartrate": 124.7,
+          "max_heartrate": 141.0,
+          "average_cadence": 82.4,
+          "average_watts": 167.7,
+          "total_elevation_gain": 7.2
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 1049,
+          "average_speed": 7.67,
+          "average_heartrate": 126.1,
+          "max_heartrate": 136.0,
+          "average_cadence": 81.6,
+          "average_watts": 166.0,
+          "total_elevation_gain": 2.8
+        },
+        {
+          "lap_index": 4,
+          "distance": 8006.15,
+          "moving_time": 1312,
+          "average_speed": 6.1,
+          "average_heartrate": 126.4,
+          "max_heartrate": 146.0,
+          "average_cadence": 75.5,
+          "average_watts": 165.2,
+          "total_elevation_gain": 135.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17738290564_dark.gif",
       "card_light": "/assets/activity-cards/17738290564_light.gif"
     },
@@ -87,6 +294,111 @@
       "distance": 64805.2,
       "moving_time": 8955,
       "elevation": 566.0,
+      "avg_hr": 133.4,
+      "max_hr": 161.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1050,
+          "average_speed": 7.66,
+          "average_heartrate": 122.1,
+          "max_heartrate": 135.0,
+          "average_cadence": 79.4,
+          "average_watts": 164.4,
+          "total_elevation_gain": 33.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1094,
+          "average_speed": 7.36,
+          "average_heartrate": 125.6,
+          "max_heartrate": 138.0,
+          "average_cadence": 82.0,
+          "average_watts": 167.1,
+          "total_elevation_gain": 12.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 862,
+          "average_speed": 9.33,
+          "average_heartrate": 139.9,
+          "max_heartrate": 159.0,
+          "average_cadence": 88.4,
+          "average_watts": 204.3,
+          "total_elevation_gain": 82.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 8046.72,
+          "moving_time": 1157,
+          "average_speed": 6.95,
+          "average_heartrate": 136.8,
+          "max_heartrate": 155.0,
+          "average_cadence": 81.4,
+          "average_watts": 191.2,
+          "total_elevation_gain": 96.4
+        },
+        {
+          "lap_index": 5,
+          "distance": 8046.72,
+          "moving_time": 1093,
+          "average_speed": 7.36,
+          "average_heartrate": 133.3,
+          "max_heartrate": 152.0,
+          "average_cadence": 82.1,
+          "average_watts": 169.2,
+          "total_elevation_gain": 30.4
+        },
+        {
+          "lap_index": 6,
+          "distance": 8046.72,
+          "moving_time": 1212,
+          "average_speed": 6.64,
+          "average_heartrate": 142.1,
+          "max_heartrate": 161.0,
+          "average_cadence": 80.0,
+          "average_watts": 200.3,
+          "total_elevation_gain": 122.4
+        },
+        {
+          "lap_index": 7,
+          "distance": 8046.72,
+          "moving_time": 1150,
+          "average_speed": 7.0,
+          "average_heartrate": 132.3,
+          "max_heartrate": 155.0,
+          "average_cadence": 78.2,
+          "average_watts": 175.1,
+          "total_elevation_gain": 89.6
+        },
+        {
+          "lap_index": 8,
+          "distance": 8046.72,
+          "moving_time": 1239,
+          "average_speed": 6.49,
+          "average_heartrate": 133.8,
+          "max_heartrate": 158.0,
+          "average_cadence": 73.1,
+          "average_watts": 172.7,
+          "total_elevation_gain": 135.8
+        },
+        {
+          "lap_index": 9,
+          "distance": 431.47,
+          "moving_time": 82,
+          "average_speed": 5.26,
+          "average_heartrate": 153.6,
+          "max_heartrate": 159.0,
+          "average_cadence": 77.0,
+          "average_watts": 194.0,
+          "total_elevation_gain": 12.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17703815718_dark.gif",
       "card_light": "/assets/activity-cards/17703815718_light.gif"
     },
@@ -98,6 +410,34 @@
       "distance": 3194.3,
       "moving_time": 1214,
       "elevation": 21.3,
+      "avg_hr": 121.2,
+      "max_hr": 133.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 633,
+          "average_speed": 2.54,
+          "average_heartrate": 119.7,
+          "max_heartrate": 133.0,
+          "average_cadence": 75.4,
+          "average_watts": 201.7,
+          "total_elevation_gain": 18.7
+        },
+        {
+          "lap_index": 2,
+          "distance": 1584.95,
+          "moving_time": 595,
+          "average_speed": 2.66,
+          "average_heartrate": 123.0,
+          "max_heartrate": 132.0,
+          "average_cadence": 75.6,
+          "average_watts": 195.8,
+          "total_elevation_gain": 2.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17692274490_dark.gif",
       "card_light": "/assets/activity-cards/17692274490_light.gif"
     },
@@ -109,6 +449,67 @@
       "distance": 38863.2,
       "moving_time": 4691,
       "elevation": 123.0,
+      "avg_hr": 140.7,
+      "max_hr": 158.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 960,
+          "average_speed": 8.38,
+          "average_heartrate": 131.5,
+          "max_heartrate": 144.0,
+          "average_cadence": 84.0,
+          "average_watts": 196.0,
+          "total_elevation_gain": 8.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 937,
+          "average_speed": 8.59,
+          "average_heartrate": 136.3,
+          "max_heartrate": 144.0,
+          "average_cadence": 89.1,
+          "average_watts": 197.9,
+          "total_elevation_gain": 8.8
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 993,
+          "average_speed": 8.1,
+          "average_heartrate": 140.5,
+          "max_heartrate": 150.0,
+          "average_cadence": 90.0,
+          "average_watts": 202.7,
+          "total_elevation_gain": 12.4
+        },
+        {
+          "lap_index": 4,
+          "distance": 8046.72,
+          "moving_time": 905,
+          "average_speed": 8.89,
+          "average_heartrate": 146.0,
+          "max_heartrate": 157.0,
+          "average_cadence": 91.5,
+          "average_watts": 212.4,
+          "total_elevation_gain": 13.0
+        },
+        {
+          "lap_index": 5,
+          "distance": 6676.33,
+          "moving_time": 893,
+          "average_speed": 7.48,
+          "average_heartrate": 149.9,
+          "max_heartrate": 158.0,
+          "average_cadence": 87.8,
+          "average_watts": 219.0,
+          "total_elevation_gain": 62.8
+        }
+      ],
       "card_dark": "/assets/activity-cards/17680671124_dark.gif",
       "card_light": "/assets/activity-cards/17680671124_light.gif"
     },
@@ -120,6 +521,111 @@
       "distance": 14020.6,
       "moving_time": 5100,
       "elevation": 98.0,
+      "avg_hr": 134.6,
+      "max_hr": 153.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 513,
+          "average_speed": 3.14,
+          "average_heartrate": 118.2,
+          "max_heartrate": 147.0,
+          "average_cadence": 76.5,
+          "average_watts": 213.9,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 534,
+          "average_speed": 3.01,
+          "average_heartrate": 140.6,
+          "max_heartrate": 147.0,
+          "average_cadence": 75.9,
+          "average_watts": 220.9,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 554,
+          "average_speed": 2.9,
+          "average_heartrate": 138.9,
+          "max_heartrate": 145.0,
+          "average_cadence": 75.3,
+          "average_watts": 216.5,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 582,
+          "average_speed": 2.77,
+          "average_heartrate": 137.5,
+          "max_heartrate": 153.0,
+          "average_cadence": 75.6,
+          "average_watts": 212.7,
+          "total_elevation_gain": 13.6
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 608,
+          "average_speed": 2.65,
+          "average_heartrate": 137.7,
+          "max_heartrate": 153.0,
+          "average_cadence": 74.9,
+          "average_watts": 206.1,
+          "total_elevation_gain": 16.3
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 608,
+          "average_speed": 2.65,
+          "average_heartrate": 133.8,
+          "max_heartrate": 146.0,
+          "average_cadence": 75.6,
+          "average_watts": 200.9,
+          "total_elevation_gain": 13.8
+        },
+        {
+          "lap_index": 7,
+          "distance": 1609.34,
+          "moving_time": 647,
+          "average_speed": 2.49,
+          "average_heartrate": 131.9,
+          "max_heartrate": 138.0,
+          "average_cadence": 75.7,
+          "average_watts": 202.2,
+          "total_elevation_gain": 12.7
+        },
+        {
+          "lap_index": 8,
+          "distance": 1609.34,
+          "moving_time": 659,
+          "average_speed": 2.44,
+          "average_heartrate": 132.0,
+          "max_heartrate": 144.0,
+          "average_cadence": 75.2,
+          "average_watts": 195.5,
+          "total_elevation_gain": 17.8
+        },
+        {
+          "lap_index": 9,
+          "distance": 1145.87,
+          "moving_time": 455,
+          "average_speed": 2.52,
+          "average_heartrate": 142.2,
+          "max_heartrate": 151.0,
+          "average_cadence": 75.4,
+          "average_watts": 211.1,
+          "total_elevation_gain": 23.7
+        }
+      ],
       "card_dark": "/assets/activity-cards/17667480649_dark.gif",
       "card_light": "/assets/activity-cards/17667480649_light.gif"
     },
@@ -131,6 +637,45 @@
       "distance": 4053.8,
       "moving_time": 1490,
       "elevation": 62.9,
+      "avg_hr": 150.9,
+      "max_hr": 167.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 586,
+          "average_speed": 2.75,
+          "average_heartrate": 145.0,
+          "max_heartrate": 154.0,
+          "average_cadence": 75.9,
+          "average_watts": 221.5,
+          "total_elevation_gain": 19.1
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 601,
+          "average_speed": 2.68,
+          "average_heartrate": 152.3,
+          "max_heartrate": 167.0,
+          "average_cadence": 74.3,
+          "average_watts": 210.1,
+          "total_elevation_gain": 25.1
+        },
+        {
+          "lap_index": 3,
+          "distance": 835.15,
+          "moving_time": 326,
+          "average_speed": 2.56,
+          "average_heartrate": 159.2,
+          "max_heartrate": 165.0,
+          "average_cadence": 75.2,
+          "average_watts": 223.1,
+          "total_elevation_gain": 18.7
+        }
+      ],
       "card_dark": "/assets/activity-cards/17642178260_dark.gif",
       "card_light": "/assets/activity-cards/17642178260_light.gif"
     },
@@ -142,6 +687,67 @@
       "distance": 38256.4,
       "moving_time": 6231,
       "elevation": 688.0,
+      "avg_hr": 139.6,
+      "max_hr": 181.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1534,
+          "average_speed": 5.25,
+          "average_heartrate": 121.1,
+          "max_heartrate": 159.0,
+          "average_cadence": 74.2,
+          "average_watts": 152.6,
+          "total_elevation_gain": 143.8
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1740,
+          "average_speed": 4.62,
+          "average_heartrate": 149.8,
+          "max_heartrate": 181.0,
+          "average_cadence": 72.5,
+          "average_watts": 206.9,
+          "total_elevation_gain": 311.4
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 1254,
+          "average_speed": 6.42,
+          "average_heartrate": 146.1,
+          "max_heartrate": 171.0,
+          "average_cadence": 80.6,
+          "average_watts": 177.1,
+          "total_elevation_gain": 115.6
+        },
+        {
+          "lap_index": 4,
+          "distance": 8046.72,
+          "moving_time": 1053,
+          "average_speed": 7.64,
+          "average_heartrate": 145.3,
+          "max_heartrate": 167.0,
+          "average_cadence": 75.0,
+          "average_watts": 175.0,
+          "total_elevation_gain": 115.0
+        },
+        {
+          "lap_index": 5,
+          "distance": 6069.46,
+          "moving_time": 619,
+          "average_speed": 9.81,
+          "average_heartrate": 133.4,
+          "max_heartrate": 149.0,
+          "average_cadence": 76.6,
+          "average_watts": 132.7,
+          "total_elevation_gain": 4.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17642008886_dark.gif",
       "card_light": "/assets/activity-cards/17642008886_light.gif"
     },
@@ -153,6 +759,56 @@
       "distance": 31334.0,
       "moving_time": 4177,
       "elevation": 117.0,
+      "avg_hr": 137.0,
+      "max_hr": 154.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1014,
+          "average_speed": 7.94,
+          "average_heartrate": 134.6,
+          "max_heartrate": 154.0,
+          "average_cadence": 79.0,
+          "average_watts": 189.4,
+          "total_elevation_gain": 15.8
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1040,
+          "average_speed": 7.74,
+          "average_heartrate": 136.7,
+          "max_heartrate": 148.0,
+          "average_cadence": 85.6,
+          "average_watts": 177.8,
+          "total_elevation_gain": 5.6
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 1030,
+          "average_speed": 7.81,
+          "average_heartrate": 139.6,
+          "max_heartrate": 149.0,
+          "average_cadence": 84.8,
+          "average_watts": 186.9,
+          "total_elevation_gain": 16.2
+        },
+        {
+          "lap_index": 4,
+          "distance": 7197.84,
+          "moving_time": 1085,
+          "average_speed": 6.63,
+          "average_heartrate": 136.9,
+          "max_heartrate": 149.0,
+          "average_cadence": 81.3,
+          "average_watts": 179.9,
+          "total_elevation_gain": 69.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17631137899_dark.gif",
       "card_light": "/assets/activity-cards/17631137899_light.gif"
     },
@@ -164,6 +820,67 @@
       "distance": 6473.8,
       "moving_time": 2260,
       "elevation": 38.1,
+      "avg_hr": 136.9,
+      "max_hr": 149.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 533,
+          "average_speed": 3.02,
+          "average_heartrate": 130.5,
+          "max_heartrate": 149.0,
+          "average_cadence": 77.1,
+          "average_watts": 204.8,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 549,
+          "average_speed": 2.93,
+          "average_heartrate": 140.2,
+          "max_heartrate": 146.0,
+          "average_cadence": 76.1,
+          "average_watts": 222.6,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 603,
+          "average_speed": 2.67,
+          "average_heartrate": 136.7,
+          "max_heartrate": 146.0,
+          "average_cadence": 74.8,
+          "average_watts": 208.0,
+          "total_elevation_gain": 5.6
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 615,
+          "average_speed": 2.62,
+          "average_heartrate": 139.7,
+          "max_heartrate": 149.0,
+          "average_cadence": 74.6,
+          "average_watts": 219.1,
+          "total_elevation_gain": 32.5
+        },
+        {
+          "lap_index": 5,
+          "distance": 36.46,
+          "moving_time": 14,
+          "average_speed": 2.6,
+          "average_heartrate": 140.2,
+          "max_heartrate": 142.0,
+          "average_cadence": 66.2,
+          "average_watts": 220.0,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17620897998_dark.gif",
       "card_light": "/assets/activity-cards/17620897998_light.gif"
     },
@@ -175,6 +892,100 @@
       "distance": 12882.0,
       "moving_time": 4613,
       "elevation": 104.9,
+      "avg_hr": 133.2,
+      "max_hr": 150.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 533,
+          "average_speed": 3.02,
+          "average_heartrate": 125.0,
+          "max_heartrate": 135.0,
+          "average_cadence": 77.7,
+          "average_watts": 207.4,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 539,
+          "average_speed": 2.99,
+          "average_heartrate": 134.1,
+          "max_heartrate": 142.0,
+          "average_cadence": 77.4,
+          "average_watts": 215.9,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 580,
+          "average_speed": 2.77,
+          "average_heartrate": 131.3,
+          "max_heartrate": 139.0,
+          "average_cadence": 76.8,
+          "average_watts": 214.5,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 626,
+          "average_speed": 2.57,
+          "average_heartrate": 132.3,
+          "max_heartrate": 141.0,
+          "average_cadence": 75.1,
+          "average_watts": 204.4,
+          "total_elevation_gain": 18.9
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 575,
+          "average_speed": 2.8,
+          "average_heartrate": 134.3,
+          "max_heartrate": 148.0,
+          "average_cadence": 74.6,
+          "average_watts": 215.3,
+          "total_elevation_gain": 10.5
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 587,
+          "average_speed": 2.74,
+          "average_heartrate": 137.1,
+          "max_heartrate": 145.0,
+          "average_cadence": 75.3,
+          "average_watts": 222.0,
+          "total_elevation_gain": 14.1
+        },
+        {
+          "lap_index": 7,
+          "distance": 1609.34,
+          "moving_time": 652,
+          "average_speed": 2.47,
+          "average_heartrate": 130.7,
+          "max_heartrate": 146.0,
+          "average_cadence": 74.6,
+          "average_watts": 198.8,
+          "total_elevation_gain": 25.6
+        },
+        {
+          "lap_index": 8,
+          "distance": 1609.34,
+          "moving_time": 605,
+          "average_speed": 2.66,
+          "average_heartrate": 139.7,
+          "max_heartrate": 150.0,
+          "average_cadence": 75.3,
+          "average_watts": 225.6,
+          "total_elevation_gain": 35.7
+        }
+      ],
       "card_dark": "/assets/activity-cards/17596089395_dark.gif",
       "card_light": "/assets/activity-cards/17596089395_light.gif"
     },
@@ -186,6 +997,23 @@
       "distance": 3659.5,
       "moving_time": 607,
       "elevation": 31.0,
+      "avg_hr": null,
+      "max_hr": null,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3659.53,
+          "moving_time": 603,
+          "average_speed": 6.07,
+          "average_heartrate": null,
+          "max_heartrate": null,
+          "average_cadence": 61.6,
+          "average_watts": 111.0,
+          "total_elevation_gain": 31.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17571921763_dark.gif",
       "card_light": "/assets/activity-cards/17571921763_light.gif"
     },
@@ -197,6 +1025,56 @@
       "distance": 5049.9,
       "moving_time": 1921,
       "elevation": 71.1,
+      "avg_hr": 147.4,
+      "max_hr": 168.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 590,
+          "average_speed": 2.73,
+          "average_heartrate": 139.5,
+          "max_heartrate": 150.0,
+          "average_cadence": 76.4,
+          "average_watts": 188.1,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 600,
+          "average_speed": 2.68,
+          "average_heartrate": 144.6,
+          "max_heartrate": 149.0,
+          "average_cadence": 76.4,
+          "average_watts": 203.8,
+          "total_elevation_gain": 3.1
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 641,
+          "average_speed": 2.51,
+          "average_heartrate": 154.9,
+          "max_heartrate": 166.0,
+          "average_cadence": 75.6,
+          "average_watts": 225.3,
+          "total_elevation_gain": 55.7
+        },
+        {
+          "lap_index": 4,
+          "distance": 221.87,
+          "moving_time": 89,
+          "average_speed": 2.49,
+          "average_heartrate": 165.7,
+          "max_heartrate": 168.0,
+          "average_cadence": 74.0,
+          "average_watts": 269.4,
+          "total_elevation_gain": 12.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17559798271_dark.gif",
       "card_light": "/assets/activity-cards/17559798271_light.gif"
     },
@@ -208,6 +1086,122 @@
       "distance": 58407.9,
       "moving_time": 8087,
       "elevation": 500.0,
+      "avg_hr": 143.9,
+      "max_hr": 164.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3170.48,
+          "moving_time": 509,
+          "average_speed": 6.23,
+          "average_heartrate": 131.0,
+          "max_heartrate": 153.0,
+          "average_cadence": 81.8,
+          "average_watts": 166.2,
+          "total_elevation_gain": 49.4
+        },
+        {
+          "lap_index": 2,
+          "distance": 0.0,
+          "moving_time": 1,
+          "average_speed": 0.0,
+          "average_heartrate": 0.0,
+          "max_heartrate": 112.0,
+          "average_cadence": 0.0,
+          "average_watts": 0.0,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 10.1,
+          "moving_time": 4,
+          "average_speed": 2.53,
+          "average_heartrate": 96.5,
+          "max_heartrate": 99.0,
+          "average_cadence": 0.0,
+          "average_watts": 0.0,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 8046.72,
+          "moving_time": 1069,
+          "average_speed": 7.53,
+          "average_heartrate": 134.6,
+          "max_heartrate": 164.0,
+          "average_cadence": 79.7,
+          "average_watts": 177.3,
+          "total_elevation_gain": 66.2
+        },
+        {
+          "lap_index": 5,
+          "distance": 8046.72,
+          "moving_time": 1097,
+          "average_speed": 7.34,
+          "average_heartrate": 146.9,
+          "max_heartrate": 158.0,
+          "average_cadence": 84.8,
+          "average_watts": 188.9,
+          "total_elevation_gain": 68.2
+        },
+        {
+          "lap_index": 6,
+          "distance": 8046.72,
+          "moving_time": 932,
+          "average_speed": 8.63,
+          "average_heartrate": 148.3,
+          "max_heartrate": 158.0,
+          "average_cadence": 87.2,
+          "average_watts": 199.0,
+          "total_elevation_gain": 62.0
+        },
+        {
+          "lap_index": 7,
+          "distance": 8046.72,
+          "moving_time": 1148,
+          "average_speed": 7.01,
+          "average_heartrate": 143.2,
+          "max_heartrate": 157.0,
+          "average_cadence": 81.7,
+          "average_watts": 172.4,
+          "total_elevation_gain": 77.0
+        },
+        {
+          "lap_index": 8,
+          "distance": 8046.72,
+          "moving_time": 1087,
+          "average_speed": 7.4,
+          "average_heartrate": 150.8,
+          "max_heartrate": 162.0,
+          "average_cadence": 85.7,
+          "average_watts": 194.2,
+          "total_elevation_gain": 51.0
+        },
+        {
+          "lap_index": 9,
+          "distance": 8046.72,
+          "moving_time": 1093,
+          "average_speed": 7.36,
+          "average_heartrate": 147.8,
+          "max_heartrate": 161.0,
+          "average_cadence": 78.7,
+          "average_watts": 168.3,
+          "total_elevation_gain": 79.2
+        },
+        {
+          "lap_index": 10,
+          "distance": 6946.98,
+          "moving_time": 1104,
+          "average_speed": 6.29,
+          "average_heartrate": 142.2,
+          "max_heartrate": 161.0,
+          "average_cadence": 63.1,
+          "average_watts": 149.0,
+          "total_elevation_gain": 46.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17559454811_dark.gif",
       "card_light": "/assets/activity-cards/17559454811_light.gif"
     },
@@ -219,6 +1213,56 @@
       "distance": 30257.4,
       "moving_time": 4048,
       "elevation": 115.0,
+      "avg_hr": 144.3,
+      "max_hr": 173.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1068,
+          "average_speed": 7.53,
+          "average_heartrate": 130.2,
+          "max_heartrate": 150.0,
+          "average_cadence": 77.9,
+          "average_watts": 166.0,
+          "total_elevation_gain": 18.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1064,
+          "average_speed": 7.56,
+          "average_heartrate": 147.7,
+          "max_heartrate": 156.0,
+          "average_cadence": 84.7,
+          "average_watts": 179.3,
+          "total_elevation_gain": 2.2
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 955,
+          "average_speed": 8.43,
+          "average_heartrate": 149.4,
+          "max_heartrate": 165.0,
+          "average_cadence": 85.8,
+          "average_watts": 185.0,
+          "total_elevation_gain": 4.8
+        },
+        {
+          "lap_index": 4,
+          "distance": 6117.24,
+          "moving_time": 956,
+          "average_speed": 6.4,
+          "average_heartrate": 151.2,
+          "max_heartrate": 173.0,
+          "average_cadence": 80.0,
+          "average_watts": 173.1,
+          "total_elevation_gain": 75.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17547369540_dark.gif",
       "card_light": "/assets/activity-cards/17547369540_light.gif"
     },
@@ -230,6 +1274,67 @@
       "distance": 6502.3,
       "moving_time": 2390,
       "elevation": 40.6,
+      "avg_hr": 129.1,
+      "max_hr": 152.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 584,
+          "average_speed": 2.76,
+          "average_heartrate": 89.5,
+          "max_heartrate": 140.0,
+          "average_cadence": 76.0,
+          "average_watts": 186.8,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 602,
+          "average_speed": 2.67,
+          "average_heartrate": 137.9,
+          "max_heartrate": 147.0,
+          "average_cadence": 75.1,
+          "average_watts": 200.8,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 598,
+          "average_speed": 2.69,
+          "average_heartrate": 142.1,
+          "max_heartrate": 149.0,
+          "average_cadence": 75.0,
+          "average_watts": 209.5,
+          "total_elevation_gain": 5.9
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 636,
+          "average_speed": 2.53,
+          "average_heartrate": 143.3,
+          "max_heartrate": 152.0,
+          "average_cadence": 75.6,
+          "average_watts": 214.5,
+          "total_elevation_gain": 33.3
+        },
+        {
+          "lap_index": 5,
+          "distance": 64.97,
+          "moving_time": 28,
+          "average_speed": 2.32,
+          "average_heartrate": 142.4,
+          "max_heartrate": 143.0,
+          "average_cadence": 76.0,
+          "average_watts": 195.3,
+          "total_elevation_gain": 1.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17538166485_dark.gif",
       "card_light": "/assets/activity-cards/17538166485_light.gif"
     },
@@ -241,6 +1346,100 @@
       "distance": 11283.7,
       "moving_time": 4069,
       "elevation": 103.4,
+      "avg_hr": 135.2,
+      "max_hr": 161.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 492,
+          "average_speed": 3.27,
+          "average_heartrate": 90.7,
+          "max_heartrate": 153.0,
+          "average_cadence": 77.6,
+          "average_watts": 242.1,
+          "total_elevation_gain": 11.1
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 534,
+          "average_speed": 3.01,
+          "average_heartrate": 143.4,
+          "max_heartrate": 148.0,
+          "average_cadence": 77.0,
+          "average_watts": 214.5,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 556,
+          "average_speed": 2.89,
+          "average_heartrate": 145.3,
+          "max_heartrate": 153.0,
+          "average_cadence": 75.9,
+          "average_watts": 220.1,
+          "total_elevation_gain": 2.1
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 590,
+          "average_speed": 2.73,
+          "average_heartrate": 144.2,
+          "max_heartrate": 154.0,
+          "average_cadence": 75.7,
+          "average_watts": 217.7,
+          "total_elevation_gain": 16.5
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 654,
+          "average_speed": 2.46,
+          "average_heartrate": 146.6,
+          "max_heartrate": 161.0,
+          "average_cadence": 74.6,
+          "average_watts": 212.2,
+          "total_elevation_gain": 31.1
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 621,
+          "average_speed": 2.59,
+          "average_heartrate": 135.7,
+          "max_heartrate": 151.0,
+          "average_cadence": 75.2,
+          "average_watts": 196.5,
+          "total_elevation_gain": 15.2
+        },
+        {
+          "lap_index": 7,
+          "distance": 1609.34,
+          "moving_time": 682,
+          "average_speed": 2.36,
+          "average_heartrate": 133.6,
+          "max_heartrate": 139.0,
+          "average_cadence": 74.0,
+          "average_watts": 199.2,
+          "total_elevation_gain": 27.4
+        },
+        {
+          "lap_index": 8,
+          "distance": 18.32,
+          "moving_time": 6,
+          "average_speed": 3.05,
+          "average_heartrate": 132.0,
+          "max_heartrate": 132.0,
+          "average_cadence": 67.5,
+          "average_watts": 187.0,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17447226285_dark.gif",
       "card_light": "/assets/activity-cards/17447226285_light.gif"
     },
@@ -252,6 +1451,67 @@
       "distance": 7308.7,
       "moving_time": 2724,
       "elevation": 116.2,
+      "avg_hr": 139.8,
+      "max_hr": 161.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 582,
+          "average_speed": 2.77,
+          "average_heartrate": 120.2,
+          "max_heartrate": 154.0,
+          "average_cadence": 76.2,
+          "average_watts": 242.1,
+          "total_elevation_gain": 41.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 606,
+          "average_speed": 2.66,
+          "average_heartrate": 144.9,
+          "max_heartrate": 160.0,
+          "average_cadence": 75.3,
+          "average_watts": 236.0,
+          "total_elevation_gain": 40.5
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 563,
+          "average_speed": 2.86,
+          "average_heartrate": 144.2,
+          "max_heartrate": 161.0,
+          "average_cadence": 75.7,
+          "average_watts": 203.7,
+          "total_elevation_gain": 3.8
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 636,
+          "average_speed": 2.53,
+          "average_heartrate": 145.5,
+          "max_heartrate": 157.0,
+          "average_cadence": 72.9,
+          "average_watts": 203.8,
+          "total_elevation_gain": 28.2
+        },
+        {
+          "lap_index": 5,
+          "distance": 871.34,
+          "moving_time": 339,
+          "average_speed": 2.57,
+          "average_heartrate": 145.9,
+          "max_heartrate": 156.0,
+          "average_cadence": 74.9,
+          "average_watts": 202.3,
+          "total_elevation_gain": 2.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17422944896_dark.gif",
       "card_light": "/assets/activity-cards/17422944896_light.gif"
     },
@@ -263,6 +1523,67 @@
       "distance": 33847.4,
       "moving_time": 4938,
       "elevation": 170.0,
+      "avg_hr": 142.7,
+      "max_hr": 168.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 8046.72,
+          "moving_time": 1027,
+          "average_speed": 7.84,
+          "average_heartrate": 144.5,
+          "max_heartrate": 166.0,
+          "average_cadence": 84.9,
+          "average_watts": 180.2,
+          "total_elevation_gain": 11.4
+        },
+        {
+          "lap_index": 2,
+          "distance": 8046.72,
+          "moving_time": 1140,
+          "average_speed": 7.06,
+          "average_heartrate": 148.4,
+          "max_heartrate": 168.0,
+          "average_cadence": 81.4,
+          "average_watts": 177.9,
+          "total_elevation_gain": 47.2
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 1174,
+          "average_speed": 6.85,
+          "average_heartrate": 142.9,
+          "max_heartrate": 160.0,
+          "average_cadence": 83.3,
+          "average_watts": 163.6,
+          "total_elevation_gain": 3.4
+        },
+        {
+          "lap_index": 4,
+          "distance": 8046.72,
+          "moving_time": 1356,
+          "average_speed": 5.93,
+          "average_heartrate": 137.8,
+          "max_heartrate": 152.0,
+          "average_cadence": 80.7,
+          "average_watts": 160.0,
+          "total_elevation_gain": 51.2
+        },
+        {
+          "lap_index": 5,
+          "distance": 1660.47,
+          "moving_time": 350,
+          "average_speed": 4.74,
+          "average_heartrate": 138.1,
+          "max_heartrate": 150.0,
+          "average_cadence": 76.1,
+          "average_watts": 149.1,
+          "total_elevation_gain": 38.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17410887244_dark.gif",
       "card_light": "/assets/activity-cards/17410887244_light.gif"
     },
@@ -274,6 +1595,56 @@
       "distance": 5025.9,
       "moving_time": 1722,
       "elevation": 51.8,
+      "avg_hr": 145.9,
+      "max_hr": 164.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 529,
+          "average_speed": 3.04,
+          "average_heartrate": 134.8,
+          "max_heartrate": 156.0,
+          "average_cadence": 76.0,
+          "average_watts": 231.9,
+          "total_elevation_gain": 11.8
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 561,
+          "average_speed": 2.87,
+          "average_heartrate": 154.4,
+          "max_heartrate": 164.0,
+          "average_cadence": 76.7,
+          "average_watts": 236.6,
+          "total_elevation_gain": 27.9
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 580,
+          "average_speed": 2.77,
+          "average_heartrate": 147.7,
+          "max_heartrate": 156.0,
+          "average_cadence": 76.4,
+          "average_watts": 205.5,
+          "total_elevation_gain": 10.9
+        },
+        {
+          "lap_index": 4,
+          "distance": 197.9,
+          "moving_time": 76,
+          "average_speed": 2.6,
+          "average_heartrate": 146.3,
+          "max_heartrate": 150.0,
+          "average_cadence": 74.2,
+          "average_watts": 199.2,
+          "total_elevation_gain": 1.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17410812839_dark.gif",
       "card_light": "/assets/activity-cards/17410812839_light.gif"
     },
@@ -285,6 +1656,56 @@
       "distance": 4998.9,
       "moving_time": 1874,
       "elevation": 57.4,
+      "avg_hr": 138.9,
+      "max_hr": 158.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 574,
+          "average_speed": 2.8,
+          "average_heartrate": 140.1,
+          "max_heartrate": 150.0,
+          "average_cadence": 74.9,
+          "average_watts": 211.8,
+          "total_elevation_gain": 11.1
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 629,
+          "average_speed": 2.56,
+          "average_heartrate": 137.0,
+          "max_heartrate": 151.0,
+          "average_cadence": 74.6,
+          "average_watts": 211.2,
+          "total_elevation_gain": 32.4
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 600,
+          "average_speed": 2.68,
+          "average_heartrate": 139.6,
+          "max_heartrate": 158.0,
+          "average_cadence": 75.6,
+          "average_watts": 206.0,
+          "total_elevation_gain": 9.3
+        },
+        {
+          "lap_index": 4,
+          "distance": 170.83,
+          "moving_time": 72,
+          "average_speed": 2.37,
+          "average_heartrate": 139.2,
+          "max_heartrate": 142.0,
+          "average_cadence": 73.8,
+          "average_watts": 207.8,
+          "total_elevation_gain": 4.3
+        }
+      ],
       "card_dark": "/assets/activity-cards/17378637866_dark.gif",
       "card_light": "/assets/activity-cards/17378637866_light.gif"
     },
@@ -296,6 +1717,56 @@
       "distance": 5158.1,
       "moving_time": 1443,
       "elevation": 34.5,
+      "avg_hr": 156.1,
+      "max_hr": 185.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 450,
+          "average_speed": 3.58,
+          "average_heartrate": 119.1,
+          "max_heartrate": 153.0,
+          "average_cadence": 77.8,
+          "average_watts": 244.4,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 449,
+          "average_speed": 3.58,
+          "average_heartrate": 164.3,
+          "max_heartrate": 175.0,
+          "average_cadence": 79.2,
+          "average_watts": 271.3,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 459,
+          "average_speed": 3.51,
+          "average_heartrate": 178.5,
+          "max_heartrate": 185.0,
+          "average_cadence": 79.8,
+          "average_watts": 286.0,
+          "total_elevation_gain": 27.4
+        },
+        {
+          "lap_index": 4,
+          "distance": 330.02,
+          "moving_time": 96,
+          "average_speed": 3.44,
+          "average_heartrate": 183.4,
+          "max_heartrate": 185.0,
+          "average_cadence": 78.7,
+          "average_watts": 307.3,
+          "total_elevation_gain": 7.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17347154440_dark.gif",
       "card_light": "/assets/activity-cards/17347154440_light.gif"
     },
@@ -307,6 +1778,45 @@
       "distance": 11286.5,
       "moving_time": 4485,
       "elevation": 314.5,
+      "avg_hr": 143.6,
+      "max_hr": 169.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 2378.79,
+          "moving_time": 939,
+          "average_speed": 2.53,
+          "average_heartrate": 139.2,
+          "max_heartrate": 161.0,
+          "average_cadence": 75.3,
+          "average_watts": 235.5,
+          "total_elevation_gain": 85.7
+        },
+        {
+          "lap_index": 2,
+          "distance": 2135.92,
+          "moving_time": 883,
+          "average_speed": 2.42,
+          "average_heartrate": 152.8,
+          "max_heartrate": 165.0,
+          "average_cadence": 74.4,
+          "average_watts": 254.6,
+          "total_elevation_gain": 116.8
+        },
+        {
+          "lap_index": 3,
+          "distance": 6771.84,
+          "moving_time": 2665,
+          "average_speed": 2.54,
+          "average_heartrate": 142.1,
+          "max_heartrate": 169.0,
+          "average_cadence": 73.6,
+          "average_watts": 203.3,
+          "total_elevation_gain": 111.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17323641766_dark.gif",
       "card_light": "/assets/activity-cards/17323641766_light.gif"
     },
@@ -318,6 +1828,23 @@
       "distance": 3056.9,
       "moving_time": 376,
       "elevation": 18.5,
+      "avg_hr": 106.9,
+      "max_hr": 121.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3056.93,
+          "moving_time": 913,
+          "average_speed": 3.35,
+          "average_heartrate": 106.9,
+          "max_heartrate": 121.0,
+          "average_cadence": null,
+          "average_watts": 207.4,
+          "total_elevation_gain": 18.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17320862354_dark.gif",
       "card_light": "/assets/activity-cards/17320862354_light.gif"
     },
@@ -329,6 +1856,100 @@
       "distance": 12368.6,
       "moving_time": 4518,
       "elevation": 416.7,
+      "avg_hr": 111.4,
+      "max_hr": 136.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 386,
+          "average_speed": 4.17,
+          "average_heartrate": 98.5,
+          "max_heartrate": 117.0,
+          "average_cadence": null,
+          "average_watts": 50.8,
+          "total_elevation_gain": 8.7
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 354,
+          "average_speed": 4.55,
+          "average_heartrate": 110.6,
+          "max_heartrate": 125.0,
+          "average_cadence": null,
+          "average_watts": 80.3,
+          "total_elevation_gain": 22.1
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 430,
+          "average_speed": 3.74,
+          "average_heartrate": 109.8,
+          "max_heartrate": 128.0,
+          "average_cadence": null,
+          "average_watts": 102.0,
+          "total_elevation_gain": 40.5
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 709,
+          "average_speed": 2.27,
+          "average_heartrate": 114.8,
+          "max_heartrate": 136.0,
+          "average_cadence": null,
+          "average_watts": 98.0,
+          "total_elevation_gain": 74.1
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 716,
+          "average_speed": 2.25,
+          "average_heartrate": 114.9,
+          "max_heartrate": 133.0,
+          "average_cadence": null,
+          "average_watts": 98.1,
+          "total_elevation_gain": 80.2
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 697,
+          "average_speed": 2.31,
+          "average_heartrate": 112.0,
+          "max_heartrate": 121.0,
+          "average_cadence": null,
+          "average_watts": 89.0,
+          "total_elevation_gain": 67.9
+        },
+        {
+          "lap_index": 7,
+          "distance": 1609.34,
+          "moving_time": 950,
+          "average_speed": 1.69,
+          "average_heartrate": 116.3,
+          "max_heartrate": 126.0,
+          "average_cadence": null,
+          "average_watts": 104.9,
+          "total_elevation_gain": 93.6
+        },
+        {
+          "lap_index": 8,
+          "distance": 1105.43,
+          "moving_time": 596,
+          "average_speed": 1.85,
+          "average_heartrate": 104.9,
+          "max_heartrate": 125.0,
+          "average_cadence": null,
+          "average_watts": 67.3,
+          "total_elevation_gain": 29.1
+        }
+      ],
       "card_dark": "/assets/activity-cards/17312388098_dark.gif",
       "card_light": "/assets/activity-cards/17312388098_light.gif"
     },
@@ -340,6 +1961,56 @@
       "distance": 6130.7,
       "moving_time": 2168,
       "elevation": 42.7,
+      "avg_hr": 143.4,
+      "max_hr": 157.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 561,
+          "average_speed": 2.87,
+          "average_heartrate": 138.5,
+          "max_heartrate": 154.0,
+          "average_cadence": 73.2,
+          "average_watts": 199.9,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 598,
+          "average_speed": 2.69,
+          "average_heartrate": 141.8,
+          "max_heartrate": 152.0,
+          "average_cadence": 73.9,
+          "average_watts": 203.2,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 621,
+          "average_speed": 2.59,
+          "average_heartrate": 143.5,
+          "max_heartrate": 152.0,
+          "average_cadence": 71.7,
+          "average_watts": 204.3,
+          "total_elevation_gain": 13.7
+        },
+        {
+          "lap_index": 4,
+          "distance": 1302.62,
+          "moving_time": 447,
+          "average_speed": 2.91,
+          "average_heartrate": 151.7,
+          "max_heartrate": 157.0,
+          "average_cadence": 75.2,
+          "average_watts": 245.2,
+          "total_elevation_gain": 29.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17279884236_dark.gif",
       "card_light": "/assets/activity-cards/17279884236_light.gif"
     },
@@ -351,6 +2022,67 @@
       "distance": 16152.0,
       "moving_time": 2205,
       "elevation": 71.0,
+      "avg_hr": 145.0,
+      "max_hr": 162.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 31.58,
+          "moving_time": 16,
+          "average_speed": 1.97,
+          "average_heartrate": 79.8,
+          "max_heartrate": 91.0,
+          "average_cadence": 28.5,
+          "average_watts": 31.6,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 4.8,
+          "moving_time": 4,
+          "average_speed": 1.2,
+          "average_heartrate": 94.0,
+          "max_heartrate": 94.0,
+          "average_cadence": 14.0,
+          "average_watts": 0.0,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 8046.72,
+          "moving_time": 1014,
+          "average_speed": 7.94,
+          "average_heartrate": 142.1,
+          "max_heartrate": 162.0,
+          "average_cadence": 80.9,
+          "average_watts": 176.5,
+          "total_elevation_gain": 13.4
+        },
+        {
+          "lap_index": 4,
+          "distance": 8046.72,
+          "moving_time": 1149,
+          "average_speed": 7.0,
+          "average_heartrate": 148.5,
+          "max_heartrate": 161.0,
+          "average_cadence": 81.1,
+          "average_watts": 181.7,
+          "total_elevation_gain": 56.0
+        },
+        {
+          "lap_index": 5,
+          "distance": 23.94,
+          "moving_time": 4,
+          "average_speed": 5.99,
+          "average_heartrate": 152.4,
+          "max_heartrate": 154.0,
+          "average_cadence": 35.5,
+          "average_watts": 0.6,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17279749593_dark.gif",
       "card_light": "/assets/activity-cards/17279749593_light.gif"
     },
@@ -362,6 +2094,56 @@
       "distance": 5492.6,
       "moving_time": 2033,
       "elevation": 79.8,
+      "avg_hr": 137.1,
+      "max_hr": 155.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 715,
+          "average_speed": 2.25,
+          "average_heartrate": 124.0,
+          "max_heartrate": 140.0,
+          "average_cadence": 67.6,
+          "average_watts": 209.3,
+          "total_elevation_gain": 45.4
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 629,
+          "average_speed": 2.56,
+          "average_heartrate": 138.9,
+          "max_heartrate": 150.0,
+          "average_cadence": 71.6,
+          "average_watts": 226.6,
+          "total_elevation_gain": 34.3
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 472,
+          "average_speed": 3.41,
+          "average_heartrate": 146.4,
+          "max_heartrate": 153.0,
+          "average_cadence": 75.7,
+          "average_watts": 214.0,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 664.53,
+          "moving_time": 218,
+          "average_speed": 3.05,
+          "average_heartrate": 152.6,
+          "max_heartrate": 155.0,
+          "average_cadence": 74.8,
+          "average_watts": 213.6,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17256047843_dark.gif",
       "card_light": "/assets/activity-cards/17256047843_light.gif"
     },
@@ -373,6 +2155,23 @@
       "distance": 3606.3,
       "moving_time": 2896,
       "elevation": 0.0,
+      "avg_hr": 81.8,
+      "max_hr": 113.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3606.26,
+          "moving_time": 3170,
+          "average_speed": 1.14,
+          "average_heartrate": 81.8,
+          "max_heartrate": 113.0,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17255278001_dark.gif",
       "card_light": "/assets/activity-cards/17255278001_light.gif"
     },
@@ -384,6 +2183,89 @@
       "distance": 9972.7,
       "moving_time": 3388,
       "elevation": 50.5,
+      "avg_hr": 152.3,
+      "max_hr": 167.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 497,
+          "average_speed": 3.24,
+          "average_heartrate": 139.7,
+          "max_heartrate": 149.0,
+          "average_cadence": 77.0,
+          "average_watts": 221.7,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 505,
+          "average_speed": 3.19,
+          "average_heartrate": 152.9,
+          "max_heartrate": 164.0,
+          "average_cadence": 75.5,
+          "average_watts": 238.6,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 508,
+          "average_speed": 3.17,
+          "average_heartrate": 161.9,
+          "max_heartrate": 167.0,
+          "average_cadence": 75.4,
+          "average_watts": 242.9,
+          "total_elevation_gain": 2.7
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 544,
+          "average_speed": 2.96,
+          "average_heartrate": 159.9,
+          "max_heartrate": 166.0,
+          "average_cadence": 75.2,
+          "average_watts": 230.6,
+          "total_elevation_gain": 8.5
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 608,
+          "average_speed": 2.65,
+          "average_heartrate": 150.5,
+          "max_heartrate": 158.0,
+          "average_cadence": 74.7,
+          "average_watts": 201.3,
+          "total_elevation_gain": 4.4
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 629,
+          "average_speed": 2.56,
+          "average_heartrate": 150.3,
+          "max_heartrate": 157.0,
+          "average_cadence": 74.9,
+          "average_watts": 212.3,
+          "total_elevation_gain": 27.4
+        },
+        {
+          "lap_index": 7,
+          "distance": 316.68,
+          "moving_time": 136,
+          "average_speed": 2.33,
+          "average_heartrate": 148.6,
+          "max_heartrate": 154.0,
+          "average_cadence": 71.1,
+          "average_watts": 202.1,
+          "total_elevation_gain": 7.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17233526605_dark.gif",
       "card_light": "/assets/activity-cards/17233526605_light.gif"
     },
@@ -395,6 +2277,67 @@
       "distance": 6871.9,
       "moving_time": 2589,
       "elevation": 87.4,
+      "avg_hr": 130.6,
+      "max_hr": 154.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 546,
+          "average_speed": 2.95,
+          "average_heartrate": 140.0,
+          "max_heartrate": 150.0,
+          "average_cadence": 75.9,
+          "average_watts": 248.9,
+          "total_elevation_gain": 25.5
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 610,
+          "average_speed": 2.64,
+          "average_heartrate": 138.3,
+          "max_heartrate": 154.0,
+          "average_cadence": 74.2,
+          "average_watts": 224.1,
+          "total_elevation_gain": 28.7
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 648,
+          "average_speed": 2.48,
+          "average_heartrate": 116.1,
+          "max_heartrate": 146.0,
+          "average_cadence": 73.3,
+          "average_watts": 207.9,
+          "total_elevation_gain": 25.3
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 631,
+          "average_speed": 2.55,
+          "average_heartrate": 128.8,
+          "max_heartrate": 143.0,
+          "average_cadence": 72.1,
+          "average_watts": 194.8,
+          "total_elevation_gain": 5.2
+        },
+        {
+          "lap_index": 5,
+          "distance": 434.48,
+          "moving_time": 156,
+          "average_speed": 2.79,
+          "average_heartrate": 130.7,
+          "max_heartrate": 142.0,
+          "average_cadence": 76.4,
+          "average_watts": 206.2,
+          "total_elevation_gain": 2.7
+        }
+      ],
       "card_dark": "/assets/activity-cards/17212891831_dark.gif",
       "card_light": "/assets/activity-cards/17212891831_light.gif"
     },
@@ -406,6 +2349,56 @@
       "distance": 6157.0,
       "moving_time": 2134,
       "elevation": 80.4,
+      "avg_hr": 144.4,
+      "max_hr": 164.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 606,
+          "average_speed": 2.66,
+          "average_heartrate": 125.7,
+          "max_heartrate": 143.0,
+          "average_cadence": 72.4,
+          "average_watts": 205.7,
+          "total_elevation_gain": 17.8
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 603,
+          "average_speed": 2.67,
+          "average_heartrate": 150.0,
+          "max_heartrate": 159.0,
+          "average_cadence": 71.3,
+          "average_watts": 238.2,
+          "total_elevation_gain": 41.8
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 569,
+          "average_speed": 2.83,
+          "average_heartrate": 147.3,
+          "max_heartrate": 163.0,
+          "average_cadence": 71.5,
+          "average_watts": 213.3,
+          "total_elevation_gain": 15.6
+        },
+        {
+          "lap_index": 4,
+          "distance": 1328.94,
+          "moving_time": 438,
+          "average_speed": 3.03,
+          "average_heartrate": 157.9,
+          "max_heartrate": 164.0,
+          "average_cadence": 72.9,
+          "average_watts": 227.7,
+          "total_elevation_gain": 5.2
+        }
+      ],
       "card_dark": "/assets/activity-cards/17140776210_dark.gif",
       "card_light": "/assets/activity-cards/17140776210_light.gif"
     },
@@ -417,6 +2410,45 @@
       "distance": 3289.7,
       "moving_time": 2648,
       "elevation": 17.8,
+      "avg_hr": 84.3,
+      "max_hr": 105.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 1324,
+          "average_speed": 1.22,
+          "average_heartrate": 88.0,
+          "max_heartrate": 105.0,
+          "average_cadence": 47.5,
+          "average_watts": null,
+          "total_elevation_gain": 12.6
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 1316,
+          "average_speed": 1.22,
+          "average_heartrate": 80.8,
+          "max_heartrate": 96.0,
+          "average_cadence": 47.4,
+          "average_watts": null,
+          "total_elevation_gain": 5.2
+        },
+        {
+          "lap_index": 3,
+          "distance": 70.99,
+          "moving_time": 107,
+          "average_speed": 0.66,
+          "average_heartrate": 79.2,
+          "max_heartrate": 87.0,
+          "average_cadence": 43.0,
+          "average_watts": null,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17123383277_dark.gif",
       "card_light": "/assets/activity-cards/17123383277_light.gif"
     },
@@ -428,6 +2460,166 @@
       "distance": 5080.3,
       "moving_time": 1898,
       "elevation": 39.6,
+      "avg_hr": 141.7,
+      "max_hr": 164.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 602,
+          "average_speed": 2.67,
+          "average_heartrate": 127.8,
+          "max_heartrate": 139.0,
+          "average_cadence": 74.2,
+          "average_watts": 187.6,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 225.74,
+          "moving_time": 90,
+          "average_speed": 2.51,
+          "average_heartrate": 132.3,
+          "max_heartrate": 135.0,
+          "average_cadence": 72.9,
+          "average_watts": 178.0,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 3,
+          "distance": 321.87,
+          "moving_time": 121,
+          "average_speed": 2.66,
+          "average_heartrate": 137.5,
+          "max_heartrate": 141.0,
+          "average_cadence": 72.3,
+          "average_watts": 188.8,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 321.87,
+          "moving_time": 113,
+          "average_speed": 2.85,
+          "average_heartrate": 145.4,
+          "max_heartrate": 152.0,
+          "average_cadence": 72.2,
+          "average_watts": 212.8,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 5,
+          "distance": 232.81,
+          "moving_time": 90,
+          "average_speed": 2.59,
+          "average_heartrate": 149.9,
+          "max_heartrate": 151.0,
+          "average_cadence": 72.8,
+          "average_watts": 202.1,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 6,
+          "distance": 321.87,
+          "moving_time": 120,
+          "average_speed": 2.68,
+          "average_heartrate": 142.5,
+          "max_heartrate": 148.0,
+          "average_cadence": 73.3,
+          "average_watts": 204.4,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 7,
+          "distance": 321.87,
+          "moving_time": 113,
+          "average_speed": 2.85,
+          "average_heartrate": 144.3,
+          "max_heartrate": 146.0,
+          "average_cadence": 74.0,
+          "average_watts": 232.0,
+          "total_elevation_gain": 7.0
+        },
+        {
+          "lap_index": 8,
+          "distance": 203.13,
+          "moving_time": 90,
+          "average_speed": 2.26,
+          "average_heartrate": 149.3,
+          "max_heartrate": 151.0,
+          "average_cadence": 69.6,
+          "average_watts": 214.9,
+          "total_elevation_gain": 3.8
+        },
+        {
+          "lap_index": 9,
+          "distance": 321.87,
+          "moving_time": 118,
+          "average_speed": 2.73,
+          "average_heartrate": 149.3,
+          "max_heartrate": 154.0,
+          "average_cadence": 72.1,
+          "average_watts": 217.6,
+          "total_elevation_gain": 7.8
+        },
+        {
+          "lap_index": 10,
+          "distance": 321.87,
+          "moving_time": 110,
+          "average_speed": 2.93,
+          "average_heartrate": 156.5,
+          "max_heartrate": 164.0,
+          "average_cadence": 73.3,
+          "average_watts": 249.9,
+          "total_elevation_gain": 7.6
+        },
+        {
+          "lap_index": 11,
+          "distance": 228.36,
+          "moving_time": 90,
+          "average_speed": 2.54,
+          "average_heartrate": 157.3,
+          "max_heartrate": 164.0,
+          "average_cadence": 72.1,
+          "average_watts": 196.9,
+          "total_elevation_gain": 0.7
+        },
+        {
+          "lap_index": 12,
+          "distance": 321.87,
+          "moving_time": 122,
+          "average_speed": 2.64,
+          "average_heartrate": 156.3,
+          "max_heartrate": 163.0,
+          "average_cadence": 73.7,
+          "average_watts": 233.3,
+          "total_elevation_gain": 10.3
+        },
+        {
+          "lap_index": 13,
+          "distance": 321.87,
+          "moving_time": 109,
+          "average_speed": 2.95,
+          "average_heartrate": 157.0,
+          "max_heartrate": 160.0,
+          "average_cadence": 74.2,
+          "average_watts": 228.1,
+          "total_elevation_gain": 2.1
+        },
+        {
+          "lap_index": 14,
+          "distance": 5.97,
+          "moving_time": 5,
+          "average_speed": 1.19,
+          "average_heartrate": 159.0,
+          "max_heartrate": 159.0,
+          "average_cadence": 77.0,
+          "average_watts": 238.0,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17117434911_dark.gif",
       "card_light": "/assets/activity-cards/17117434911_light.gif"
     },
@@ -439,6 +2631,45 @@
       "distance": 3355.0,
       "moving_time": 2318,
       "elevation": 54.4,
+      "avg_hr": 94.0,
+      "max_hr": 134.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 1057,
+          "average_speed": 1.52,
+          "average_heartrate": 90.9,
+          "max_heartrate": 105.0,
+          "average_cadence": 54.9,
+          "average_watts": null,
+          "total_elevation_gain": 25.1
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 1152,
+          "average_speed": 1.4,
+          "average_heartrate": 97.1,
+          "max_heartrate": 134.0,
+          "average_cadence": 51.2,
+          "average_watts": null,
+          "total_elevation_gain": 29.2
+        },
+        {
+          "lap_index": 3,
+          "distance": 136.36,
+          "moving_time": 110,
+          "average_speed": 1.24,
+          "average_heartrate": 90.3,
+          "max_heartrate": 94.0,
+          "average_cadence": 51.7,
+          "average_watts": null,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17110830849_dark.gif",
       "card_light": "/assets/activity-cards/17110830849_light.gif"
     },
@@ -450,6 +2681,89 @@
       "distance": 9677.4,
       "moving_time": 3683,
       "elevation": 267.1,
+      "avg_hr": 142.9,
+      "max_hr": 166.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 567,
+          "average_speed": 2.84,
+          "average_heartrate": 128.3,
+          "max_heartrate": 150.0,
+          "average_cadence": 77.4,
+          "average_watts": 246.3,
+          "total_elevation_gain": 47.3
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 613,
+          "average_speed": 2.63,
+          "average_heartrate": 156.3,
+          "max_heartrate": 166.0,
+          "average_cadence": 76.9,
+          "average_watts": 276.5,
+          "total_elevation_gain": 95.7
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 721,
+          "average_speed": 2.23,
+          "average_heartrate": 155.5,
+          "max_heartrate": 162.0,
+          "average_cadence": 69.2,
+          "average_watts": 241.8,
+          "total_elevation_gain": 106.0
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 634,
+          "average_speed": 2.54,
+          "average_heartrate": 140.8,
+          "max_heartrate": 157.0,
+          "average_cadence": 75.5,
+          "average_watts": 187.8,
+          "total_elevation_gain": 12.7
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 582,
+          "average_speed": 2.77,
+          "average_heartrate": 132.6,
+          "max_heartrate": 141.0,
+          "average_cadence": 75.2,
+          "average_watts": 180.3,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 561,
+          "average_speed": 2.87,
+          "average_heartrate": 139.3,
+          "max_heartrate": 156.0,
+          "average_cadence": 74.8,
+          "average_watts": 192.4,
+          "total_elevation_gain": 5.0
+        },
+        {
+          "lap_index": 7,
+          "distance": 21.38,
+          "moving_time": 6,
+          "average_speed": 3.56,
+          "average_heartrate": 144.0,
+          "max_heartrate": 144.0,
+          "average_cadence": 69.0,
+          "average_watts": 205.8,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17087043607_dark.gif",
       "card_light": "/assets/activity-cards/17087043607_light.gif"
     },
@@ -461,6 +2775,23 @@
       "distance": 3382.3,
       "moving_time": 2513,
       "elevation": 93.6,
+      "avg_hr": 82.5,
+      "max_hr": 98.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3348.95,
+          "moving_time": 3499,
+          "average_speed": 0.96,
+          "average_heartrate": 82.5,
+          "max_heartrate": 98.0,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 93.6
+        }
+      ],
       "card_dark": "/assets/activity-cards/17075957876_dark.gif",
       "card_light": "/assets/activity-cards/17075957876_light.gif"
     },
@@ -472,6 +2803,34 @@
       "distance": 3052.4,
       "moving_time": 1002,
       "elevation": 10.0,
+      "avg_hr": 104.0,
+      "max_hr": 146.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 549,
+          "average_speed": 2.93,
+          "average_heartrate": 72.9,
+          "max_heartrate": 141.0,
+          "average_cadence": 77.9,
+          "average_watts": 231.7,
+          "total_elevation_gain": 7.7
+        },
+        {
+          "lap_index": 2,
+          "distance": 1443.03,
+          "moving_time": 468,
+          "average_speed": 3.08,
+          "average_heartrate": 141.7,
+          "max_heartrate": 146.0,
+          "average_cadence": 77.6,
+          "average_watts": 222.8,
+          "total_elevation_gain": 2.3
+        }
+      ],
       "card_dark": "/assets/activity-cards/17066241321_dark.gif",
       "card_light": "/assets/activity-cards/17066241321_light.gif"
     },
@@ -483,6 +2842,34 @@
       "distance": 5301.2,
       "moving_time": 3856,
       "elevation": 69.2,
+      "avg_hr": 103.5,
+      "max_hr": 125.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 4531.68,
+          "moving_time": 3510,
+          "average_speed": 1.29,
+          "average_heartrate": 103.6,
+          "max_heartrate": 122.0,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 60.8
+        },
+        {
+          "lap_index": 2,
+          "distance": 766.87,
+          "moving_time": 473,
+          "average_speed": 1.62,
+          "average_heartrate": 103.4,
+          "max_heartrate": 125.0,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 8.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/17064590144_dark.gif",
       "card_light": "/assets/activity-cards/17064590144_light.gif"
     },
@@ -494,6 +2881,89 @@
       "distance": 10968.6,
       "moving_time": 7698,
       "elevation": 141.2,
+      "avg_hr": 114.7,
+      "max_hr": 149.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 2159,
+          "average_speed": 0.75,
+          "average_heartrate": 102.6,
+          "max_heartrate": 114.0,
+          "average_cadence": 33.5,
+          "average_watts": null,
+          "total_elevation_gain": 20.6
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 1696,
+          "average_speed": 0.95,
+          "average_heartrate": 111.3,
+          "max_heartrate": 125.0,
+          "average_cadence": 32.5,
+          "average_watts": null,
+          "total_elevation_gain": 24.2
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 1408,
+          "average_speed": 1.14,
+          "average_heartrate": 111.2,
+          "max_heartrate": 132.0,
+          "average_cadence": 34.0,
+          "average_watts": null,
+          "total_elevation_gain": 7.3
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 1247,
+          "average_speed": 1.29,
+          "average_heartrate": 119.7,
+          "max_heartrate": 144.0,
+          "average_cadence": 44.5,
+          "average_watts": null,
+          "total_elevation_gain": 2.9
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 1436,
+          "average_speed": 1.12,
+          "average_heartrate": 116.3,
+          "max_heartrate": 133.0,
+          "average_cadence": 40.7,
+          "average_watts": null,
+          "total_elevation_gain": 6.5
+        },
+        {
+          "lap_index": 6,
+          "distance": 1609.34,
+          "moving_time": 1658,
+          "average_speed": 0.97,
+          "average_heartrate": 126.1,
+          "max_heartrate": 149.0,
+          "average_cadence": 44.9,
+          "average_watts": null,
+          "total_elevation_gain": 75.8
+        },
+        {
+          "lap_index": 7,
+          "distance": 1307.39,
+          "moving_time": 992,
+          "average_speed": 1.32,
+          "average_heartrate": 118.2,
+          "max_heartrate": 146.0,
+          "average_cadence": 32.9,
+          "average_watts": null,
+          "total_elevation_gain": 3.8
+        }
+      ],
       "card_dark": "/assets/activity-cards/17062704642_dark.gif",
       "card_light": "/assets/activity-cards/17062704642_light.gif"
     },
@@ -505,6 +2975,67 @@
       "distance": 8057.7,
       "moving_time": 3150,
       "elevation": 205.6,
+      "avg_hr": 141.4,
+      "max_hr": 169.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 631,
+          "average_speed": 2.55,
+          "average_heartrate": 109.0,
+          "max_heartrate": 139.0,
+          "average_cadence": 75.3,
+          "average_watts": 188.8,
+          "total_elevation_gain": 32.4
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 675,
+          "average_speed": 2.38,
+          "average_heartrate": 144.1,
+          "max_heartrate": 164.0,
+          "average_cadence": 76.3,
+          "average_watts": 221.0,
+          "total_elevation_gain": 64.9
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 687,
+          "average_speed": 2.34,
+          "average_heartrate": 155.0,
+          "max_heartrate": 169.0,
+          "average_cadence": 72.0,
+          "average_watts": 216.2,
+          "total_elevation_gain": 51.4
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 610,
+          "average_speed": 2.64,
+          "average_heartrate": 144.6,
+          "max_heartrate": 157.0,
+          "average_cadence": 76.0,
+          "average_watts": 193.5,
+          "total_elevation_gain": 15.7
+        },
+        {
+          "lap_index": 5,
+          "distance": 1609.34,
+          "moving_time": 603,
+          "average_speed": 2.67,
+          "average_heartrate": 154.2,
+          "max_heartrate": 165.0,
+          "average_cadence": 76.5,
+          "average_watts": 223.5,
+          "total_elevation_gain": 41.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17029287599_dark.gif",
       "card_light": "/assets/activity-cards/17029287599_light.gif"
     },
@@ -516,6 +3047,56 @@
       "distance": 5321.5,
       "moving_time": 4022,
       "elevation": 67.1,
+      "avg_hr": 92.3,
+      "max_hr": 123.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 1281,
+          "average_speed": 1.26,
+          "average_heartrate": 94.1,
+          "max_heartrate": 123.0,
+          "average_cadence": 47.0,
+          "average_watts": null,
+          "total_elevation_gain": 30.4
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 1261,
+          "average_speed": 1.28,
+          "average_heartrate": 95.0,
+          "max_heartrate": 118.0,
+          "average_cadence": 49.5,
+          "average_watts": null,
+          "total_elevation_gain": 22.7
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 1144,
+          "average_speed": 1.41,
+          "average_heartrate": 89.2,
+          "max_heartrate": 118.0,
+          "average_cadence": 54.3,
+          "average_watts": null,
+          "total_elevation_gain": 10.9
+        },
+        {
+          "lap_index": 4,
+          "distance": 493.43,
+          "moving_time": 366,
+          "average_speed": 1.35,
+          "average_heartrate": 86.5,
+          "max_heartrate": 102.0,
+          "average_cadence": 49.8,
+          "average_watts": null,
+          "total_elevation_gain": 3.1
+        }
+      ],
       "card_dark": "/assets/activity-cards/17028655346_dark.gif",
       "card_light": "/assets/activity-cards/17028655346_light.gif"
     },
@@ -527,6 +3108,23 @@
       "distance": 3091.9,
       "moving_time": 2427,
       "elevation": 103.0,
+      "avg_hr": 83.7,
+      "max_hr": 99.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3089.55,
+          "moving_time": 2658,
+          "average_speed": 1.16,
+          "average_heartrate": 83.7,
+          "max_heartrate": 99.0,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 103.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/17016960383_dark.gif",
       "card_light": "/assets/activity-cards/17016960383_light.gif"
     },
@@ -538,6 +3136,45 @@
       "distance": 3381.3,
       "moving_time": 1281,
       "elevation": 25.4,
+      "avg_hr": 119.3,
+      "max_hr": 135.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 698,
+          "average_speed": 2.31,
+          "average_heartrate": 113.5,
+          "max_heartrate": 135.0,
+          "average_cadence": 72.1,
+          "average_watts": 202.4,
+          "total_elevation_gain": 13.3
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 628,
+          "average_speed": 2.56,
+          "average_heartrate": 123.8,
+          "max_heartrate": 135.0,
+          "average_cadence": 73.8,
+          "average_watts": 198.4,
+          "total_elevation_gain": 11.7
+        },
+        {
+          "lap_index": 3,
+          "distance": 162.57,
+          "moving_time": 63,
+          "average_speed": 2.58,
+          "average_heartrate": 129.4,
+          "max_heartrate": 132.0,
+          "average_cadence": 73.0,
+          "average_watts": 213.6,
+          "total_elevation_gain": 0.4
+        }
+      ],
       "card_dark": "/assets/activity-cards/16993824135_dark.gif",
       "card_light": "/assets/activity-cards/16993824135_light.gif"
     },
@@ -549,6 +3186,67 @@
       "distance": 7173.8,
       "moving_time": 2626,
       "elevation": 164.7,
+      "avg_hr": 138.9,
+      "max_hr": 170.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 582,
+          "average_speed": 2.77,
+          "average_heartrate": 96.7,
+          "max_heartrate": 160.0,
+          "average_cadence": 77.8,
+          "average_watts": 260.1,
+          "total_elevation_gain": 63.1
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 649,
+          "average_speed": 2.48,
+          "average_heartrate": 163.8,
+          "max_heartrate": 170.0,
+          "average_cadence": 74.1,
+          "average_watts": 266.5,
+          "total_elevation_gain": 90.7
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 628,
+          "average_speed": 2.56,
+          "average_heartrate": 145.8,
+          "max_heartrate": 167.0,
+          "average_cadence": 73.5,
+          "average_watts": 193.0,
+          "total_elevation_gain": 10.7
+        },
+        {
+          "lap_index": 4,
+          "distance": 1609.34,
+          "moving_time": 557,
+          "average_speed": 2.89,
+          "average_heartrate": 144.0,
+          "max_heartrate": 152.0,
+          "average_cadence": 77.3,
+          "average_watts": 187.0,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 5,
+          "distance": 736.4,
+          "moving_time": 280,
+          "average_speed": 2.63,
+          "average_heartrate": 142.2,
+          "max_heartrate": 147.0,
+          "average_cadence": 76.7,
+          "average_watts": 180.6,
+          "total_elevation_gain": 0.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/16974646469_dark.gif",
       "card_light": "/assets/activity-cards/16974646469_light.gif"
     },
@@ -560,6 +3258,56 @@
       "distance": 5817.3,
       "moving_time": 1145,
       "elevation": 44.1,
+      "avg_hr": 98.2,
+      "max_hr": 142.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 241,
+          "average_speed": 6.68,
+          "average_heartrate": 16.2,
+          "max_heartrate": 108.0,
+          "average_cadence": null,
+          "average_watts": 36.8,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 217,
+          "average_speed": 7.42,
+          "average_heartrate": 112.6,
+          "max_heartrate": 142.0,
+          "average_cadence": null,
+          "average_watts": 91.1,
+          "total_elevation_gain": 4.3
+        },
+        {
+          "lap_index": 3,
+          "distance": 1609.34,
+          "moving_time": 302,
+          "average_speed": 5.33,
+          "average_heartrate": 122.8,
+          "max_heartrate": 138.0,
+          "average_cadence": null,
+          "average_watts": 97.0,
+          "total_elevation_gain": 16.4
+        },
+        {
+          "lap_index": 4,
+          "distance": 1009.39,
+          "moving_time": 470,
+          "average_speed": 2.15,
+          "average_heartrate": 122.7,
+          "max_heartrate": 141.0,
+          "average_cadence": null,
+          "average_watts": 77.2,
+          "total_elevation_gain": 23.3
+        }
+      ],
       "card_dark": "/assets/activity-cards/16952714612_dark.gif",
       "card_light": "/assets/activity-cards/16952714612_light.gif"
     },
@@ -571,6 +3319,45 @@
       "distance": 4284.9,
       "moving_time": 1676,
       "elevation": 39.4,
+      "avg_hr": 125.4,
+      "max_hr": 142.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 1609.34,
+          "moving_time": 616,
+          "average_speed": 2.61,
+          "average_heartrate": 119.2,
+          "max_heartrate": 127.0,
+          "average_cadence": 74.1,
+          "average_watts": 180.6,
+          "total_elevation_gain": 0.0
+        },
+        {
+          "lap_index": 2,
+          "distance": 1609.34,
+          "moving_time": 659,
+          "average_speed": 2.44,
+          "average_heartrate": 126.5,
+          "max_heartrate": 137.0,
+          "average_cadence": 74.9,
+          "average_watts": 199.0,
+          "total_elevation_gain": 22.3
+        },
+        {
+          "lap_index": 3,
+          "distance": 1066.19,
+          "moving_time": 431,
+          "average_speed": 2.47,
+          "average_heartrate": 132.2,
+          "max_heartrate": 142.0,
+          "average_cadence": 75.7,
+          "average_watts": 207.8,
+          "total_elevation_gain": 17.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/16941384821_dark.gif",
       "card_light": "/assets/activity-cards/16941384821_light.gif"
     },
@@ -582,6 +3369,23 @@
       "distance": 3528.6,
       "moving_time": 2355,
       "elevation": 87.0,
+      "avg_hr": 85.7,
+      "max_hr": 106.0,
+      "altitude": null,
+      "hr_stream": null,
+      "laps": [
+        {
+          "lap_index": 1,
+          "distance": 3519.58,
+          "moving_time": 2910,
+          "average_speed": 1.21,
+          "average_heartrate": 85.7,
+          "max_heartrate": 106.0,
+          "average_cadence": null,
+          "average_watts": null,
+          "total_elevation_gain": 87.0
+        }
+      ],
       "card_dark": "/assets/activity-cards/16959230074_dark.gif",
       "card_light": "/assets/activity-cards/16959230074_light.gif"
     }

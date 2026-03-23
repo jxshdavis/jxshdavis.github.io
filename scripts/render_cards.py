@@ -139,6 +139,7 @@ def write_metadata(cache):
             'avg_hr':     a.get('average_heartrate'),
             'max_hr':     a.get('max_heartrate'),
             'altitude':   _downsample(a.get('altitude'), 200),
+            'hr_stream':  _downsample(a.get('heartrate'), 200),
             'laps':       a.get('laps'),
             'card_dark':  card_url(a['id'], 'dark'),
             'card_light': card_url(a['id'], 'light'),
