@@ -32,6 +32,9 @@ main:
   - title: "Tutoring"
     url: /tutoring/
 
+  - title: "Training"
+    url: /training/
+
 sidebar-almanac:
   - title: "Statistical Machine Learning Concepts"
     # url: /machine-learning-glossary/concepts/
