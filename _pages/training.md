@@ -17,7 +17,7 @@ redirect_from:
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 16px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--t-border);
     padding-bottom: 8px;
   }
 
@@ -26,7 +26,7 @@ redirect_from:
     font-size: 1.2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #888;
+    color: var(--t-muted);
     margin: 0;
     border: none;
     padding: 0;
@@ -34,7 +34,7 @@ redirect_from:
 
   .train-updated {
     font-size: 0.78rem;
-    color: #bbb;
+    color: var(--t-muted-4);
   }
 
   /* ── YTD stat cards ──────────────────────────────────── */
@@ -46,7 +46,7 @@ redirect_from:
 
   .stat-card {
     flex: 1 1 120px;
-    background: #f4f6f9;
+    background: var(--t-card-bg);
     border-radius: 10px;
     padding: 18px 20px;
     text-align: center;
@@ -55,7 +55,7 @@ redirect_from:
   .stat-val {
     font-size: 1.75rem;
     font-weight: 700;
-    color: #003d7a;
+    color: var(--t-accent);
     line-height: 1.1;
   }
 
@@ -63,7 +63,7 @@ redirect_from:
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    color: #999;
+    color: var(--t-muted-2);
     margin-top: 5px;
   }
 
@@ -87,7 +87,7 @@ redirect_from:
     line-height: 12px;
     width: 16px;
     font-size: 9px;
-    color: #aaa;
+    color: var(--t-muted-3);
     text-align: right;
   }
 
@@ -108,7 +108,7 @@ redirect_from:
     display: block;
     width: 12px;
     font-size: 10px;
-    color: #999;
+    color: var(--t-muted-2);
     white-space: nowrap;
     overflow: visible;
   }
@@ -128,11 +128,17 @@ redirect_from:
     width: 12px;
     height: 12px;
     border-radius: 2px;
-    background: #ebedf0;
+    background: var(--hm-0);
     cursor: default;
     flex-shrink: 0;
     transition: opacity 0.1s;
   }
+
+  .hm-lvl-0 { background: var(--hm-0); }
+  .hm-lvl-1 { background: var(--hm-1); }
+  .hm-lvl-2 { background: var(--hm-2); }
+  .hm-lvl-3 { background: var(--hm-3); }
+  .hm-lvl-4 { background: var(--hm-4); }
 
   .hm-empty {
     background: transparent !important;
@@ -148,7 +154,7 @@ redirect_from:
   }
 
   .hm-selected {
-    outline: 2px solid #003d7a;
+    outline: 2px solid var(--t-accent);
     outline-offset: 1px;
   }
 
@@ -158,7 +164,7 @@ redirect_from:
     align-items: center;
     gap: 5px;
     font-size: 10px;
-    color: #aaa;
+    color: var(--t-muted-3);
     margin-top: 10px;
     justify-content: flex-end;
   }
@@ -172,7 +178,7 @@ redirect_from:
 
   /* ── Detail panel ────────────────────────────────────── */
   #detail-panel {
-    background: #f9fafb;
+    background: var(--t-panel-bg);
     border-radius: 12px;
     padding: 22px 26px;
     margin-top: 24px;
@@ -181,13 +187,13 @@ redirect_from:
   #detail-date {
     font-size: 1rem;
     font-weight: 600;
-    color: #222;
+    color: var(--t-text);
     margin: 0 0 18px 0;
   }
 
   .detail-card {
-    background: #fff;
-    border: 1px solid #e8ecf0;
+    background: var(--t-detail-bg);
+    border: 1px solid var(--t-border-2);
     border-radius: 10px;
     padding: 16px 20px;
     margin-bottom: 12px;
@@ -208,14 +214,14 @@ redirect_from:
 
   .detail-card-name {
     font-weight: 600;
-    color: #222;
+    color: var(--t-text);
     font-size: 0.97rem;
   }
 
   .detail-card-type {
     font-size: 0.75rem;
-    background: #e8f0f9;
-    color: #003d7a;
+    background: var(--t-accent-bg);
+    color: var(--t-accent);
     padding: 2px 10px;
     border-radius: 20px;
     font-weight: 500;
@@ -230,7 +236,7 @@ redirect_from:
   .dstat-val {
     font-size: 1.05rem;
     font-weight: 600;
-    color: #003d7a;
+    color: var(--t-accent);
     line-height: 1.2;
   }
 
@@ -238,18 +244,440 @@ redirect_from:
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #999;
+    color: var(--t-muted-2);
     margin-top: 3px;
   }
 
-  /* ── Error state ─────────────────────────────────────── */
+  /* ── Period toggle ──────────────────────────────────── */
+  .period-toggle {
+    display: flex;
+    gap: 3px;
+    background: var(--t-toggle-bg);
+    border-radius: 8px;
+    padding: 3px;
+  }
+
+  .period-btn {
+    background: none;
+    border: none;
+    padding: 5px 11px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    color: var(--t-muted);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    font-family: inherit;
+  }
+
+  .period-btn:hover:not(.period-btn--active) {
+    background: var(--t-accent-hover);
+    color: var(--t-accent);
+  }
+
+  .period-btn--active {
+    background: var(--t-accent);
+    color: #fff;
+  }
+
+  .train-last-updated {
+    font-size: 0.75rem;
+    color: var(--t-muted-5);
+    margin-top: 12px;
+    text-align: right;
+  }
+
+  /* ── Activity type filter ────────────────────────────── */
+  .activity-filter {
+    position: relative;
+  }
+
+  .activity-filter-btn {
+    background: var(--t-toggle-bg);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    color: var(--t-text-3);
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: background 0.15s;
+  }
+
+  .activity-filter-btn:hover {
+    background: var(--t-toggle-hover);
+  }
+
+  .activity-filter-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    background: var(--t-detail-bg);
+    border: 1px solid var(--t-border-2);
+    border-radius: 10px;
+    padding: 6px 0;
+    min-width: 170px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    z-index: 100;
+  }
+
+  .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+
+  .filter-option:hover {
+    background: var(--t-card-bg);
+  }
+
+  .filter-option label {
+    cursor: pointer;
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--t-text-2);
+  }
+
+  .filter-option input[type="checkbox"] {
+    accent-color: var(--t-accent);
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  .filter-divider {
+    border: none;
+    border-top: 1px solid var(--t-border);
+    margin: 5px 0;
+  }
+
+  /* ── Error state ──────────────────────────────────────── */
   #dashboard-error {
-    background: #fdf3f3;
-    border: 1px solid #f5c6c6;
+    background: var(--t-error-bg);
+    border: 1px solid var(--t-error-bdr);
     border-radius: 8px;
     padding: 16px 20px;
     color: #a33;
     font-size: 0.9rem;
+  }
+
+  /* ── Activity feed filter pills ──────────────────────── */
+  #feed-filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .feed-filter-btn {
+    background: var(--t-toggle-bg);
+    border: none;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    color: var(--t-text-3);
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .feed-filter-btn:hover:not(.active) {
+    background: var(--t-toggle-hover);
+  }
+
+  .feed-filter-btn.active {
+    background: var(--t-accent);
+    color: #fff;
+  }
+
+  /* ── Activity feed card grid ─────────────────────────── */
+  #feed-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  @media (max-width: 900px) {
+    #feed-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 540px) {
+    #feed-grid { grid-template-columns: 1fr; }
+  }
+
+  .feed-card {
+    background: var(--feed-card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+
+  .feed-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(74, 158, 232, 0.18);
+  }
+
+  .feed-card img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1;
+  }
+
+  .feed-card-body {
+    padding: 12px 14px 14px;
+  }
+
+  .feed-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .feed-card-type {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--feed-card-type);
+  }
+
+  .feed-card-date {
+    font-size: 0.7rem;
+    color: var(--feed-card-date);
+  }
+
+  .feed-card-name {
+    color: var(--feed-card-name);
+    font-weight: 600;
+    font-size: 0.88rem;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .feed-card-stats {
+    display: flex;
+    gap: 18px;
+  }
+
+  .feed-stat-val {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--feed-stat-val);
+    line-height: 1.2;
+  }
+
+  .feed-stat-lbl {
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--feed-stat-lbl);
+    margin-top: 2px;
+  }
+
+  /* ── Feed states ─────────────────────────────────────── */
+  #feed-loading {
+    color: var(--t-muted-3);
+    font-size: 0.9rem;
+    padding: 16px 0;
+  }
+
+  #feed-error {
+    background: var(--t-error-bg);
+    border: 1px solid var(--t-error-bdr);
+    border-radius: 8px;
+    padding: 16px 20px;
+    color: #a33;
+    font-size: 0.9rem;
+  }
+
+  #feed-empty {
+    color: var(--t-muted-3);
+    font-size: 0.9rem;
+    padding: 16px 0;
+  }
+
+  /* ── Activity detail modal ────────────────────────────── */
+  #activity-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #activity-modal[hidden] { display: none; }
+
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+  }
+
+  .modal-panel {
+    position: relative;
+    background: var(--t-detail-bg);
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    max-width: 580px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    z-index: 1;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: var(--t-toggle-bg);
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--t-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+    line-height: 1;
+  }
+
+  .modal-close:hover { background: var(--t-toggle-hover); }
+
+  .modal-gif-wrap {
+    margin-bottom: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .modal-gif-wrap img {
+    width: 100%;
+    display: block;
+  }
+
+  .modal-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--t-text);
+    margin-bottom: 6px;
+    padding-right: 36px;
+  }
+
+  .modal-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .modal-type-badge {
+    font-size: 0.72rem;
+    background: var(--t-accent-bg);
+    color: var(--t-accent);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  .modal-date {
+    font-size: 0.8rem;
+    color: var(--t-muted);
+  }
+
+  .modal-stats {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    background: var(--t-card-bg);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+  }
+
+  .modal-stat {
+    text-align: center;
+    flex: 1 1 70px;
+  }
+
+  .modal-stat-val {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--t-accent);
+    line-height: 1.2;
+  }
+
+  .modal-stat-lbl {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--t-muted-2);
+    margin-top: 3px;
+  }
+
+  .modal-section-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--t-muted-2);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .modal-elev-wrap {
+    margin-bottom: 18px;
+  }
+
+  #modal-elev-canvas {
+    width: 100%;
+    height: 80px;
+    display: block;
+    border-radius: 6px;
+  }
+
+  .modal-laps-wrap {
+    overflow-x: auto;
+  }
+
+  .modal-laps-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+
+  .modal-laps-table th {
+    text-align: left;
+    padding: 6px 10px;
+    font-size: 0.67rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--t-muted-2);
+    border-bottom: 1px solid var(--t-border);
+    font-weight: 600;
+  }
+
+  .modal-laps-table td {
+    padding: 7px 10px;
+    color: var(--t-text-2);
+    border-bottom: 1px solid var(--t-border);
+    font-size: 0.82rem;
+  }
+
+  .modal-laps-table tr:last-child td {
+    border-bottom: none;
   }
 </style>
 
@@ -259,8 +687,19 @@ redirect_from:
 
 <div class="train-section">
   <div class="train-section-header">
-    <h2>This Year</h2>
-    <span id="last-updated" class="train-updated"></span>
+    <h2 id="stats-period-label">2026</h2>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <div class="activity-filter" id="activity-filter">
+        <button class="activity-filter-btn" id="activity-filter-btn">All Activities &#9662;</button>
+        <div class="activity-filter-dropdown" id="activity-filter-dropdown" hidden></div>
+      </div>
+      <div class="period-toggle">
+        <button class="period-btn" data-period="week">Week</button>
+        <button class="period-btn" data-period="month">Month</button>
+        <button class="period-btn period-btn--active" data-period="year">Year</button>
+        <button class="period-btn" data-period="all">All Time</button>
+      </div>
+    </div>
   </div>
   <div class="stat-cards">
     <div class="stat-card">
@@ -280,10 +719,14 @@ redirect_from:
       <div class="stat-lbl">Frequency</div>
     </div>
   </div>
+  <div class="train-last-updated" id="last-updated"></div>
 </div>
 
+
 <div class="train-section">
-  <h2 style="font-size:1.2rem;letter-spacing:1px;text-transform:uppercase;color:#888;margin-bottom:16px;border-bottom:1px solid #eee;padding-bottom:8px;">Activity</h2>
+  <div class="train-section-header">
+    <h2>Activity</h2>
+  </div>
 
   <div class="heatmap-outer">
     <div class="hm-day-labels">
@@ -303,11 +746,11 @@ redirect_from:
 
   <div class="hm-legend">
     <span>Less</span>
-    <div class="hm-legend-cell" style="background:#ebedf0;"></div>
-    <div class="hm-legend-cell" style="background:#c0d4e8;"></div>
-    <div class="hm-legend-cell" style="background:#80aac8;"></div>
-    <div class="hm-legend-cell" style="background:#3373a6;"></div>
-    <div class="hm-legend-cell" style="background:#003d7a;"></div>
+    <div class="hm-legend-cell hm-lvl-0"></div>
+    <div class="hm-legend-cell hm-lvl-1"></div>
+    <div class="hm-legend-cell hm-lvl-2"></div>
+    <div class="hm-legend-cell hm-lvl-3"></div>
+    <div class="hm-legend-cell hm-lvl-4"></div>
     <span>More</span>
   </div>
 
@@ -318,3 +761,61 @@ redirect_from:
 </div>
 
 <script src="/assets/js/training-dashboard.js"></script>
+
+<div class="train-section">
+  <div class="train-section-header">
+    <h2 id="feed-year-label">Activities</h2>
+    <span class="train-updated" id="feed-count"></span>
+  </div>
+
+  <div id="feed-loading">Loading activities…</div>
+
+  <div id="feed-error" hidden>
+    Could not load activity data. The feed will appear once the GitHub Actions workflow has run.
+  </div>
+
+  <div id="feed-empty" hidden>
+    No activities with GPS data found for this year yet.
+  </div>
+
+  <div id="feed-content" hidden>
+    <div id="feed-filters"></div>
+    <div id="feed-grid"></div>
+  </div>
+</div>
+
+<div id="activity-modal" hidden>
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-panel">
+    <button class="modal-close" id="modal-close">&#10005;</button>
+    <div class="modal-gif-wrap">
+      <img id="modal-gif" src="" alt="">
+    </div>
+    <div class="modal-title" id="modal-title"></div>
+    <div class="modal-meta">
+      <span class="modal-type-badge" id="modal-type"></span>
+      <span class="modal-date" id="modal-date"></span>
+    </div>
+    <div class="modal-stats" id="modal-stats"></div>
+    <div class="modal-elev-wrap" id="modal-elev-wrap">
+      <div class="modal-section-title">Elevation Profile</div>
+      <canvas id="modal-elev-canvas"></canvas>
+    </div>
+    <div class="modal-laps-wrap" id="modal-laps-wrap">
+      <div class="modal-section-title">Laps</div>
+      <table class="modal-laps-table">
+        <thead>
+          <tr>
+            <th>Lap</th>
+            <th>Distance</th>
+            <th>Pace / Speed</th>
+            <th>Avg HR</th>
+          </tr>
+        </thead>
+        <tbody id="modal-laps-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/activity-feed.js"></script>

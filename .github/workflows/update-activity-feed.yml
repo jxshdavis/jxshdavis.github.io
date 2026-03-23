@@ -1,0 +1,69 @@
+name: Update Activity Feed
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 7 AM UTC daily (offset from fetch-strava.yml to avoid overlap)
+  workflow_dispatch:       # manual trigger from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # needed to commit GIFs and JSON back to the repo
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install \
+            requests \
+            gpxpy \
+            matplotlib \
+            Pillow \
+            numpy \
+            pyproj
+
+      - name: Detect and handle year rollover
+        run: |
+          CURRENT_YEAR=$(date -u +%Y)
+
+          if [ -f activities_cache.json ]; then
+            CACHED_YEAR=$(python -c "
+          import json
+          with open('activities_cache.json') as f:
+              print(json.load(f).get('year', ''))
+          ")
+            if [ -n "$CACHED_YEAR" ] && [ "$CACHED_YEAR" != "$CURRENT_YEAR" ]; then
+              echo "Year rollover: $CACHED_YEAR → $CURRENT_YEAR. Clearing cache and GIFs."
+              rm -f activities_cache.json
+              rm -f assets/activity-cards/*.gif
+            fi
+          fi
+
+      - name: Fetch activities from Strava
+        env:
+          STRAVA_CLIENT_ID:     ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+        run: python scripts/fetch_activities.py
+
+      - name: Render new activity cards
+        run: python scripts/render_cards.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # -A handles new GIFs, updated GIFs, and deleted GIFs (year rollover) alike
+          git add -A assets/activity-cards/
+          git add assets/data/activity-cards.json activities_cache.json
+
+          git diff --cached --quiet \
+            && echo "No changes to commit." \
+            || (git commit -m "Update activity feed [skip ci]" && git push)

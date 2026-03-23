@@ -1,5 +1,184 @@
 // UC Berkeley Blue overrides
 
+// ── CSS custom properties ──────────────────────────────────
+
+:root {
+  // Training dashboard
+  --t-accent:       #003d7a;
+  --t-accent-bg:    #e8f0f9;
+  --t-accent-hover: rgba(0, 61, 122, 0.08);
+  --t-card-bg:      #f4f6f9;
+  --t-panel-bg:     #f9fafb;
+  --t-detail-bg:    #fff;
+  --t-border:       #eee;
+  --t-border-2:     #e8ecf0;
+  --t-toggle-bg:    #f0f2f5;
+  --t-toggle-hover: #e4e8ed;
+  --t-text:         #222;
+  --t-text-2:       #444;
+  --t-text-3:       #555;
+  --t-muted:        #888;
+  --t-muted-2:      #999;
+  --t-muted-3:      #aaa;
+  --t-muted-4:      #bbb;
+  --t-muted-5:      #ccc;
+  --t-error-bg:     #fdf3f3;
+  --t-error-bdr:    #f5c6c6;
+  // Activity feed cards (light = light card with light GIF)
+  --feed-card-bg:   #f8f9fa;
+  --feed-card-type: #003d7a;
+  --feed-card-date: #888;
+  --feed-card-name: #222;
+  --feed-stat-val:  #003d7a;
+  --feed-stat-lbl:  #888;
+  // Heatmap
+  --hm-0: #ebedf0;
+  --hm-1: #c0d4e8;
+  --hm-2: #80aac8;
+  --hm-3: #3373a6;
+  --hm-4: #003d7a;
+}
+
+[data-theme="dark"] {
+  --t-accent:       #4A9EE8;
+  --t-accent-bg:    #1a2d46;
+  --t-accent-hover: rgba(74, 158, 232, 0.1);
+  --t-card-bg:      #161b22;
+  --t-panel-bg:     #161b22;
+  --t-detail-bg:    #21262d;
+  --t-border:       #30363d;
+  --t-border-2:     #30363d;
+  --t-toggle-bg:    #21262d;
+  --t-toggle-hover: #2d333b;
+  --t-text:         #e6edf3;
+  --t-text-2:       #c9d1d9;
+  --t-text-3:       #8b949e;
+  --t-muted:        #8b949e;
+  --t-muted-2:      #6e7681;
+  --t-muted-3:      #6e7681;
+  --t-muted-4:      #6e7681;
+  --t-muted-5:      #6e7681;
+  --t-error-bg:     #2d1b1b;
+  --t-error-bdr:    #5a2a2a;
+  // Activity feed cards (dark = dark card with dark GIF)
+  --feed-card-bg:   #0d0d0d;
+  --feed-card-type: #4A9EE8;
+  --feed-card-date: #666;
+  --feed-card-name: #fff;
+  --feed-stat-val:  #ccc;
+  --feed-stat-lbl:  #555;
+  // Heatmap
+  --hm-0: #21262d;
+  --hm-1: #1a3a5c;
+  --hm-2: #1d5fa8;
+  --hm-3: #2d8cdd;
+  --hm-4: #4A9EE8;
+}
+
+// Heatmap heat level classes (used by both grid cells and legend cells)
+.hm-lvl-0 { background: var(--hm-0); }
+.hm-lvl-1 { background: var(--hm-1); }
+.hm-lvl-2 { background: var(--hm-2); }
+.hm-lvl-3 { background: var(--hm-3); }
+.hm-lvl-4 { background: var(--hm-4); }
+
+// ── Theme toggle button ────────────────────────────────────
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.05rem;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: inherit;
+  transition: background 0.15s;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+.theme-toggle:hover { background: rgba(0, 0, 0, 0.06); }
+[data-theme="dark"] .theme-toggle:hover { background: rgba(255, 255, 255, 0.1); }
+
+// ── Dark mode — site-wide overrides ───────────────────────
+
+[data-theme="dark"] {
+  body {
+    background-color: #0d1117;
+    color: #e6edf3;
+  }
+
+  a { color: #4A9EE8; }
+  a:visited { color: #8ab4d8; }
+
+  .masthead {
+    background: #161b22 !important;
+    border-bottom: 1px solid #30363d;
+    box-shadow: none;
+  }
+
+  .greedy-nav { background: #161b22; }
+  .greedy-nav a { color: #e6edf3; }
+  .greedy-nav a:hover { color: #4A9EE8; }
+  .masthead__menu-item a { color: #e6edf3 !important; }
+  .masthead__menu-item--lg a { color: #e6edf3 !important; }
+
+  .greedy-nav button { background: #161b22; }
+  .navicon,
+  .navicon::before,
+  .navicon::after { background: #e6edf3; }
+
+  .hidden-links {
+    background: #161b22;
+    border-color: #30363d;
+  }
+  .hidden-links a { color: #e6edf3; }
+  .hidden-links a:hover { color: #4A9EE8; }
+
+  .sidebar {
+    background: #0d1117;
+  }
+  .sidebar .author__name { color: #e6edf3; }
+  .sidebar .author__bio { color: #8b949e; }
+  .sidebar .author__urls-wrapper { background: #0d1117; }
+  .sidebar .author__urls a { color: #8b949e; }
+  .sidebar .author__urls a:hover { color: #4A9EE8; }
+
+  .page__content {
+    color: #c9d1d9;
+  }
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .page__content h4,
+  .page__content h5,
+  .page__content h6 {
+    color: #e6edf3;
+    border-bottom-color: #30363d;
+  }
+  .page__content blockquote {
+    border-left-color: #30363d;
+    color: #8b949e;
+  }
+  .page__content code {
+    background: #161b22;
+    color: #e6edf3;
+  }
+  .page__content pre {
+    background: #161b22;
+  }
+}
+
 // Masthead bottom border
 // Nav link hover underline bar (the ::before pseudo-element that slides in)
 .greedy-nav .visible-links a::before {

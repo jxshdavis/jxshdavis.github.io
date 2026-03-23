@@ -11,3 +11,7 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Strava pipeline — secrets and local-only files
+.env
+.strava_token.json
