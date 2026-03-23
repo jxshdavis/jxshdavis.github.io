@@ -113,6 +113,10 @@
 // ── Dark mode — site-wide overrides ───────────────────────
 
 [data-theme="dark"] {
+  html {
+    background-color: #0d1117;
+  }
+
   body {
     background-color: #0d1117;
     color: #e6edf3;
@@ -176,6 +180,23 @@
   }
   .page__content pre {
     background: #161b22;
+  }
+
+  .page__footer {
+    background: #161b22;
+    border-top: 1px solid #30363d;
+    color: #8b949e;
+  }
+  .page__footer a { color: #8b949e; }
+  .page__footer a:hover { color: #4A9EE8; }
+  .page__footer-copyright { color: #6e7681; }
+
+  // Ensure the main layout wrapper has no white background
+  .initial-content,
+  #main,
+  .page,
+  .page__inner-wrap {
+    background: #0d1117;
   }
 }
 
