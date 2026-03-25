@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-03-24T07:04:20Z",
+  "last_updated": "2026-03-25T07:02:32Z",
   "activities": [
+    {
+      "id": 17846112729,
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-03-24T16:16:03Z",
+      "distance": 12780.4,
+      "moving_time": 4230,
+      "elapsed_time": 4339
+    },
     {
       "id": 17835448942,
       "name": "Climb at Vital LES",
