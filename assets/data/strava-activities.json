@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-03-26T07:08:59Z",
+  "last_updated": "2026-03-27T07:07:49Z",
   "activities": [
+    {
+      "id": 17866703271,
+      "name": "Climb at vital bk",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-03-26T13:30:56Z",
+      "distance": 0.0,
+      "moving_time": 660,
+      "elapsed_time": 660
+    },
+    {
+      "id": 17865300572,
+      "name": "Climb at Vital Harlem",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-03-26T01:56:00Z",
+      "distance": 0.0,
+      "moving_time": 2700,
+      "elapsed_time": 2700
+    },
     {
       "id": 17846112729,
       "name": "Afternoon Run",
