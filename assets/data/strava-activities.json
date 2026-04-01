@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-03-31T07:14:16Z",
+  "last_updated": "2026-04-01T07:20:51Z",
   "activities": [
+    {
+      "id": 17933114961,
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-03-31T18:53:59Z",
+      "distance": 6674.7,
+      "moving_time": 3494,
+      "elapsed_time": 3580,
+      "average_heartrate": 105.4,
+      "max_heartrate": 129.0
+    },
     {
       "id": 17920106410,
       "name": "Evening Rock Climb",
