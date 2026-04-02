@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-04-01T07:20:51Z",
+  "last_updated": "2026-04-02T07:12:57Z",
   "activities": [
+    {
+      "id": 17945239412,
+      "name": "Post rain ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-04-01T18:30:04Z",
+      "distance": 17207.4,
+      "moving_time": 2857,
+      "elapsed_time": 2890,
+      "average_heartrate": 130.5,
+      "max_heartrate": 155.0
+    },
+    {
+      "id": 17944739991,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-04-01T17:19:51Z",
+      "distance": 1600.2,
+      "moving_time": 2059,
+      "elapsed_time": 2852,
+      "average_heartrate": 122.0,
+      "max_heartrate": 153.0
+    },
+    {
+      "id": 17940455702,
+      "name": "Morning Weight Training",
+      "sport_type": "WeightTraining",
+      "start_date_local": "2026-04-01T09:40:25Z",
+      "distance": 0.0,
+      "moving_time": 2054,
+      "elapsed_time": 2054,
+      "average_heartrate": 85.7,
+      "max_heartrate": 117.0
+    },
     {
       "id": 17933114961,
       "name": "Evening Run",
