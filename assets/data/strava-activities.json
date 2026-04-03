@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-02T07:12:57Z",
+  "last_updated": "2026-04-03T07:08:45Z",
   "activities": [
+    {
+      "id": 17956837188,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-04-02T17:33:17Z",
+      "distance": 24019.2,
+      "moving_time": 3607,
+      "elapsed_time": 3877,
+      "average_heartrate": 115.0,
+      "max_heartrate": 133.0
+    },
     {
       "id": 17945239412,
       "name": "Post rain ride",
