@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-04T07:01:06Z",
+  "last_updated": "2026-04-05T07:06:30Z",
   "activities": [
+    {
+      "id": 17981799982,
+      "name": "Bike to SF",
+      "sport_type": "Ride",
+      "start_date_local": "2026-04-04T14:45:30Z",
+      "distance": 67218.7,
+      "moving_time": 10161,
+      "elapsed_time": 13225,
+      "average_heartrate": 134.3,
+      "max_heartrate": 165.0
+    },
     {
       "id": 17968947554,
       "name": "Afternoon Swim",
