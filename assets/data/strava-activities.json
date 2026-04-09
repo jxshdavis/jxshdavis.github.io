@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-08T07:19:25Z",
+  "last_updated": "2026-04-09T07:22:35Z",
   "activities": [
+    {
+      "id": 18035745651,
+      "name": "Evening Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-04-08T18:16:12Z",
+      "distance": 31526.1,
+      "moving_time": 4638,
+      "elapsed_time": 4749,
+      "average_heartrate": 119.9,
+      "max_heartrate": 145.0
+    },
     {
       "id": 18021687475,
       "name": "Evening Run",
