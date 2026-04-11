@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-10T07:27:47Z",
+  "last_updated": "2026-04-11T07:01:22Z",
   "activities": [
+    {
+      "id": 18057661792,
+      "name": "Should be 2K swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-04-10T12:02:57Z",
+      "distance": 1966.0,
+      "moving_time": 2501,
+      "elapsed_time": 3377,
+      "average_heartrate": 125.7,
+      "max_heartrate": 146.0
+    },
     {
       "id": 18049251966,
       "name": "Evening Zoomba",
