@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-04-11T07:01:22Z",
+  "last_updated": "2026-04-12T07:13:47Z",
   "activities": [
+    {
+      "id": 18072794243,
+      "name": "Afternoon Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-04-11T15:55:15Z",
+      "distance": 0.0,
+      "moving_time": 4259,
+      "elapsed_time": 4259,
+      "average_heartrate": 92.4,
+      "max_heartrate": 140.0
+    },
+    {
+      "id": 18070043834,
+      "name": "A little rain never hurt anyone Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-04-11T07:56:56Z",
+      "distance": 72521.8,
+      "moving_time": 10273,
+      "elapsed_time": 10568,
+      "average_heartrate": 135.7,
+      "max_heartrate": 161.0
+    },
     {
       "id": 18057661792,
       "name": "Should be 2K swim",
