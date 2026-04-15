@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-04-14T07:46:02Z",
+  "last_updated": "2026-04-15T07:45:35Z",
   "activities": [
+    {
+      "id": 18113678354,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-04-14T20:06:33Z",
+      "distance": 0.0,
+      "moving_time": 4094,
+      "elapsed_time": 4094,
+      "average_heartrate": 96.9,
+      "max_heartrate": 153.0
+    },
+    {
+      "id": 18113052632,
+      "name": "Beautiful out run",
+      "sport_type": "Run",
+      "start_date_local": "2026-04-14T17:44:42Z",
+      "distance": 9670.1,
+      "moving_time": 3879,
+      "elapsed_time": 3988,
+      "average_heartrate": 125.4,
+      "max_heartrate": 140.0
+    },
     {
       "id": 18086649782,
       "name": "Evening Run",
