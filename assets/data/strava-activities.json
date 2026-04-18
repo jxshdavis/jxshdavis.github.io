@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-17T07:46:39Z",
+  "last_updated": "2026-04-18T07:07:27Z",
   "activities": [
+    {
+      "id": 18151774880,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-04-17T17:27:39Z",
+      "distance": 1303.0,
+      "moving_time": 1775,
+      "elapsed_time": 2210,
+      "average_heartrate": 164.5,
+      "max_heartrate": 196.0
+    },
     {
       "id": 18140501002,
       "name": "Evening Rock Climb",
