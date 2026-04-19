@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-04-18T07:07:27Z",
+  "last_updated": "2026-04-19T07:19:30Z",
   "activities": [
+    {
+      "id": 18162324079,
+      "name": "Morning Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-04-18T10:42:11Z",
+      "distance": 4849.1,
+      "moving_time": 1773,
+      "elapsed_time": 1777,
+      "average_heartrate": 136.0,
+      "max_heartrate": 152.0
+    },
+    {
+      "id": 18162364939,
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-04-18T08:09:38Z",
+      "distance": 64415.4,
+      "moving_time": 8658,
+      "elapsed_time": 8948,
+      "average_heartrate": 132.8,
+      "max_heartrate": 158.0
+    },
     {
       "id": 18151774880,
       "name": "Afternoon Swim",
