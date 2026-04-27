@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-26T07:28:36Z",
+  "last_updated": "2026-04-27T08:24:43Z",
   "activities": [
+    {
+      "id": 18273786236,
+      "name": "Frisbee",
+      "sport_type": "Workout",
+      "start_date_local": "2026-04-26T18:13:58Z",
+      "distance": 5544.0,
+      "moving_time": 5733,
+      "elapsed_time": 7133,
+      "average_heartrate": 111.7,
+      "max_heartrate": 151.0
+    },
     {
       "id": 18259433434,
       "name": "Afternoon Rock Climb",
