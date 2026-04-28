@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-27T08:24:43Z",
+  "last_updated": "2026-04-28T08:24:55Z",
   "activities": [
+    {
+      "id": 18286923477,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-04-27T19:08:38Z",
+      "distance": 0.0,
+      "moving_time": 4716,
+      "elapsed_time": 4716,
+      "average_heartrate": 89.8,
+      "max_heartrate": 143.0
+    },
     {
       "id": 18273786236,
       "name": "Frisbee",
