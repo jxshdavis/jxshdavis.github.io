@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-05-02T07:43:37Z",
+  "last_updated": "2026-05-03T08:01:11Z",
   "activities": [
+    {
+      "id": 18353187234,
+      "name": "Afternoon Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-05-02T16:46:01Z",
+      "distance": 0.0,
+      "moving_time": 4887,
+      "elapsed_time": 4887,
+      "average_heartrate": 90.8,
+      "max_heartrate": 144.0
+    },
+    {
+      "id": 18349989478,
+      "name": "KATH MADE THE FRONT PAGE OF THE NYT",
+      "sport_type": "Ride",
+      "start_date_local": "2026-05-02T07:48:12Z",
+      "distance": 77472.0,
+      "moving_time": 10087,
+      "elapsed_time": 11446,
+      "average_heartrate": 139.5,
+      "max_heartrate": 164.0
+    },
     {
       "id": 18327134281,
       "name": "Evening Rock Climb",
