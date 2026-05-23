@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-05-22T09:22:03Z",
+  "last_updated": "2026-05-23T08:19:13Z",
   "activities": [
+    {
+      "id": 18613983976,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-05-22T15:51:30Z",
+      "distance": 239.2,
+      "moving_time": 393,
+      "elapsed_time": 393,
+      "average_heartrate": 112.3,
+      "max_heartrate": 123.0
+    },
+    {
+      "id": 18613537296,
+      "name": "Testing out Moms wetsuit",
+      "sport_type": "Swim",
+      "start_date_local": "2026-05-22T14:55:18Z",
+      "distance": 419.7,
+      "moving_time": 656,
+      "elapsed_time": 656,
+      "average_heartrate": 120.5,
+      "max_heartrate": 134.0
+    },
+    {
+      "id": 18611412409,
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-05-22T09:15:06Z",
+      "distance": 46745.9,
+      "moving_time": 5742,
+      "elapsed_time": 5953,
+      "average_heartrate": 145.2,
+      "max_heartrate": 173.0
+    },
     {
       "id": 18589242995,
       "name": "Afternoon Swim",
