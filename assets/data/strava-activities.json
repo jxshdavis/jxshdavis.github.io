@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-23T08:19:13Z",
+  "last_updated": "2026-05-24T08:28:56Z",
   "activities": [
+    {
+      "id": 18629038310,
+      "name": "Lunch Kayaking",
+      "sport_type": "Kayaking",
+      "start_date_local": "2026-05-23T12:32:42Z",
+      "distance": 5610.9,
+      "moving_time": 4417,
+      "elapsed_time": 4618,
+      "average_heartrate": 83.6,
+      "max_heartrate": 134.0
+    },
     {
       "id": 18613983976,
       "name": "Afternoon Swim",
