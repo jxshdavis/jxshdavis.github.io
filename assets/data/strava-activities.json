@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-05-25T10:04:54Z",
+  "last_updated": "2026-05-26T09:55:46Z",
   "activities": [
+    {
+      "id": 18655175685,
+      "name": "Afternoon Walk",
+      "sport_type": "Walk",
+      "start_date_local": "2026-05-25T16:37:53Z",
+      "distance": 2414.0,
+      "moving_time": 2023,
+      "elapsed_time": 2992,
+      "average_heartrate": 87.0,
+      "max_heartrate": 125.0
+    },
     {
       "id": 18640984386,
       "name": "Afternoon Run",
