@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-05-30T08:27:19Z",
+  "last_updated": "2026-05-31T08:44:17Z",
   "activities": [
+    {
+      "id": 18719560990,
+      "name": "Lost miles",
+      "sport_type": "Ride",
+      "start_date_local": "2026-05-30T15:14:00Z",
+      "distance": 17702.8,
+      "moving_time": 2160,
+      "elapsed_time": 2160
+    },
+    {
+      "id": 18719525397,
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-05-30T08:00:48Z",
+      "distance": 71182.1,
+      "moving_time": 9495,
+      "elapsed_time": 13226,
+      "average_heartrate": 143.1,
+      "max_heartrate": 163.0
+    },
     {
       "id": 18709835446,
       "name": "Evening Rock Climb",
