@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-06-01T11:32:31Z",
+  "last_updated": "2026-06-02T10:22:43Z",
   "activities": [
+    {
+      "id": 18750585245,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-06-01T19:23:05Z",
+      "distance": 0.0,
+      "moving_time": 5439,
+      "elapsed_time": 5439,
+      "average_heartrate": 92.7,
+      "max_heartrate": 143.0
+    },
+    {
+      "id": 18749377933,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-06-01T16:47:58Z",
+      "distance": 1851.7,
+      "moving_time": 2416,
+      "elapsed_time": 2897,
+      "average_heartrate": 121.9,
+      "max_heartrate": 151.0
+    },
     {
       "id": 18737128138,
       "name": "Evening Workout",
