@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-02T10:22:43Z",
+  "last_updated": "2026-06-03T10:58:08Z",
   "activities": [
+    {
+      "id": 18763805181,
+      "name": "Afternoon Ride with Luca",
+      "sport_type": "Ride",
+      "start_date_local": "2026-06-02T16:30:14Z",
+      "distance": 27471.3,
+      "moving_time": 4062,
+      "elapsed_time": 4769,
+      "average_heartrate": 128.3,
+      "max_heartrate": 159.0
+    },
     {
       "id": 18750585245,
       "name": "Evening Rock Climb",
