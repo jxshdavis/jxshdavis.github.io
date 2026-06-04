@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-03T10:58:08Z",
+  "last_updated": "2026-06-04T09:55:31Z",
   "activities": [
+    {
+      "id": 18775106354,
+      "name": "Mortar Rock",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-06-03T17:30:00Z",
+      "distance": 0.0,
+      "moving_time": 3600,
+      "elapsed_time": 3600
+    },
+    {
+      "id": 18777665464,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-06-03T17:15:38Z",
+      "distance": 1097.3,
+      "moving_time": 1416,
+      "elapsed_time": 1982,
+      "average_heartrate": 108.6,
+      "max_heartrate": 147.0
+    },
     {
       "id": 18763805181,
       "name": "Afternoon Ride with Luca",
