@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-04T09:55:31Z",
+  "last_updated": "2026-06-05T09:49:08Z",
   "activities": [
+    {
+      "id": 18791287100,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-06-04T16:45:12Z",
+      "distance": 26512.4,
+      "moving_time": 4391,
+      "elapsed_time": 5160,
+      "average_heartrate": 105.6,
+      "max_heartrate": 139.0
+    },
     {
       "id": 18775106354,
       "name": "Mortar Rock",
