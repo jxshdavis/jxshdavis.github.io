@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-07T08:55:21Z",
+  "last_updated": "2026-06-08T10:53:26Z",
   "activities": [
+    {
+      "id": 18831526608,
+      "name": "Afternoon Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-06-07T17:55:20Z",
+      "distance": 0.0,
+      "moving_time": 2443,
+      "elapsed_time": 2443,
+      "average_heartrate": 82.7,
+      "max_heartrate": 125.0
+    },
     {
       "id": 18804654526,
       "name": "First Lemur Board Sesh",
