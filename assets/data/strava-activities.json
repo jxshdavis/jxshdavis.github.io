@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-20T08:55:11Z",
+  "last_updated": "2026-06-21T09:49:34Z",
   "activities": [
+    {
+      "id": 19003362100,
+      "name": "Nico\u2019s new bike day",
+      "sport_type": "Ride",
+      "start_date_local": "2026-06-20T13:26:18Z",
+      "distance": 80935.8,
+      "moving_time": 11982,
+      "elapsed_time": 13614,
+      "average_heartrate": 137.3,
+      "max_heartrate": 185.0
+    },
     {
       "id": 18990508736,
       "name": "Afternoon Swim",
