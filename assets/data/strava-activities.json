@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-22T11:53:08Z",
+  "last_updated": "2026-06-23T09:37:37Z",
   "activities": [
+    {
+      "id": 19030635970,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-06-22T20:27:08Z",
+      "distance": 0.0,
+      "moving_time": 4494,
+      "elapsed_time": 4494,
+      "average_heartrate": 88.4,
+      "max_heartrate": 147.0
+    },
     {
       "id": 19003362100,
       "name": "Nico\u2019s new bike day",
