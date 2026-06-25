@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-06-24T09:28:36Z",
+  "last_updated": "2026-06-25T09:20:41Z",
   "activities": [
+    {
+      "id": 19057549367,
+      "name": "Night Walk",
+      "sport_type": "Walk",
+      "start_date_local": "2026-06-24T21:12:37Z",
+      "distance": 2681.7,
+      "moving_time": 2350,
+      "elapsed_time": 3938,
+      "average_heartrate": 83.9,
+      "max_heartrate": 101.0
+    },
+    {
+      "id": 19056647785,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-06-24T18:31:21Z",
+      "distance": 1691.6,
+      "moving_time": 2114,
+      "elapsed_time": 2602,
+      "average_heartrate": 126.8,
+      "max_heartrate": 154.0
+    },
     {
       "id": 19041403412,
       "name": "Afternoon Ride",
