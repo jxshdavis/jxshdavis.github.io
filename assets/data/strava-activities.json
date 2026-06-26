@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-06-25T09:20:41Z",
+  "last_updated": "2026-06-26T09:24:58Z",
   "activities": [
+    {
+      "id": 19069729060,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-06-25T20:19:29Z",
+      "distance": 0.0,
+      "moving_time": 6415,
+      "elapsed_time": 6415,
+      "average_heartrate": 95.6,
+      "max_heartrate": 144.0
+    },
+    {
+      "id": 19069005211,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-06-25T17:53:20Z",
+      "distance": 24886.3,
+      "moving_time": 4139,
+      "elapsed_time": 5477,
+      "average_heartrate": 123.9,
+      "max_heartrate": 162.0
+    },
     {
       "id": 19057549367,
       "name": "Night Walk",
