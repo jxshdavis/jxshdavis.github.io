@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-06-29T10:58:07Z",
+  "last_updated": "2026-06-30T09:34:21Z",
   "activities": [
+    {
+      "id": 19118382945,
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date_local": "2026-06-29T18:32:40Z",
+      "distance": 4199.1,
+      "moving_time": 4888,
+      "elapsed_time": 6212,
+      "average_heartrate": 73.5,
+      "max_heartrate": 105.0
+    },
     {
       "id": 19102434907,
       "name": "Morning Ride",
