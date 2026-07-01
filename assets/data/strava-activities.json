@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-06-30T09:34:21Z",
+  "last_updated": "2026-07-01T09:43:51Z",
   "activities": [
+    {
+      "id": 19131420512,
+      "name": "San Diego is good vibes",
+      "sport_type": "Run",
+      "start_date_local": "2026-06-30T17:46:35Z",
+      "distance": 1911.0,
+      "moving_time": 816,
+      "elapsed_time": 820,
+      "average_heartrate": 115.7,
+      "max_heartrate": 127.0
+    },
+    {
+      "id": 19131420457,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-06-30T17:21:09Z",
+      "distance": 919.0,
+      "moving_time": 1344,
+      "elapsed_time": 1344,
+      "average_heartrate": 136.0,
+      "max_heartrate": 154.0
+    },
+    {
+      "id": 19131420540,
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-06-30T17:07:07Z",
+      "distance": 1767.7,
+      "moving_time": 675,
+      "elapsed_time": 675,
+      "average_heartrate": 124.9,
+      "max_heartrate": 133.0
+    },
     {
       "id": 19118382945,
       "name": "Evening Walk",
