@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-03T09:16:48Z",
+  "last_updated": "2026-07-04T08:35:44Z",
   "activities": [
+    {
+      "id": 19170908286,
+      "name": "Night Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-07-03T21:06:33Z",
+      "distance": 0.0,
+      "moving_time": 2434,
+      "elapsed_time": 2434,
+      "average_heartrate": 80.5,
+      "max_heartrate": 130.0
+    },
     {
       "id": 19157438306,
       "name": "Afternoon Run",
