@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-04T08:35:44Z",
+  "last_updated": "2026-07-05T08:51:37Z",
   "activities": [
+    {
+      "id": 19182908002,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-04T16:42:11Z",
+      "distance": 28977.3,
+      "moving_time": 3798,
+      "elapsed_time": 4327,
+      "average_heartrate": 136.5,
+      "max_heartrate": 159.0
+    },
     {
       "id": 19170908286,
       "name": "Night Rock Climb",
