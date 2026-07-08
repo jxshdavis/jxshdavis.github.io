@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-07-07T09:39:41Z",
+  "last_updated": "2026-07-08T08:26:36Z",
   "activities": [
+    {
+      "id": 19223873442,
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date_local": "2026-07-07T20:38:44Z",
+      "distance": 2835.4,
+      "moving_time": 1748,
+      "elapsed_time": 1807,
+      "average_heartrate": 102.2,
+      "max_heartrate": 133.0
+    },
+    {
+      "id": 19223115134,
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-07-07T19:16:54Z",
+      "distance": 3378.1,
+      "moving_time": 1346,
+      "elapsed_time": 1472,
+      "average_heartrate": 118.8,
+      "max_heartrate": 139.0
+    },
     {
       "id": 19209492886,
       "name": "Evening Walk",
