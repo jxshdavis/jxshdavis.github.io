@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-08T08:26:36Z",
+  "last_updated": "2026-07-09T09:37:46Z",
   "activities": [
+    {
+      "id": 19237481049,
+      "name": "Chasing the sun",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-08T18:40:20Z",
+      "distance": 48321.3,
+      "moving_time": 6112,
+      "elapsed_time": 6220,
+      "average_heartrate": 150.3,
+      "max_heartrate": 171.0
+    },
     {
       "id": 19223873442,
       "name": "Evening Walk",
