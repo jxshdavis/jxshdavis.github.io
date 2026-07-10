@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-09T09:37:46Z",
+  "last_updated": "2026-07-10T09:33:21Z",
   "activities": [
+    {
+      "id": 19250350120,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-07-09T17:55:53Z",
+      "distance": 1371.6,
+      "moving_time": 1527,
+      "elapsed_time": 2036,
+      "average_heartrate": 122.2,
+      "max_heartrate": 158.0
+    },
     {
       "id": 19237481049,
       "name": "Chasing the sun",
