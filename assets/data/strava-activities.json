@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-07-12T08:15:51Z",
+  "last_updated": "2026-07-13T09:24:47Z",
   "activities": [
+    {
+      "id": 19289086199,
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-07-12T17:42:32Z",
+      "distance": 3934.4,
+      "moving_time": 1429,
+      "elapsed_time": 1472,
+      "average_heartrate": 124.7,
+      "max_heartrate": 139.0
+    },
+    {
+      "id": 19288702617,
+      "name": "\ud83c\udf53Canyon",
+      "sport_type": "Swim",
+      "start_date_local": "2026-07-12T16:19:40Z",
+      "distance": 2766.1,
+      "moving_time": 3135,
+      "elapsed_time": 3546,
+      "average_heartrate": 135.5,
+      "max_heartrate": 166.0
+    },
     {
       "id": 19275586702,
       "name": "Redemption",
