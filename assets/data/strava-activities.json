@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-14T08:02:54Z",
+  "last_updated": "2026-07-15T08:08:11Z",
   "activities": [
+    {
+      "id": 19315353437,
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-07-14T14:35:03Z",
+      "distance": 4894.6,
+      "moving_time": 1937,
+      "elapsed_time": 1937,
+      "average_heartrate": 126.6,
+      "max_heartrate": 142.0
+    },
     {
       "id": 19289086199,
       "name": "Afternoon Run",
