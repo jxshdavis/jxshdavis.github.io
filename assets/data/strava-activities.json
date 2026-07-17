@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-07-16T08:11:57Z",
+  "last_updated": "2026-07-17T08:08:33Z",
   "activities": [
+    {
+      "id": 19345025744,
+      "name": "Evening Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-16T19:44:50Z",
+      "distance": 27563.1,
+      "moving_time": 3989,
+      "elapsed_time": 4652,
+      "average_heartrate": 138.9,
+      "max_heartrate": 176.0
+    },
+    {
+      "id": 19340601499,
+      "name": "Lunch Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-07-16T11:10:16Z",
+      "distance": 1394.5,
+      "moving_time": 1569,
+      "elapsed_time": 1888,
+      "average_heartrate": 134.7,
+      "max_heartrate": 160.0
+    },
     {
       "id": 19331864394,
       "name": "Evening Ride",
