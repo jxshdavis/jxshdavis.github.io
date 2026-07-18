@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-17T08:08:33Z",
+  "last_updated": "2026-07-18T07:47:41Z",
   "activities": [
+    {
+      "id": 19356575695,
+      "name": "Checking out some places + hike a bike sections",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-17T14:55:05Z",
+      "distance": 34316.4,
+      "moving_time": 7194,
+      "elapsed_time": 12487,
+      "average_heartrate": 121.8,
+      "max_heartrate": 159.0
+    },
     {
       "id": 19345025744,
       "name": "Evening Ride",
