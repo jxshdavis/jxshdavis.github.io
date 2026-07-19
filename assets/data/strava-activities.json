@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-18T07:47:41Z",
+  "last_updated": "2026-07-19T08:15:32Z",
   "activities": [
+    {
+      "id": 19368856472,
+      "name": "Lunch Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-18T11:56:11Z",
+      "distance": 33300.3,
+      "moving_time": 4974,
+      "elapsed_time": 8851,
+      "average_heartrate": 125.5,
+      "max_heartrate": 160.0
+    },
     {
       "id": 19356575695,
       "name": "Checking out some places + hike a bike sections",
