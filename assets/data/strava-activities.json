@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-19T08:15:32Z",
+  "last_updated": "2026-07-20T08:56:37Z",
   "activities": [
+    {
+      "id": 19384842557,
+      "name": "Night Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-07-19T23:42:20Z",
+      "distance": 2956.5,
+      "moving_time": 1126,
+      "elapsed_time": 1138,
+      "average_heartrate": 125.2,
+      "max_heartrate": 147.0
+    },
     {
       "id": 19368856472,
       "name": "Lunch Ride",
