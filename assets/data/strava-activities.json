@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-21T08:26:46Z",
+  "last_updated": "2026-07-22T08:27:28Z",
   "activities": [
+    {
+      "id": 19412230240,
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-07-21T20:03:19Z",
+      "distance": 2872.4,
+      "moving_time": 1277,
+      "elapsed_time": 1277,
+      "average_heartrate": 116.8,
+      "max_heartrate": 131.0
+    },
     {
       "id": 19397839574,
       "name": "Night Rock Climb",
