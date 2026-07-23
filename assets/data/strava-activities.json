@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-22T08:27:28Z",
+  "last_updated": "2026-07-23T08:28:31Z",
   "activities": [
+    {
+      "id": 19426270220,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-07-22T18:31:33Z",
+      "distance": 2377.4,
+      "moving_time": 2763,
+      "elapsed_time": 2959,
+      "average_heartrate": 145.3,
+      "max_heartrate": 172.0
+    },
     {
       "id": 19412230240,
       "name": "Evening Run",
