@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-25T08:04:58Z",
+  "last_updated": "2026-07-26T08:25:01Z",
   "activities": [
+    {
+      "id": 19466155948,
+      "name": "Benchmark team comp day 2.",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-07-25T21:01:00Z",
+      "distance": 0.0,
+      "moving_time": 3900,
+      "elapsed_time": 3900
+    },
+    {
+      "id": 19466856533,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-25T15:41:21Z",
+      "distance": 69577.0,
+      "moving_time": 9735,
+      "elapsed_time": 15280,
+      "average_heartrate": 141.4,
+      "max_heartrate": 185.0
+    },
     {
       "id": 19452749116,
       "name": "Afternoon Swim",
