@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-07-26T08:25:01Z",
+  "last_updated": "2026-07-27T09:50:14Z",
   "activities": [
+    {
+      "id": 19480904759,
+      "name": "Night Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-07-26T22:10:21Z",
+      "distance": 3223.8,
+      "moving_time": 1376,
+      "elapsed_time": 1376,
+      "average_heartrate": 120.6,
+      "max_heartrate": 136.0
+    },
+    {
+      "id": 19479137790,
+      "name": "Three Bears with Dylan",
+      "sport_type": "Ride",
+      "start_date_local": "2026-07-26T11:47:14Z",
+      "distance": 64250.3,
+      "moving_time": 9572,
+      "elapsed_time": 15599,
+      "average_heartrate": 141.6,
+      "max_heartrate": 170.0
+    },
     {
       "id": 19466155948,
       "name": "Benchmark team comp day 2.",
