@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-07-31T08:48:11Z",
+  "last_updated": "2026-08-01T08:19:10Z",
   "activities": [
+    {
+      "id": 19548884845,
+      "name": "River hiking?",
+      "sport_type": "Swim",
+      "start_date_local": "2026-07-31T16:17:33Z",
+      "distance": 1027.8,
+      "moving_time": 2323,
+      "elapsed_time": 2755,
+      "average_heartrate": 106.8,
+      "max_heartrate": 145.0
+    },
     {
       "id": 19537538348,
       "name": "Evening Rock Climb",
