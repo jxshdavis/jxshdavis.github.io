@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-03T09:42:21Z",
+  "last_updated": "2026-08-04T08:35:01Z",
   "activities": [
+    {
+      "id": 19591790011,
+      "name": "Paradise Creek Return",
+      "sport_type": "Hike",
+      "start_date_local": "2026-08-02T06:40:52Z",
+      "distance": 7605.7,
+      "moving_time": 7802,
+      "elapsed_time": 9004,
+      "average_heartrate": 112.2,
+      "max_heartrate": 140.0
+    },
+    {
+      "id": 19591787147,
+      "name": "Paradise Creek Outbound",
+      "sport_type": "Hike",
+      "start_date_local": "2026-08-01T08:35:09Z",
+      "distance": 12542.3,
+      "moving_time": 11364,
+      "elapsed_time": 13542,
+      "average_heartrate": 110.4,
+      "max_heartrate": 150.0
+    },
     {
       "id": 19556277525,
       "name": "Morning Hike",
