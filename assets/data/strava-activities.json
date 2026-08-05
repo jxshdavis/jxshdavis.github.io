@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-04T08:35:01Z",
+  "last_updated": "2026-08-05T08:34:08Z",
   "activities": [
+    {
+      "id": 19607184589,
+      "name": "Walk Jog",
+      "sport_type": "Run",
+      "start_date_local": "2026-08-04T19:41:16Z",
+      "distance": 13156.5,
+      "moving_time": 6945,
+      "elapsed_time": 7200,
+      "average_heartrate": 112.3,
+      "max_heartrate": 173.0
+    },
     {
       "id": 19591790011,
       "name": "Paradise Creek Return",
