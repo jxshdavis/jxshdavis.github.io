@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-06T08:34:10Z",
+  "last_updated": "2026-08-07T07:13:39Z",
   "activities": [
+    {
+      "id": 19635851754,
+      "name": "Marin Out and Back",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-06T18:46:40Z",
+      "distance": 64536.9,
+      "moving_time": 8926,
+      "elapsed_time": 10042,
+      "average_heartrate": 129.2,
+      "max_heartrate": 150.0
+    },
     {
       "id": 19621125800,
       "name": "Evening Swim",
