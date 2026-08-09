@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-08T06:51:36Z",
+  "last_updated": "2026-08-09T06:54:35Z",
   "activities": [
+    {
+      "id": 19662187514,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-08T14:09:43Z",
+      "distance": 125171.0,
+      "moving_time": 15872,
+      "elapsed_time": 18098,
+      "average_heartrate": 150.6,
+      "max_heartrate": 176.0
+    },
     {
       "id": 19648110630,
       "name": "Lake anza",
