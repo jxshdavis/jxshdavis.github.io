@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-11T07:05:11Z",
+  "last_updated": "2026-08-12T07:22:58Z",
   "activities": [
+    {
+      "id": 19705379432,
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-08-11T19:24:46Z",
+      "distance": 2346.3,
+      "moving_time": 982,
+      "elapsed_time": 997,
+      "average_heartrate": 111.7,
+      "max_heartrate": 131.0
+    },
     {
       "id": 19690522701,
       "name": "Night Rock Climb",
@@ -25,7 +36,7 @@
     },
     {
       "id": 19662187514,
-      "name": "Afternoon Ride",
+      "name": "Afternoon Ride: 25mm->30mm boost or just peaking?",
       "sport_type": "Ride",
       "start_date_local": "2026-08-08T14:09:43Z",
       "distance": 125171.0,
