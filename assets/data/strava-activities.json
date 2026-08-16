@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-15T06:36:06Z",
+  "last_updated": "2026-08-16T06:37:42Z",
   "activities": [
+    {
+      "id": 19760121997,
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-08-15T18:42:04Z",
+      "distance": 3428.4,
+      "moving_time": 1230,
+      "elapsed_time": 1237,
+      "average_heartrate": 124.2,
+      "max_heartrate": 144.0
+    },
+    {
+      "id": 19760127943,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-15T16:19:47Z",
+      "distance": 54419.5,
+      "moving_time": 7619,
+      "elapsed_time": 8292,
+      "average_heartrate": 137.1,
+      "max_heartrate": 160.0
+    },
     {
       "id": 19746112644,
       "name": "Evening Ride",
