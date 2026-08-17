@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-16T06:37:42Z",
+  "last_updated": "2026-08-17T06:52:59Z",
   "activities": [
+    {
+      "id": 19774613724,
+      "name": "Fueled by 1 big brownie, 2 Cans of Dr. Pepper, and three charcoal grilled Bratwursts",
+      "sport_type": "Run",
+      "start_date_local": "2026-08-16T20:07:51Z",
+      "distance": 10469.7,
+      "moving_time": 4290,
+      "elapsed_time": 4309,
+      "average_heartrate": 126.8,
+      "max_heartrate": 141.0
+    },
+    {
+      "id": 19773146086,
+      "name": "Afternoon Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-08-16T15:34:20Z",
+      "distance": 0.0,
+      "moving_time": 3306,
+      "elapsed_time": 3306,
+      "average_heartrate": 94.9,
+      "max_heartrate": 132.0
+    },
     {
       "id": 19760121997,
       "name": "Evening Run",
