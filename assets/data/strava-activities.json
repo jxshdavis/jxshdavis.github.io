@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-17T06:52:59Z",
+  "last_updated": "2026-08-18T06:40:59Z",
   "activities": [
+    {
+      "id": 19788237917,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-08-17T19:13:16Z",
+      "distance": 0.0,
+      "moving_time": 3996,
+      "elapsed_time": 3996,
+      "average_heartrate": 75.6,
+      "max_heartrate": 119.0
+    },
     {
       "id": 19774613724,
       "name": "Fueled by 1 big brownie, 2 Cans of Dr. Pepper, and three charcoal grilled Bratwursts",
