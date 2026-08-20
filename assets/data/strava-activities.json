@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-19T06:41:14Z",
+  "last_updated": "2026-08-20T06:42:38Z",
   "activities": [
+    {
+      "id": 19818399373,
+      "name": "Night Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-19T21:05:12Z",
+      "distance": 24726.8,
+      "moving_time": 3321,
+      "elapsed_time": 3401
+    },
+    {
+      "id": 19817400642,
+      "name": "Evening Swim . gains have yet to absorb from last week",
+      "sport_type": "Swim",
+      "start_date_local": "2026-08-19T18:00:39Z",
+      "distance": 2011.7,
+      "moving_time": 2341,
+      "elapsed_time": 2594,
+      "average_heartrate": 133.6,
+      "max_heartrate": 158.0
+    },
     {
       "id": 19802411279,
       "name": "Afternoon Run",
