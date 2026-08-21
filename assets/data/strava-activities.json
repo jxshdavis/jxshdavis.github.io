@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-20T06:42:38Z",
+  "last_updated": "2026-08-21T06:43:31Z",
   "activities": [
+    {
+      "id": 19832178071,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-20T17:36:15Z",
+      "distance": 75451.1,
+      "moving_time": 10171,
+      "elapsed_time": 11201,
+      "average_heartrate": 128.9,
+      "max_heartrate": 157.0
+    },
     {
       "id": 19818399373,
       "name": "Night Ride",
