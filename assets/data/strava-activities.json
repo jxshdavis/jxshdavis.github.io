@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-21T06:43:31Z",
+  "last_updated": "2026-08-22T06:37:50Z",
   "activities": [
+    {
+      "id": 19844583119,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-08-21T18:15:43Z",
+      "distance": 0.0,
+      "moving_time": 5552,
+      "elapsed_time": 5552,
+      "average_heartrate": 79.9,
+      "max_heartrate": 123.0
+    },
     {
       "id": 19832178071,
       "name": "Afternoon Ride",
