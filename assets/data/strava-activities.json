@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-22T06:37:50Z",
+  "last_updated": "2026-08-23T06:38:42Z",
   "activities": [
+    {
+      "id": 19857452365,
+      "name": "End of summer",
+      "sport_type": "Run",
+      "start_date_local": "2026-08-22T16:16:34Z",
+      "distance": 6476.0,
+      "moving_time": 2488,
+      "elapsed_time": 2541,
+      "average_heartrate": 143.5,
+      "max_heartrate": 161.0
+    },
+    {
+      "id": 19857942903,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-22T13:23:26Z",
+      "distance": 72463.8,
+      "moving_time": 9764,
+      "elapsed_time": 10037,
+      "average_heartrate": 145.3,
+      "max_heartrate": 177.0
+    },
     {
       "id": 19844583119,
       "name": "Evening Rock Climb",
