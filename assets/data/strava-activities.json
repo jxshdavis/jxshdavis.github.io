@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-23T06:38:42Z",
+  "last_updated": "2026-08-24T06:56:06Z",
   "activities": [
+    {
+      "id": 19872353339,
+      "name": "Afternoon Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-08-23T15:36:35Z",
+      "distance": 16101.9,
+      "moving_time": 6638,
+      "elapsed_time": 8935,
+      "average_heartrate": 135.4,
+      "max_heartrate": 157.0
+    },
+    {
+      "id": 19871646322,
+      "name": "One with the Water",
+      "sport_type": "Swim",
+      "start_date_local": "2026-08-23T14:00:02Z",
+      "distance": 3487.6,
+      "moving_time": 4939,
+      "elapsed_time": 5181
+    },
     {
       "id": 19857452365,
       "name": "End of summer",
