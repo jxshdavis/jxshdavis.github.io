@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-08-27T17:22:56Z",
+  "last_updated": "2026-08-28T18:14:24Z",
   "activities": [
+    {
+      "id": 19931077468,
+      "name": "Taking Dong Su on his first ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-27T18:58:34Z",
+      "distance": 19401.5,
+      "moving_time": 3842,
+      "elapsed_time": 5152,
+      "average_heartrate": 123.3,
+      "max_heartrate": 167.0
+    },
+    {
+      "id": 19930189399,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-08-27T17:14:07Z",
+      "distance": 2080.3,
+      "moving_time": 2352,
+      "elapsed_time": 2487,
+      "average_heartrate": 135.3,
+      "max_heartrate": 157.0
+    },
     {
       "id": 19902426768,
       "name": "last sunshine",
