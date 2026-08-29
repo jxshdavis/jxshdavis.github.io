@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-08-28T18:14:24Z",
+  "last_updated": "2026-08-29T12:20:46Z",
   "activities": [
+    {
+      "id": 19943321954,
+      "name": "Commute to welcome picnic",
+      "sport_type": "Ride",
+      "start_date_local": "2026-08-28T17:33:56Z",
+      "distance": 1445.0,
+      "moving_time": 551,
+      "elapsed_time": 574,
+      "average_heartrate": 159.9,
+      "max_heartrate": 184.0
+    },
     {
       "id": 19931077468,
       "name": "Taking Dong Su on his first ride",
