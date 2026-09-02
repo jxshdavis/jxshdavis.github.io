@@ -1,0 +1,51 @@
+<div id="ridge-fan" class="rf">
+  <div class="rf-stats">
+    <div><span class="rf-lab">S = &Sigma;x&sup2;</span><span class="rf-val rf-S">&mdash;</span></div>
+    <div><span class="rf-lab">SD(&beta;&#770;)</span><span class="rf-val rf-sd">&mdash;</span></div>
+    <div><span class="rf-lab">Bias</span><span class="rf-val rf-bias">&mdash;</span></div>
+    <div><span class="rf-lab">RMSE</span><span class="rf-val rf-rmse">&mdash;</span></div>
+  </div>
+
+  <div class="rf-plot"></div>
+
+  <div class="rf-row">
+    <label for="rf-spread">Spread of predictors</label>
+    <input id="rf-spread" class="rf-spread" type="range" min="0.12" max="1" step="0.01" value="1">
+    <output class="rf-spread-out">1.00</output>
+    <button type="button" class="rf-play">Sweep</button>
+  </div>
+
+  <div class="rf-row">
+    <label for="rf-lambda">Ridge penalty &lambda;</label>
+    <input id="rf-lambda" class="rf-lambda" type="range" min="0" max="12" step="0.1" value="0">
+    <output class="rf-lambda-out">0.0</output>
+  </div>
+
+  <p class="rf-key">
+    <span class="rf-swatch rf-truth"></span> true line
+    <span class="rf-swatch rf-fit"></span> 40 fits, each a fresh noise draw
+    <span class="rf-swatch rf-pt"></span> one sample
+  </p>
+</div>
+
+<style>
+.rf { margin: 2em 0; font-size: 0.9em; }
+.rf-stats { display: flex; flex-wrap: wrap; gap: 1.5em; margin-bottom: 0.75em; }
+.rf-lab { display: block; color: #666; font-size: 0.85em; }
+.rf-val { display: block; font-size: 1.3em; font-variant-numeric: tabular-nums; }
+.rf-plot { overflow-x: auto; }
+.rf-row { display: flex; align-items: center; gap: 0.75em; margin: 0.5em 0; }
+.rf-row label { min-width: 11em; color: #555; }
+.rf-row input[type=range] { flex: 1; max-width: 22em; }
+.rf-row output { min-width: 3em; font-variant-numeric: tabular-nums; }
+.rf-key { color: #666; font-size: 0.85em; margin-top: 0.75em; }
+.rf-swatch { display: inline-block; width: 1.1em; height: 0.2em; margin: 0 0.3em 0 1em; vertical-align: middle; }
+.rf-swatch:first-child { margin-left: 0; }
+.rf-truth { border-top: 2px dashed #b87a1f; }
+.rf-fit { border-top: 2px solid #3f7cb8; }
+.rf-pt { width: 0.55em; height: 0.55em; border-radius: 50%; background: #4a4a4a; }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.16/dist/plot.umd.min.js"></script>
+<script src="{{ '/assets/js/ridge-fan.js' | relative_url }}"></script>

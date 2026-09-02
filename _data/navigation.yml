@@ -32,8 +32,8 @@ main:
   - title: "Tutoring"
     url: /tutoring/
 
-  # - title: "Training"
-  #   url: /training/
+  - title: "Training"
+    url: /training/
 
 sidebar-almanac:
   - title: "Statistical Machine Learning Concepts"
@@ -41,3 +41,31 @@ sidebar-almanac:
     children:
       - title: "Principal Component Analysis (PCA)"
         url: /machine-learning-almanac/concepts/pca
+
+  # STAT 241A lecture write-ups, one entry per lecture, titled by main idea
+  # (in lecture order, not alphabetical)
+  - title: "STAT 241A: Theoretical Statistics"
+    children:
+      - title: "Rademacher Complexity Bounds for Concrete Models and Losses"
+        url: /machine-learning-almanac/stat241a/rademacher-complexity-bounds
+      - title: "Learning as Optimization: the Excess Risk Decomposition"
+        url: /machine-learning-almanac/stat241a/learning-as-optimization
+      - title: "Convexity Tips: Composition Rules Worth Memorizing"
+        url: /machine-learning-almanac/stat241a/convexity-tips
+
+  # Individual results from STAT 210B: statement as written in my notes,
+  # plus the one fundamental proof step to recall.
+  - title: "STAT 210B: Results Toolbox"
+    children:
+      - title: "Bernstein's Inequality"
+        url: /machine-learning-almanac/stat210b/bernstein
+      - title: "McDiarmid's Bounded Differences Inequality"
+        url: /machine-learning-almanac/stat210b/mcdiarmid
+      - title: "Sub-Gaussian Maximal Inequality"
+        url: /machine-learning-almanac/stat210b/maximal-inequality
+      - title: "Symmetrization & the Rademacher Generalization Bound"
+        url: /machine-learning-almanac/stat210b/symmetrization
+      - title: "Talagrand's Contraction Lemma"
+        url: /machine-learning-almanac/stat210b/talagrand-contraction
+      - title: "Localized Dudley Entropy Integral"
+        url: /machine-learning-almanac/stat210b/localized-dudley

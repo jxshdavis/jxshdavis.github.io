@@ -15,3 +15,6 @@ package-lock.json
 # Strava pipeline — secrets and local-only files
 .env
 .strava_token.json
+# OS / Python junk
+.DS_Store
+__pycache__/
