@@ -1,5 +1,6 @@
 ---
 title: "Linear Regression: a covariance matching perspective"
+published: false  # WIP — flip to true (or delete this line) when ready to publish
 date: 2026-07-22
 modified: 2026-07-22
 permalink: /machine-learning-almanac/concepts/lin_reg
