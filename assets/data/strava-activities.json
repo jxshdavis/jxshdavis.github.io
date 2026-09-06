@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-09-05T10:00:39Z",
+  "last_updated": "2026-09-06T10:19:38Z",
   "activities": [
+    {
+      "id": 20054061297,
+      "name": "Afternoon Hike",
+      "sport_type": "Hike",
+      "start_date_local": "2026-09-05T17:02:41Z",
+      "distance": 4765.3,
+      "moving_time": 2366,
+      "elapsed_time": 2467,
+      "average_heartrate": 117.0,
+      "max_heartrate": 155.0
+    },
+    {
+      "id": 20052530902,
+      "name": "Afternoon Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-09-05T13:23:47Z",
+      "distance": 0.0,
+      "moving_time": 3760,
+      "elapsed_time": 3760,
+      "average_heartrate": 89.3,
+      "max_heartrate": 126.0
+    },
     {
       "id": 20040764217,
       "name": "Chillin",
