@@ -1,5 +1,6 @@
 ---
 title: "Convexity Tips: Composition Rules Worth Memorizing"
+published: false
 date: 2026-08-27
 modified: 2026-08-29
 permalink: /machine-learning-almanac/stat241a/convexity-tips
