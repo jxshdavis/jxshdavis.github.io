@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-09T10:49:22Z",
+  "last_updated": "2026-09-10T10:41:49Z",
   "activities": [
+    {
+      "id": 20111110080,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-09T18:24:20Z",
+      "distance": 1531.6,
+      "moving_time": 1779,
+      "elapsed_time": 2387,
+      "average_heartrate": 124.2,
+      "max_heartrate": 165.0
+    },
     {
       "id": 20097749614,
       "name": "Night Rock Climb",
