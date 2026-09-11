@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-10T10:41:49Z",
+  "last_updated": "2026-09-11T10:40:40Z",
   "activities": [
+    {
+      "id": 20126015834,
+      "name": "Afternoon Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-09-10T17:45:13Z",
+      "distance": 21223.0,
+      "moving_time": 3155,
+      "elapsed_time": 3564,
+      "average_heartrate": 131.6,
+      "max_heartrate": 164.0
+    },
     {
       "id": 20111110080,
       "name": "Evening Swim",
