@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-12T10:09:36Z",
+  "last_updated": "2026-09-13T11:09:11Z",
   "activities": [
+    {
+      "id": 20145671037,
+      "name": "Morning Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-12T07:47:55Z",
+      "distance": 487.8,
+      "moving_time": 785,
+      "elapsed_time": 785,
+      "average_heartrate": 143.3,
+      "max_heartrate": 168.0
+    },
     {
       "id": 20126015834,
       "name": "Afternoon Ride",
