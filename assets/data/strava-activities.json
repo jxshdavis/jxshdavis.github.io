@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-09-13T11:09:11Z",
+  "last_updated": "2026-09-14T11:55:10Z",
   "activities": [
+    {
+      "id": 20163760950,
+      "name": "Santa Cruz 70.3 Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-09-13T10:54:42Z",
+      "distance": 21118.3,
+      "moving_time": 8232,
+      "elapsed_time": 8498,
+      "average_heartrate": 143.3,
+      "max_heartrate": 162.0
+    },
+    {
+      "id": 20162197252,
+      "name": "Santa Cruz 70.3 Bike",
+      "sport_type": "Ride",
+      "start_date_local": "2026-09-13T08:11:46Z",
+      "distance": 90103.3,
+      "moving_time": 9613,
+      "elapsed_time": 9613,
+      "average_heartrate": 158.0,
+      "max_heartrate": 172.0
+    },
+    {
+      "id": 20159939187,
+      "name": "Santa Cruz 70.3 Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-13T07:26:30Z",
+      "distance": 1826.5,
+      "moving_time": 2062,
+      "elapsed_time": 2062,
+      "average_heartrate": 148.6,
+      "max_heartrate": 162.0
+    },
     {
       "id": 20145671037,
       "name": "Morning Swim",
