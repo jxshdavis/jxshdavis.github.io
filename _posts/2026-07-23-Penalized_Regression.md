@@ -1,5 +1,6 @@
 ---
 title: "Penalized Regression: ridge, PCR, and lasso in the eigenbasis"
+published: false
 date: 2026-07-23
 modified: 2026-07-23
 permalink: /machine-learning-almanac/concepts/penalized_reg
