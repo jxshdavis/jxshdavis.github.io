@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T11:55:10Z",
+  "last_updated": "2026-09-15T11:09:20Z",
   "activities": [
     {
       "id": 20163760950,
@@ -29,8 +29,8 @@
       "sport_type": "Swim",
       "start_date_local": "2026-09-13T07:26:30Z",
       "distance": 1826.5,
-      "moving_time": 2062,
-      "elapsed_time": 2062,
+      "moving_time": 2061,
+      "elapsed_time": 2061,
       "average_heartrate": 148.6,
       "max_heartrate": 162.0
     },
