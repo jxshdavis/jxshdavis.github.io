@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-09-16T10:54:13Z",
+  "last_updated": "2026-09-17T11:02:06Z",
   "activities": [
+    {
+      "id": 20209273195,
+      "name": "Random Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-09-16T19:57:00Z",
+      "distance": 0.0,
+      "moving_time": 3600,
+      "elapsed_time": 3600
+    },
+    {
+      "id": 20208483160,
+      "name": "Feel good  Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-16T18:56:42Z",
+      "distance": 937.3,
+      "moving_time": 1044,
+      "elapsed_time": 1375,
+      "average_heartrate": 118.3,
+      "max_heartrate": 155.0
+    },
     {
       "id": 20163760950,
       "name": "Santa Cruz 70.3 Run",
