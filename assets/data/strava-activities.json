@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-09-17T11:02:06Z",
+  "last_updated": "2026-09-18T10:38:26Z",
   "activities": [
+    {
+      "id": 20222578723,
+      "name": "Night Weight Training",
+      "sport_type": "WeightTraining",
+      "start_date_local": "2026-09-17T21:14:59Z",
+      "distance": 0.0,
+      "moving_time": 2313,
+      "elapsed_time": 2313,
+      "average_heartrate": 98.6,
+      "max_heartrate": 135.0
+    },
+    {
+      "id": 20222351787,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-09-17T20:46:19Z",
+      "distance": 0.0,
+      "moving_time": 866,
+      "elapsed_time": 866,
+      "average_heartrate": 111.7,
+      "max_heartrate": 161.0
+    },
+    {
+      "id": 20221791595,
+      "name": "Afternoon Ride. Legs feeling good.",
+      "sport_type": "Ride",
+      "start_date_local": "2026-09-17T17:27:52Z",
+      "distance": 32376.4,
+      "moving_time": 4179,
+      "elapsed_time": 4709,
+      "average_heartrate": 131.1,
+      "max_heartrate": 152.0
+    },
     {
       "id": 20209273195,
       "name": "Random Climb",
