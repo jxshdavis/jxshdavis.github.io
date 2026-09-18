@@ -109,7 +109,7 @@ redirect_from:
 
 <div class="tutor-section tutor-intro">
   <p>
-    I've been independently tutoring mathematics and statistics for the past <strong>six years</strong>.
+    I've been independently tutoring mathematics and statistics for the past <strong>seven years</strong>.
     I believe that tackling new problems and asking questions are the best ways to learn.
     My goal is to teach students how to think creatively and analytically — not just get through the homework.
   </p>
@@ -119,7 +119,7 @@ redirect_from:
   <h2>Education</h2>
   <div class="edu-badges">
     <div class="edu-badge">
-      <div class="degree">First Year Statistics PhD Student</div>
+      <div class="degree">Second Year PhD Student in Statistics</div>
       <div class="school">UC Berkeley</div>
     </div>
     <div class="edu-badge">
