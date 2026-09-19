@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-18T10:38:26Z",
+  "last_updated": "2026-09-19T10:23:01Z",
   "activities": [
+    {
+      "id": 20234368339,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-18T18:06:06Z",
+      "distance": 2743.2,
+      "moving_time": 3179,
+      "elapsed_time": 3596,
+      "average_heartrate": 125.5,
+      "max_heartrate": 158.0
+    },
     {
       "id": 20222578723,
       "name": "Night Weight Training",
