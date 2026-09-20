@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-09-19T10:23:01Z",
+  "last_updated": "2026-09-20T10:42:21Z",
   "activities": [
+    {
+      "id": 20244952955,
+      "name": "Odyssey Cold  plunge",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-19T11:20:53Z",
+      "distance": 192.3,
+      "moving_time": 459,
+      "elapsed_time": 459,
+      "average_heartrate": 126.9,
+      "max_heartrate": 141.0
+    },
+    {
+      "id": 20244815268,
+      "name": "ODYSSEY RUN",
+      "sport_type": "Run",
+      "start_date_local": "2026-09-19T08:50:30Z",
+      "distance": 17401.3,
+      "moving_time": 6673,
+      "elapsed_time": 8312,
+      "average_heartrate": 141.7,
+      "max_heartrate": 181.0
+    },
+    {
+      "id": 20242772660,
+      "name": "Morning Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-09-19T06:52:42Z",
+      "distance": 51652.2,
+      "moving_time": 6241,
+      "elapsed_time": 6283,
+      "average_heartrate": 141.1,
+      "max_heartrate": 162.0
+    },
     {
       "id": 20234368339,
       "name": "Evening Swim",
