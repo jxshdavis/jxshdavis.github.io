@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-20T10:42:21Z",
+  "last_updated": "2026-09-21T12:05:37Z",
   "activities": [
+    {
+      "id": 20260942539,
+      "name": "Afternoon Weight Training",
+      "sport_type": "WeightTraining",
+      "start_date_local": "2026-09-20T14:12:56Z",
+      "distance": 0.0,
+      "moving_time": 3056,
+      "elapsed_time": 3056,
+      "average_heartrate": 95.8,
+      "max_heartrate": 128.0
+    },
     {
       "id": 20244952955,
       "name": "Odyssey Cold  plunge",
