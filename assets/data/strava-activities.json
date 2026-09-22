@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-09-21T12:05:37Z",
+  "last_updated": "2026-09-22T11:01:18Z",
   "activities": [
+    {
+      "id": 20276198612,
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date_local": "2026-09-21T19:01:31Z",
+      "distance": 3261.2,
+      "moving_time": 2623,
+      "elapsed_time": 4642,
+      "average_heartrate": 87.2,
+      "max_heartrate": 122.0
+    },
     {
       "id": 20260942539,
       "name": "Afternoon Weight Training",
