@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-09-24T11:10:37Z",
+  "last_updated": "2026-09-25T11:14:18Z",
   "activities": [
+    {
+      "id": 20319326034,
+      "name": "Night Ride. dark dark dark",
+      "sport_type": "Ride",
+      "start_date_local": "2026-09-24T20:35:00Z",
+      "distance": 14113.7,
+      "moving_time": 2052,
+      "elapsed_time": 2153,
+      "average_heartrate": 136.9,
+      "max_heartrate": 167.0
+    },
+    {
+      "id": 20314754701,
+      "name": "Lunch Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-09-24T11:20:25Z",
+      "distance": 1188.7,
+      "moving_time": 1311,
+      "elapsed_time": 1545,
+      "average_heartrate": 141.4,
+      "max_heartrate": 168.0
+    },
     {
       "id": 20291263290,
       "name": "Evening Rock Climb new v7",
