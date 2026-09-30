@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-09-29T12:11:53Z",
+  "last_updated": "2026-09-30T11:59:07Z",
   "activities": [
+    {
+      "id": 20387504589,
+      "name": "Bonus Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-09-29T19:13:17Z",
+      "distance": 4984.3,
+      "moving_time": 2071,
+      "elapsed_time": 2995,
+      "average_heartrate": 132.4,
+      "max_heartrate": 160.0
+    },
+    {
+      "id": 20387118653,
+      "name": "Evening Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-09-29T18:10:10Z",
+      "distance": 7393.3,
+      "moving_time": 2706,
+      "elapsed_time": 2746,
+      "average_heartrate": 127.2,
+      "max_heartrate": 147.0
+    },
+    {
+      "id": 20383476686,
+      "name": "Mindfulness",
+      "sport_type": "Walk",
+      "start_date_local": "2026-09-29T12:15:44Z",
+      "distance": 1416.4,
+      "moving_time": 1016,
+      "elapsed_time": 1210,
+      "average_heartrate": 89.6,
+      "max_heartrate": 104.0
+    },
     {
       "id": 20342948878,
       "name": "Mt Tam & Point Reyes Station Century",
