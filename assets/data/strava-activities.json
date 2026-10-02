@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-01T12:30:59Z",
+  "last_updated": "2026-10-02T11:57:00Z",
   "activities": [
+    {
+      "id": 20414458534,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-10-01T17:17:49Z",
+      "distance": 1828.8,
+      "moving_time": 2133,
+      "elapsed_time": 3937,
+      "average_heartrate": 110.5,
+      "max_heartrate": 153.0
+    },
     {
       "id": 20401339994,
       "name": "Evening Swim",
