@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-03T11:10:09Z",
+  "last_updated": "2026-10-04T11:50:17Z",
   "activities": [
+    {
+      "id": 20441397920,
+      "name": "First ride w Eric",
+      "sport_type": "Ride",
+      "start_date_local": "2026-10-03T17:31:01Z",
+      "distance": 51641.1,
+      "moving_time": 7409,
+      "elapsed_time": 9939,
+      "average_heartrate": 134.2,
+      "max_heartrate": 178.0
+    },
     {
       "id": 20427945182,
       "name": "Evening Ride",
