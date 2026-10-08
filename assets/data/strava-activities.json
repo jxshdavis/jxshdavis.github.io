@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-10-07T12:43:22Z",
+  "last_updated": "2026-10-08T12:52:47Z",
   "activities": [
+    {
+      "id": 20497143217,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-10-07T18:19:55Z",
+      "distance": 1851.7,
+      "moving_time": 2185,
+      "elapsed_time": 2886,
+      "average_heartrate": 123.2,
+      "max_heartrate": 161.0
+    },
+    {
+      "id": 20493832556,
+      "name": "Mindlessness",
+      "sport_type": "Walk",
+      "start_date_local": "2026-10-07T12:23:12Z",
+      "distance": 1788.1,
+      "moving_time": 1414,
+      "elapsed_time": 1722,
+      "average_heartrate": 82.5,
+      "max_heartrate": 105.0
+    },
     {
       "id": 20483001318,
       "name": "Afternoon Run",
