@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-10-09T12:38:16Z",
+  "last_updated": "2026-10-10T11:58:16Z",
   "activities": [
+    {
+      "id": 20525058399,
+      "name": "Night Run",
+      "sport_type": "Run",
+      "start_date_local": "2026-10-10T02:29:49Z",
+      "distance": 1620.2,
+      "moving_time": 545,
+      "elapsed_time": 545,
+      "average_heartrate": 130.0,
+      "max_heartrate": 145.0
+    },
+    {
+      "id": 20522132169,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-10-09T18:19:41Z",
+      "distance": 2743.2,
+      "moving_time": 3170,
+      "elapsed_time": 3511,
+      "average_heartrate": 127.1,
+      "max_heartrate": 158.0
+    },
     {
       "id": 20512913061,
       "name": "Afternoon Ride",
