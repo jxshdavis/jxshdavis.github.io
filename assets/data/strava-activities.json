@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-11T12:10:29Z",
+  "last_updated": "2026-10-12T14:31:26Z",
   "activities": [
+    {
+      "id": 20548335887,
+      "name": "Thank you legs \u2764\ufe0f",
+      "sport_type": "Run",
+      "start_date_local": "2026-10-11T16:29:06Z",
+      "distance": 9663.1,
+      "moving_time": 2729,
+      "elapsed_time": 2744,
+      "average_heartrate": 164.7,
+      "max_heartrate": 182.0
+    },
     {
       "id": 20525058399,
       "name": "Night Run",
