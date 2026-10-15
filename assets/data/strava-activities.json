@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-10-14T11:16:34Z",
+  "last_updated": "2026-10-15T10:55:04Z",
   "activities": [
+    {
+      "id": 20590713787,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-10-14T19:52:20Z",
+      "distance": 0.0,
+      "moving_time": 4420,
+      "elapsed_time": 4420,
+      "average_heartrate": 103.2,
+      "max_heartrate": 148.0
+    },
+    {
+      "id": 20590095884,
+      "name": "Evening Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-10-14T18:07:12Z",
+      "distance": 2103.1,
+      "moving_time": 2311,
+      "elapsed_time": 2513,
+      "average_heartrate": 141.4,
+      "max_heartrate": 171.0
+    },
+    {
+      "id": 20590096312,
+      "name": "Evening Walk",
+      "sport_type": "Walk",
+      "start_date_local": "2026-10-13T18:46:02Z",
+      "distance": 3223.0,
+      "moving_time": 2438,
+      "elapsed_time": 3046,
+      "average_heartrate": 91.6,
+      "max_heartrate": 122.0
+    },
     {
       "id": 20562656536,
       "name": "Evening Rock Climb",
