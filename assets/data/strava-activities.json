@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-10-19T12:14:04Z",
+  "last_updated": "2026-10-20T10:58:59Z",
   "activities": [
+    {
+      "id": 20655829585,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-10-19T20:03:34Z",
+      "distance": 0.0,
+      "moving_time": 3717,
+      "elapsed_time": 3717,
+      "average_heartrate": 94.0,
+      "max_heartrate": 130.0
+    },
+    {
+      "id": 20652631057,
+      "name": "Lunch break Ride",
+      "sport_type": "Ride",
+      "start_date_local": "2026-10-19T13:32:44Z",
+      "distance": 18716.8,
+      "moving_time": 2364,
+      "elapsed_time": 2419,
+      "average_heartrate": 150.2,
+      "max_heartrate": 166.0
+    },
+    {
+      "id": 20652626445,
+      "name": "Night Yoga",
+      "sport_type": "Yoga",
+      "start_date_local": "2026-10-18T22:15:14Z",
+      "distance": 0.0,
+      "moving_time": 2080,
+      "elapsed_time": 2080,
+      "average_heartrate": 80.9,
+      "max_heartrate": 118.0
+    },
     {
       "id": 20641632786,
       "name": "Afternoon Ride",
