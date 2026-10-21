@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-20T10:58:59Z",
+  "last_updated": "2026-10-21T11:14:26Z",
   "activities": [
+    {
+      "id": 20668857871,
+      "name": "Farming XP",
+      "sport_type": "Swim",
+      "start_date_local": "2026-10-20T17:08:49Z",
+      "distance": 1828.8,
+      "moving_time": 2223,
+      "elapsed_time": 2253,
+      "average_heartrate": 127.4,
+      "max_heartrate": 147.0
+    },
     {
       "id": 20655829585,
       "name": "Evening Rock Climb",
