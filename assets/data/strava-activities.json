@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-10-21T11:14:26Z",
+  "last_updated": "2026-10-22T11:13:11Z",
   "activities": [
+    {
+      "id": 20683617544,
+      "name": "Spooky Ride \ud83d\udc7b",
+      "sport_type": "Ride",
+      "start_date_local": "2026-10-21T21:29:42Z",
+      "distance": 21213.4,
+      "moving_time": 2632,
+      "elapsed_time": 2694,
+      "average_heartrate": 137.0,
+      "max_heartrate": 179.0
+    },
+    {
+      "id": 20683208401,
+      "name": "Evening Rock Climb",
+      "sport_type": "RockClimbing",
+      "start_date_local": "2026-10-21T19:25:16Z",
+      "distance": 0.0,
+      "moving_time": 4644,
+      "elapsed_time": 4644,
+      "average_heartrate": 90.5,
+      "max_heartrate": 139.0
+    },
     {
       "id": 20668857871,
       "name": "Farming XP",
