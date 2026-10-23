@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-22T11:13:11Z",
+  "last_updated": "2026-10-23T11:04:45Z",
   "activities": [
+    {
+      "id": 20695305838,
+      "name": "Afternoon Swim",
+      "sport_type": "Swim",
+      "start_date_local": "2026-10-22T17:18:33Z",
+      "distance": 1531.6,
+      "moving_time": 1796,
+      "elapsed_time": 2083,
+      "average_heartrate": 113.0,
+      "max_heartrate": 155.0
+    },
     {
       "id": 20683617544,
       "name": "Spooky Ride \ud83d\udc7b",
