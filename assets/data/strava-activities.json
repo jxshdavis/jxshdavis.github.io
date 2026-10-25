@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-24T10:20:56Z",
+  "last_updated": "2026-10-25T10:48:23Z",
   "activities": [
+    {
+      "id": 20717062142,
+      "name": "Bike Mode",
+      "sport_type": "Ride",
+      "start_date_local": "2026-10-24T08:41:13Z",
+      "distance": 64794.2,
+      "moving_time": 9337,
+      "elapsed_time": 11221,
+      "average_heartrate": 141.3,
+      "max_heartrate": 167.0
+    },
     {
       "id": 20706986182,
       "name": "Evening Run",
