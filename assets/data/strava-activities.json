@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-10-30T12:12:03Z",
+  "last_updated": "2026-10-31T11:44:52Z",
   "activities": [
+    {
+      "id": 20797455220,
+      "name": "Halloween Eve",
+      "sport_type": "Ride",
+      "start_date_local": "2026-10-30T14:23:02Z",
+      "distance": 80911.4,
+      "moving_time": 10046,
+      "elapsed_time": 10406,
+      "average_heartrate": 149.4,
+      "max_heartrate": 175.0
+    },
     {
       "id": 20786485747,
       "name": "Evening Rock Climb",
