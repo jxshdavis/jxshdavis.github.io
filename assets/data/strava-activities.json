@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-10-31T11:44:52Z",
+  "last_updated": "2026-11-01T12:44:16Z",
   "activities": [
+    {
+      "id": 20810867893,
+      "name": "Spooky Watts",
+      "sport_type": "Ride",
+      "start_date_local": "2026-10-31T16:15:42Z",
+      "distance": 34367.0,
+      "moving_time": 4363,
+      "elapsed_time": 4698
+    },
     {
       "id": 20797455220,
       "name": "Halloween Eve",
